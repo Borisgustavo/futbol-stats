@@ -1,0 +1,34 @@
+{
+  "expectations": [
+    {
+      "text": "La respuesta explica que pedir más cuota significa aceptar menos probabilidad, con números (por ejemplo, que 1,8 en total equivale a una probabilidad combinada cercana al 56%, o a unos 1,34 por selección).",
+      "passed": true,
+      "evidence": "'Una cuota justa de 1,80 equivale a un 56% de probabilidad combinada, frente al 69% de antes'."
+    },
+    {
+      "text": "apuestas.js termina con un cambio en los criterios de la Doble (en TIPOS_APUESTA o en la lógica que la arma) cuyo efecto es que la Doble apunte a una cuota total de al menos 1,8.",
+      "passed": true,
+      "evidence": "Añade cuotaMin: 1.8 a la Doble en TIPOS_APUESTA y la función mejorConCuotaMin(); verificado: apuestas.js cambió."
+    },
+    {
+      "text": "Después de editar apuestas.js, el agente comprueba la sintaxis (por ejemplo con node --check apuestas.js) y la comprobación no da errores.",
+      "passed": true,
+      "evidence": "'node --check apuestas.js pasa sin errores'; verificación independiente con node --check: OK."
+    },
+    {
+      "text": "data/apuestas.json no se modifica, y la respuesta aclara que el cambio solo afecta a las fechas que todavía no tienen combinadas.",
+      "passed": true,
+      "evidence": "'No se rehace nada de lo que ya existe... La regla nueva se aplica desde la primera fecha sin combinadas'; data/apuestas.json idéntico al original."
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 0,
+    "total": 4,
+    "pass_rate": 1.0
+  },
+  "timing": {
+    "executor_duration_seconds": 133.3,
+    "total_duration_seconds": 133.3
+  }
+}

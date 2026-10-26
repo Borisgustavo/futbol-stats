@@ -1,0 +1,10 @@
+{
+  "eval_name": "explica-doble-del-dia",
+  "prompt": "oye cual es la doble del 25 de octubre en masterfutbol? y explicame por que el modelo eligio esos partidos, quiero saber si de verdad tienen ventaja o son picks faciles\n\nInput files: data/apuestas.json, data/predicciones.json, apuestas.js",
+  "assertions": [
+    "La respuesta nombra las dos selecciones de la Doble: Fortuna Sittard vs Excelsior y Nacional de Madeira vs Braga, ambas en el mercado Más de 1,5 goles.",
+    "La respuesta da la cuota total de 1,45 (o 1.45) y aclara que son cuotas justas del modelo (1 / probabilidad), no cuotas de mercado.",
+    "La respuesta señala que Fortuna Sittard vs Excelsior Más de 1,5 (89%) no aporta ventaja porque ese mercado ocurre en torno al 90% de las veces en esa liga, es decir, que es un pick fácil y no una ventaja del modelo.",
+    "La respuesta incluye un aviso de que son estimaciones de un modelo y no consejos de apuesta, o una invitación a jugar con responsabilidad."
+  ]
+}

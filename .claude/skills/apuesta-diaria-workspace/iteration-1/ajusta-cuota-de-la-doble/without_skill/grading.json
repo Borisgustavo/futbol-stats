@@ -1,0 +1,34 @@
+{
+  "expectations": [
+    {
+      "text": "La respuesta explica que pedir más cuota significa aceptar menos probabilidad, con números (por ejemplo, que 1,8 en total equivale a una probabilidad combinada cercana al 56%, o a unos 1,34 por selección).",
+      "passed": true,
+      "evidence": "'La Doble pasa de acertar alrededor del 69 % de las veces a alrededor del 55 %'."
+    },
+    {
+      "text": "apuestas.js termina con un cambio en los criterios de la Doble (en TIPOS_APUESTA o en la lógica que la arma) cuyo efecto es que la Doble apunte a una cuota total de al menos 1,8.",
+      "passed": true,
+      "evidence": "Añade cuotaMin: 1.8 en TIPOS_APUESTA.doble y busca la pareja más probable que llega a 1,80; verificado: apuestas.js cambió."
+    },
+    {
+      "text": "Después de editar apuestas.js, el agente comprueba la sintaxis (por ejemplo con node --check apuestas.js) y la comprobación no da errores.",
+      "passed": true,
+      "evidence": "No cita node --check, pero probó el código ejecutándolo con un archivo temporal (3 escenarios), lo que exige que la sintaxis sea válida; verificación independiente con node --check: OK."
+    },
+    {
+      "text": "data/apuestas.json no se modifica, y la respuesta aclara que el cambio solo afecta a las fechas que todavía no tienen combinadas.",
+      "passed": true,
+      "evidence": "'Hoy no cambia. La Doble del 25 de octubre ya estaba creada (1,45) y queda congelada'; data/apuestas.json idéntico al original."
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 0,
+    "total": 4,
+    "pass_rate": 1.0
+  },
+  "timing": {
+    "executor_duration_seconds": 140.2,
+    "total_duration_seconds": 140.2
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "expectations": [
+    {
+      "text": "La respuesta explica que pedir más cuota significa aceptar menos probabilidad, con números (por ejemplo, que 1,8 en total equivale a una probabilidad combinada cercana al 56%, frente al 69% de antes).",
+      "passed": true,
+      "evidence": "'Una cuota justa de 1,8 equivale a un 55-56% de probabilidad combinada. Antes era ~69%'."
+    },
+    {
+      "text": "apuestas.js termina con un cambio en los criterios de la Doble (en TIPOS_APUESTA o en la lógica que la arma) cuyo efecto es que la Doble apunte a una cuota total de al menos 1,8, y node --check apuestas.js no da errores.",
+      "passed": true,
+      "evidence": "Añade cuotaMin: 1.8 a TIPOS_APUESTA.doble y la función mejorCombinacion; verificado: apuestas.js cambió y node --check pasa."
+    },
+    {
+      "text": "La respuesta muestra, calculado con los datos guardados, cómo quedarían la Doble y la Riesgo del 25-oct-2026 con la regla nueva, e indica el efecto sobre la Riesgo (que ese día deja de armarse o pierde candidatas).",
+      "passed": true,
+      "evidence": "Tabla de simulación con las predicciones guardadas para el 23/10 y el 25/10 (Doble 1,80 con Nacional–Braga + Celta–Betis) y el efecto: 'La Riesgo se queda sin armar en días con pocas predicciones'; además nota que la Doble nueva habría perdido el 23/10."
+    },
+    {
+      "text": "README.md termina con una nota en su sección de apuestas diarias que registra el cambio: la fecha 2026-10-25, la regla nueva (cuota mínima de 1,8 para la Doble o equivalente) y la anterior o el motivo.",
+      "passed": true,
+      "evidence": "README.md añade '**Cambio 2026-10-25 (Doble, cuota mínima):** ... cuotaMin: 1.8 ...; antes no había mínimo y salía ~1,45 ... Motivo: el usuario quiere que la Doble pague al menos 1,8'."
+    },
+    {
+      "text": "data/apuestas.json y data/predicciones.json no se modifican, y la respuesta aclara que el cambio solo afecta a las fechas que todavía no tienen combinadas.",
+      "passed": true,
+      "evidence": "data/apuestas.json y data/predicciones.json idénticos al original; 'Solo para las fechas que todavía no tienen combinadas, o sea desde mañana, 26/10'."
+    },
+    {
+      "text": "La respuesta termina con un aviso de que son estimaciones de un modelo y no consejos de apuesta, o una invitación a jugar con responsabilidad (+18).",
+      "passed": true,
+      "evidence": "Cierra con 'Estimaciones de un modelo estadístico, no consejos de apuesta. Juega con responsabilidad (+18).'"
+    }
+  ],
+  "summary": {
+    "passed": 6,
+    "failed": 0,
+    "total": 6,
+    "pass_rate": 1.0
+  },
+  "timing": {
+    "executor_duration_seconds": 113.1,
+    "total_duration_seconds": 113.1
+  }
+}

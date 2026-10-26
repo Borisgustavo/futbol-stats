@@ -1,0 +1,15 @@
+{
+  "name": "masterfutbol",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Masterfutbol: partidos del día, pronósticos del modelo y estadísticas, con datos de TheSportsDB y The Odds API",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "ligas": "python scripts/catalogo_ligas.py",
+    "cuotas:verificar": "node --env-file=.env scripts/verificar_cuotas.js"
+  }
+}

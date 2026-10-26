@@ -1,0 +1,10 @@
+.env
+node_modules/
+herramientas/
+.rea/
+data/cache_cuotas.json
+data/cache_stats.json
+data/predicciones.json
+data/apuestas.json
+# Captura de footystats.org (contenido de otro sitio): solo local
+analisis_rea/

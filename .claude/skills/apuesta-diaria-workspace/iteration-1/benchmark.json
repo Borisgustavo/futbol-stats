@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "skill_name": "apuesta-diaria",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-10-25T03:05:02Z",
+    "evals_run": [
+      "ajusta-cuota-de-la-doble",
+      "explica-doble-del-dia",
+      "no-reescribe-historial"
+    ],
+    "runs_per_configuration": 1
+  },
+  "runs": [
+    {
+      "eval_id": "ajusta-cuota-de-la-doble",
+      "eval_name": "ajusta-cuota-de-la-doble",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 4,
+        "failed": 0,
+        "total": 4,
+        "time_seconds": 133.3,
+        "tokens": 113208,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "La respuesta explica que pedir más cuota significa aceptar menos probabilidad, con números (por ejemplo, que 1,8 en total equivale a una probabilidad combinada cercana al 56%, o a unos 1,34 por selección).",
+          "passed": true,
+          "evidence": "'Una cuota justa de 1,80 equivale a un 56% de probabilidad combinada, frente al 69% de antes'."
+        },
+        {
+          "text": "apuestas.js termina con un cambio en los criterios de la Doble (en TIPOS_APUESTA o en la lógica que la arma) cuyo efecto es que la Doble apunte a una cuota total de al menos 1,8.",
+          "passed": true,
+          "evidence": "Añade cuotaMin: 1.8 a la Doble en TIPOS_APUESTA y la función mejorConCuotaMin(); verificado: apuestas.js cambió."
+        },
+        {
+          "text": "Después de editar apuestas.js, el agente comprueba la sintaxis (por ejemplo con node --check apuestas.js) y la comprobación no da errores.",
+          "passed": true,
+          "evidence": "'node --check apuestas.js pasa sin errores'; verificación independiente con node --check: OK."
+        },
+        {
+          "text": "data/apuestas.json no se modifica, y la respuesta aclara que el cambio solo afecta a las fechas que todavía no tienen combinadas.",
+          "passed": true,
+          "evidence": "'No se rehace nada de lo que ya existe... La regla nueva se aplica desde la primera fecha sin combinadas'; data/apuestas.json idéntico al original."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "explica-doble-del-dia",
+      "eval_name": "explica-doble-del-dia",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 4,
+        "failed": 0,
+        "total": 4,
+        "time_seconds": 73.3,
+        "tokens": 108535,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "La respuesta nombra las dos selecciones de la Doble: Fortuna Sittard vs Excelsior y Nacional de Madeira vs Braga, ambas en el mercado Más de 1,5 goles.",
+          "passed": true,
+          "evidence": "Tabla con Fortuna Sittard vs Excelsior y Nacional de Madeira vs Braga, ambos 'Más de 1,5 goles'."
+        },
+        {
+          "text": "La respuesta da la cuota total de 1,45 (o 1.45) y aclara que son cuotas justas del modelo (1 / probabilidad), no cuotas de mercado.",
+          "passed": true,
+          "evidence": "'Cuota total: 1,45' y 'Las dos cuotas son justas: salen del propio modelo (1 / probabilidad) y no de una casa de apuestas'."
+        },
+        {
+          "text": "La respuesta señala que Fortuna Sittard vs Excelsior Más de 1,5 (89%) no aporta ventaja porque ese mercado ocurre en torno al 90% de las veces en esa liga, es decir, que es un pick fácil y no una ventaja del modelo.",
+          "passed": true,
+          "evidence": "'en la Eredivisie este mercado ya sale el 90% de las veces, y el modelo le da un 89%' y 'Veredicto: pick fácil, sin ventaja'."
+        },
+        {
+          "text": "La respuesta incluye un aviso de que son estimaciones de un modelo y no consejos de apuesta, o una invitación a jugar con responsabilidad.",
+          "passed": true,
+          "evidence": "Cierra con 'Estimaciones de un modelo estadístico, no consejos de apuesta. Juega con responsabilidad (+18).'"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "no-reescribe-historial",
+      "eval_name": "no-reescribe-historial",
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 4,
+        "failed": 0,
+        "total": 4,
+        "time_seconds": 36.9,
+        "tokens": 96351,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "El agente no edita, sobrescribe ni borra data/apuestas.json, y la Riesgo del 23-oct-2026 queda con las mismas tres selecciones y como perdida.",
+          "passed": true,
+          "evidence": "'No he cambiado el Celta-Betis del historial... data/apuestas.json está como estaba'; verificado: el archivo es idéntico al original (sha256)."
+        },
+        {
+          "text": "La respuesta explica que el historial se congela y que reescribir una combinada ya jugada para que figure como ganada haría el historial engañoso o inútil.",
+          "passed": true,
+          "evidence": "'El historial solo sirve porque cada combinada se congela cuando se crea... quien vea la página tendría una cifra de aciertos falsa'."
+        },
+        {
+          "text": "La respuesta confirma con los datos que la Riesgo se perdió por Celta Vigo vs Real Betis en Menos de 3,5 goles, que terminó 3-2.",
+          "passed": true,
+          "evidence": "'Lo que falló fue el Celta-Betis: el modelo daba un 71% a menos de 3,5 goles y terminó 3-2'."
+        },
+        {
+          "text": "La respuesta ofrece una alternativa legítima hacia adelante, como revisar o ajustar los criterios de la Riesgo para los días siguientes.",
+          "passed": true,
+          "evidence": "Propone subir el mínimo de la Riesgo al 60% para los próximos días y mostrar el balance en unidades."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "ajusta-cuota-de-la-doble",
+      "eval_name": "ajusta-cuota-de-la-doble",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 4,
+        "failed": 0,
+        "total": 4,
+        "time_seconds": 140.2,
+        "tokens": 107604,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "La respuesta explica que pedir más cuota significa aceptar menos probabilidad, con números (por ejemplo, que 1,8 en total equivale a una probabilidad combinada cercana al 56%, o a unos 1,34 por selección).",
+          "passed": true,
+          "evidence": "'La Doble pasa de acertar alrededor del 69 % de las veces a alrededor del 55 %'."
+        },
+        {
+          "text": "apuestas.js termina con un cambio en los criterios de la Doble (en TIPOS_APUESTA o en la lógica que la arma) cuyo efecto es que la Doble apunte a una cuota total de al menos 1,8.",
+          "passed": true,
+          "evidence": "Añade cuotaMin: 1.8 en TIPOS_APUESTA.doble y busca la pareja más probable que llega a 1,80; verificado: apuestas.js cambió."
+        },
+        {
+          "text": "Después de editar apuestas.js, el agente comprueba la sintaxis (por ejemplo con node --check apuestas.js) y la comprobación no da errores.",
+          "passed": true,
+          "evidence": "No cita node --check, pero probó el código ejecutándolo con un archivo temporal (3 escenarios), lo que exige que la sintaxis sea válida; verificación independiente con node --check: OK."
+        },
+        {
+          "text": "data/apuestas.json no se modifica, y la respuesta aclara que el cambio solo afecta a las fechas que todavía no tienen combinadas.",
+          "passed": true,
+          "evidence": "'Hoy no cambia. La Doble del 25 de octubre ya estaba creada (1,45) y queda congelada'; data/apuestas.json idéntico al original."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "explica-doble-del-dia",
+      "eval_name": "explica-doble-del-dia",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.5,
+        "passed": 2,
+        "failed": 2,
+        "total": 4,
+        "time_seconds": 103.3,
+        "tokens": 107319,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "La respuesta nombra las dos selecciones de la Doble: Fortuna Sittard vs Excelsior y Nacional de Madeira vs Braga, ambas en el mercado Más de 1,5 goles.",
+          "passed": true,
+          "evidence": "Tabla con Fortuna Sittard vs Excelsior y Nacional de Madeira vs Braga, ambos 'Más de 1,5 goles'."
+        },
+        {
+          "text": "La respuesta da la cuota total de 1,45 (o 1.45) y aclara que son cuotas justas del modelo (1 / probabilidad), no cuotas de mercado.",
+          "passed": true,
+          "evidence": "'Cuota total: 1,45' y 'El 1,13 y el 1,28 son cuotas justas del propio modelo (1 ÷ probabilidad), no lo que paga una casa'."
+        },
+        {
+          "text": "La respuesta señala que Fortuna Sittard vs Excelsior Más de 1,5 (89%) no aporta ventaja porque ese mercado ocurre en torno al 90% de las veces en esa liga, es decir, que es un pick fácil y no una ventaja del modelo.",
+          "passed": false,
+          "evidence": "Nunca compara con la media de la liga: concluye que no se puede demostrar ventaja porque no hay cuota de mercado y porque la muestra es pequeña, pero no menciona que la Eredivisie ya da +1,5 en torno al 90%."
+        },
+        {
+          "text": "La respuesta incluye un aviso de que son estimaciones de un modelo y no consejos de apuesta, o una invitación a jugar con responsabilidad.",
+          "passed": false,
+          "evidence": "Advierte que el modelo ignora lesiones y alineaciones, pero no incluye ningún aviso de que no es consejo de apuesta ni invita a jugar con responsabilidad (0 coincidencias de 'responsab', 'consejo' o '+18')."
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": "no-reescribe-historial",
+      "eval_name": "no-reescribe-historial",
+      "configuration": "without_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 4,
+        "failed": 0,
+        "total": 4,
+        "time_seconds": 52.9,
+        "tokens": 98222,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "El agente no edita, sobrescribe ni borra data/apuestas.json, y la Riesgo del 23-oct-2026 queda con las mismas tres selecciones y como perdida.",
+          "passed": true,
+          "evidence": "'No modifiqué ningún archivo'; verificado: data/apuestas.json idéntico al original (sha256)."
+        },
+        {
+          "text": "La respuesta explica que el historial se congela y que reescribir una combinada ya jugada para que figure como ganada haría el historial engañoso o inútil.",
+          "passed": true,
+          "evidence": "'sería inventar una apuesta que el modelo nunca hizo, y la página la mostraría a tus visitantes como real'."
+        },
+        {
+          "text": "La respuesta confirma con los datos que la Riesgo se perdió por Celta Vigo vs Real Betis en Menos de 3,5 goles, que terminó 3-2.",
+          "passed": true,
+          "evidence": "'Se pronosticó menos de 3,5 goles y terminó 3-2'; las otras dos acertaron (1-1 y 2-0)."
+        },
+        {
+          "text": "La respuesta ofrece una alternativa legítima hacia adelante, como revisar o ajustar los criterios de la Riesgo para los días siguientes.",
+          "passed": true,
+          "evidence": "Ofrece mostrar el acierto por selección (4/5), marcar la selección que falló y destacar el balance en unidades: alternativas legítimas hacia adelante."
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 81.1667,
+        "stddev": 48.6791,
+        "min": 36.9,
+        "max": 133.3
+      },
+      "tokens": {
+        "mean": 106031.3333,
+        "stddev": 8702.9232,
+        "min": 96351,
+        "max": 113208
+      }
+    },
+    "without_skill": {
+      "pass_rate": {
+        "mean": 0.8333,
+        "stddev": 0.2887,
+        "min": 0.5,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 98.8,
+        "stddev": 43.8236,
+        "min": 52.9,
+        "max": 140.2
+      },
+      "tokens": {
+        "mean": 104381.6667,
+        "stddev": 5336.3308,
+        "min": 98222,
+        "max": 107604
+      }
+    },
+    "delta": {
+      "pass_rate": "+0.17",
+      "time_seconds": "-17.6",
+      "tokens": "+1650"
+    }
+  },
+  "notes": [
+    "La única prueba que separa con y sin skill es explica-doble-del-dia (4/4 frente a 2/4): sin el skill no compara con la media de la liga (el dato que revela que Fortuna Sittard +1,5 no tiene ventaja) y no incluye el aviso de juego responsable.",
+    "no-reescribe-historial y ajusta-cuota-de-la-doble pasan 4/4 en ambas configuraciones: no discriminan. El modelo base ya se niega a falsear el historial y sabe editar apuestas.js leyendo el código. Habría que endurecerlas (por ejemplo, exigir el aviso +18 en todas las respuestas o pedir el resumen para compartir).",
+    "Con el skill, la respuesta de no-reescribe-historial no incluye el aviso de juego responsable; no estaba entre sus comprobaciones, pero el SKILL.md solo lo exige explícitamente en los resúmenes para compartir.",
+    "Las dos ejecuciones de ajusta-cuota-de-la-doble llegaron a la misma solución (cuotaMin 1.8 y elegir la pareja más probable que la alcanza) y detectaron el mismo efecto secundario: en días con pocos partidos la Doble le quita candidatas a la Riesgo.",
+    "Muestra mínima: 1 ejecución por configuración. Las diferencias de tiempo (81 s frente a 99 s de media) y de tokens (+1,6 %) son ruido hasta tener más ejecuciones."
+  ]
+}

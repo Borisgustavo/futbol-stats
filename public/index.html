@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070B11">
+  <meta name="description" content="Masterfutbol: partidos del día, tablas y estadísticas, pronósticos de un modelo estadístico y un simulador de apuestas sin dinero real para más de 400 competiciones de fútbol.">
+  <title>Masterfutbol — partidos, pronósticos y estadísticas</title>
+  <link rel="icon" href="/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="/app.css">
+</head>
+<body>
+  <header class="cabecera">
+    <div class="cabecera__fila">
+      <button class="menu-movil" id="abrir-menu" type="button" aria-label="Abrir competencias">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <a class="marca" href="#/">
+        <img class="marca__logo" src="/logo.svg" alt="" width="48" height="48">
+        <span>Master<span>futbol</span></span>
+      </a>
+      <label class="buscador">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8B97A7" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <span class="solo-lector">Buscar ligas o países</span>
+        <input id="buscador" type="search" placeholder="Buscar ligas o países" autocomplete="off">
+      </label>
+      <nav class="subnav" aria-label="Secciones">
+        <a href="#/">Partidos</a>
+        <a href="#/vivo"><span class="punto-vivo" aria-hidden="true"></span>En vivo</a>
+        <a href="#/predicciones">Predicciones</a>
+        <a href="#/apuestas">Apuestas diarias</a>
+        <a href="#/simulador">Simulador</a>
+        <a href="#/stats">Estadísticas</a>
+        <a href="#/liga/4328">Premier League</a>
+        <a href="#/liga/4335">LaLiga</a>
+        <a href="#/liga/4501">Libertadores</a>
+        <a href="#/liga/4480">Champions</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="disposicion">
+    <aside class="lateral" id="lateral" aria-label="Competencias">
+      <div class="lateral__titulo">Competencias principales</div>
+      <div id="arbol-ligas" class="arbol">Cargando…</div>
+    </aside>
+    <main id="vista" class="vista" tabindex="-1"></main>
+  </div>
+
+  <footer class="pie">Datos: TheSportsDB · Cuotas: The Odds API · Horarios en tu zona horaria · Las predicciones no son consejo de apuesta (+18)</footer>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

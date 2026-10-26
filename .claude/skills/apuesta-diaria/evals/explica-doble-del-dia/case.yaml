@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: explica-doble-del-dia
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  Presenta la Doble del 25-oct-2026 (Fortuna Sittard vs Excelsior, Más de 1,5 goles al 89%,
+  y Nacional de Madeira vs Braga, Más de 1,5 goles al 78%) con su cuota total de 1,45 y aclara
+  que las cuotas son justas del modelo, no de mercado. Explica la elección con los goles
+  esperados y compara con la media de la liga: Fortuna Sittard +1,5 (89%) no tiene ventaja
+  frente a una media de liga del 90%, y Nacional–Braga (78% frente a 76%) apenas. Cierra con
+  un aviso de juego responsable.

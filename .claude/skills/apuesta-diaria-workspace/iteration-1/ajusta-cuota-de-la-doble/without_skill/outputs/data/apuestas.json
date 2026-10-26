@@ -1,0 +1,281 @@
+{
+ "dias": {
+  "2026-10-23": {
+   "fecha": "2026-10-23",
+   "creada": "2026-10-22T21:00:00.000Z",
+   "doble": {
+    "tipo": "doble",
+    "selecciones": [
+     {
+      "id": "prueba-2489151",
+      "liga": {
+       "id": "4337",
+       "nombre": "Eredivisie",
+       "pais": "Países Bajos",
+       "escudo": "https://r2.thesportsdb.com/images/media/league/badge/5cdsu21725984946.png"
+      },
+      "inicio": "2026-10-23T11:15:00Z",
+      "local": {
+       "id": "134264",
+       "nombre": "Fortuna Sittard",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/aqr7it1685596947.png"
+      },
+      "visita": {
+       "id": "133757",
+       "nombre": "Excelsior",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/bmbn9v1625172555.png"
+      },
+      "mercado": "mas15",
+      "prob": 0.8866549700656341,
+      "cuota": 1.13,
+      "cuota_tipo": "justa"
+     },
+     {
+      "id": "prueba-2514007",
+      "liga": {
+       "id": "4344",
+       "nombre": "Primeira Liga",
+       "pais": "Portugal",
+       "escudo": "https://r2.thesportsdb.com/images/media/league/badge/3tgdke1782689102.png"
+      },
+      "inicio": "2026-10-23T18:00:00Z",
+      "local": {
+       "id": "134109",
+       "nombre": "Nacional de Madeira",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/1ln5fe1628850538.png"
+      },
+      "visita": {
+       "id": "134098",
+       "nombre": "Braga",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/skbiwo1785775946.png"
+      },
+      "mercado": "mas15",
+      "prob": 0.7810769010903226,
+      "cuota": 1.28,
+      "cuota_tipo": "justa"
+     }
+    ],
+    "cuota_total": 1.45,
+    "prob_total": 0.693
+   },
+   "riesgo": {
+    "tipo": "riesgo",
+    "selecciones": [
+     {
+      "id": "prueba-2489525",
+      "liga": {
+       "id": "4334",
+       "nombre": "Ligue 1",
+       "pais": "Francia",
+       "escudo": "https://r2.thesportsdb.com/images/media/league/badge/9f7z9d1742983155.png"
+      },
+      "inicio": "2026-10-23T16:15:00Z",
+      "local": {
+       "id": "134709",
+       "nombre": "Angers",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/ix6q4w1678808069.png"
+      },
+      "visita": {
+       "id": "133715",
+       "nombre": "Lorient",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/sxsttw1473504748.png"
+      },
+      "mercado": "menos35",
+      "prob": 0.7153568685632686,
+      "cuota": 1.4,
+      "cuota_tipo": "justa"
+     },
+     {
+      "id": "prueba-2506264",
+      "liga": {
+       "id": "4335",
+       "nombre": "LaLiga",
+       "pais": "España",
+       "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ja4it51687628717.png"
+      },
+      "inicio": "2026-10-23T15:15:00Z",
+      "local": {
+       "id": "133937",
+       "nombre": "Celta Vigo",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/xfjtku1690436219.png"
+      },
+      "visita": {
+       "id": "133722",
+       "nombre": "Real Betis",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/2oqulv1663245386.png"
+      },
+      "mercado": "menos35",
+      "prob": 0.7067302293224598,
+      "cuota": 1.41,
+      "cuota_tipo": "justa"
+     },
+     {
+      "id": "prueba-2398155",
+      "liga": {
+       "id": "4406",
+       "nombre": "Primera Division",
+       "pais": "Argentina",
+       "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rk9xhx1768238251.png"
+      },
+      "inicio": "2026-10-23T22:15:00Z",
+      "local": {
+       "id": "135171",
+       "nombre": "River Plate",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/03dmi31645539717.png"
+      },
+      "visita": {
+       "id": "135170",
+       "nombre": "Racing Club",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/vi4mu41695734959.png"
+      },
+      "mercado": "mas15",
+      "prob": 0.6918378425315062,
+      "cuota": 1.45,
+      "cuota_tipo": "justa"
+     }
+    ],
+    "cuota_total": 2.86,
+    "prob_total": 0.35
+   },
+   "prueba": "Datos inventados para los casos de prueba del skill"
+  },
+  "2026-10-25": {
+   "fecha": "2026-10-25",
+   "creada": "2026-10-25T02:56:09.315Z",
+   "doble": {
+    "tipo": "doble",
+    "selecciones": [
+     {
+      "id": "2489151",
+      "liga": {
+       "id": "4337",
+       "nombre": "Eredivisie",
+       "pais": "Países Bajos",
+       "escudo": "https://r2.thesportsdb.com/images/media/league/badge/5cdsu21725984946.png"
+      },
+      "inicio": "2026-10-25T11:15:00Z",
+      "local": {
+       "id": "134264",
+       "nombre": "Fortuna Sittard",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/aqr7it1685596947.png"
+      },
+      "visita": {
+       "id": "133757",
+       "nombre": "Excelsior",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/bmbn9v1625172555.png"
+      },
+      "mercado": "mas15",
+      "prob": 0.8866549700656341,
+      "cuota": 1.13,
+      "cuota_tipo": "justa"
+     },
+     {
+      "id": "2514007",
+      "liga": {
+       "id": "4344",
+       "nombre": "Primeira Liga",
+       "pais": "Portugal",
+       "escudo": "https://r2.thesportsdb.com/images/media/league/badge/3tgdke1782689102.png"
+      },
+      "inicio": "2026-10-25T18:00:00Z",
+      "local": {
+       "id": "134109",
+       "nombre": "Nacional de Madeira",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/1ln5fe1628850538.png"
+      },
+      "visita": {
+       "id": "134098",
+       "nombre": "Braga",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/skbiwo1785775946.png"
+      },
+      "mercado": "mas15",
+      "prob": 0.7810769010903226,
+      "cuota": 1.28,
+      "cuota_tipo": "justa"
+     }
+    ],
+    "cuota_total": 1.45,
+    "prob_total": 0.693
+   },
+   "riesgo": {
+    "tipo": "riesgo",
+    "selecciones": [
+     {
+      "id": "2489525",
+      "liga": {
+       "id": "4334",
+       "nombre": "Ligue 1",
+       "pais": "Francia",
+       "escudo": "https://r2.thesportsdb.com/images/media/league/badge/9f7z9d1742983155.png"
+      },
+      "inicio": "2026-10-25T16:15:00Z",
+      "local": {
+       "id": "134709",
+       "nombre": "Angers",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/ix6q4w1678808069.png"
+      },
+      "visita": {
+       "id": "133715",
+       "nombre": "Lorient",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/sxsttw1473504748.png"
+      },
+      "mercado": "menos35",
+      "prob": 0.7153568685632686,
+      "cuota": 1.4,
+      "cuota_tipo": "justa"
+     },
+     {
+      "id": "2506264",
+      "liga": {
+       "id": "4335",
+       "nombre": "LaLiga",
+       "pais": "España",
+       "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ja4it51687628717.png"
+      },
+      "inicio": "2026-10-25T15:15:00Z",
+      "local": {
+       "id": "133937",
+       "nombre": "Celta Vigo",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/xfjtku1690436219.png"
+      },
+      "visita": {
+       "id": "133722",
+       "nombre": "Real Betis",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/2oqulv1663245386.png"
+      },
+      "mercado": "menos35",
+      "prob": 0.7067302293224598,
+      "cuota": 1.41,
+      "cuota_tipo": "justa"
+     },
+     {
+      "id": "2398155",
+      "liga": {
+       "id": "4406",
+       "nombre": "Primera Division",
+       "pais": "Argentina",
+       "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rk9xhx1768238251.png"
+      },
+      "inicio": "2026-10-25T22:15:00Z",
+      "local": {
+       "id": "135171",
+       "nombre": "River Plate",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/03dmi31645539717.png"
+      },
+      "visita": {
+       "id": "135170",
+       "nombre": "Racing Club",
+       "escudo": "https://r2.thesportsdb.com/images/media/team/badge/vi4mu41695734959.png"
+      },
+      "mercado": "mas15",
+      "prob": 0.6918378425315062,
+      "cuota": 1.45,
+      "cuota_tipo": "justa"
+     }
+    ],
+    "cuota_total": 2.86,
+    "prob_total": 0.35
+   }
+  }
+ }
+}

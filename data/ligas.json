@@ -1,0 +1,4894 @@
+{
+ "generado": "2026-10-24",
+ "internacionales": [
+  {
+   "id": "4501",
+   "nombre": "Copa Libertadores",
+   "alternativo": "",
+   "division": 0,
+   "temporada": "2026",
+   "genero": "Male",
+   "escudo": "https://r2.thesportsdb.com/images/media/league/badge/9shr931685425181.png",
+   "es_copa": false,
+   "nombre_es": "Copa Libertadores"
+  },
+  {
+   "id": "4724",
+   "nombre": "Copa Sudamericana",
+   "alternativo": "",
+   "division": 0,
+   "temporada": "2026",
+   "genero": "Male",
+   "escudo": "https://r2.thesportsdb.com/images/media/league/badge/9yynq01685425243.png",
+   "es_copa": false,
+   "nombre_es": "Copa Sudamericana"
+  },
+  {
+   "id": "5665",
+   "nombre": "Recopa Sudamericana",
+   "alternativo": "",
+   "division": 0,
+   "temporada": "2026",
+   "genero": "Male",
+   "escudo": "https://r2.thesportsdb.com/images/media/league/badge/86om5c1754314543.png",
+   "es_copa": false,
+   "nombre_es": "Recopa Sudamericana"
+  },
+  {
+   "id": "5704",
+   "nombre": "Copa Libertadores Femenina",
+   "alternativo": "",
+   "division": 0,
+   "temporada": "2026",
+   "genero": "Female",
+   "escudo": "https://r2.thesportsdb.com/images/media/league/badge/gow9pu1759726171.png",
+   "es_copa": false,
+   "nombre_es": "Libertadores Femenina"
+  },
+  {
+   "id": "4480",
+   "nombre": "UEFA Champions League",
+   "alternativo": "",
+   "division": 0,
+   "temporada": "2026-2027",
+   "genero": "Male",
+   "escudo": "https://r2.thesportsdb.com/images/media/league/badge/facv1u1742998896.png",
+   "es_copa": false,
+   "nombre_es": "Champions League"
+  },
+  {
+   "id": "4481",
+   "nombre": "UEFA Europa League",
+   "alternativo": "",
+   "division": 0,
+   "temporada": "2026-2027",
+   "genero": "Male",
+   "escudo": "https://r2.thesportsdb.com/images/media/league/badge/mlsr7d1718774547.png",
+   "es_copa": false,
+   "nombre_es": "UEFA Europa League"
+  },
+  {
+   "id": "5071",
+   "nombre": "UEFA Conference League",
+   "alternativo": "",
+   "division": 0,
+   "temporada": "2026-2027",
+   "genero": "Male",
+   "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ymfo5j1718775759.png",
+   "es_copa": false,
+   "nombre_es": "UEFA Conference League"
+  }
+ ],
+ "paises": [
+  {
+   "nombre_es": "Chile",
+   "pais": "Chile",
+   "region": "Sudamérica",
+   "ligas": [
+    {
+     "id": "4627",
+     "nombre": "Chile Primera Division",
+     "alternativo": "Chilean Primera División, Liga de Primera",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/x9m78e1768232019.png",
+     "es_copa": false
+    },
+    {
+     "id": "4899",
+     "nombre": "Chile Primera B",
+     "alternativo": "Chilean Primera B División, Liga de Ascenso",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/t1vndf1738858796.png",
+     "es_copa": false
+    },
+    {
+     "id": "5481",
+     "nombre": "Chile Segunda División",
+     "alternativo": "Segunda División Profesional del Fútbol Profesional Chileno, Liga Segunda División",
+     "division": 3,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ox7keg1740790394.png",
+     "es_copa": false
+    },
+    {
+     "id": "5858",
+     "nombre": "Chilean Copa de la Liga",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/pvva0s1774278525.png",
+     "es_copa": true
+    },
+    {
+     "id": "5378",
+     "nombre": "Copa Chile",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/2fvo5n1714771524.png",
+     "es_copa": true
+    },
+    {
+     "id": "5697",
+     "nombre": "Supercopa de Chile",
+     "alternativo": "Supercopa Construmart",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/w6ci9a1768605206.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Argentina",
+   "pais": "Argentina",
+   "region": "Sudamérica",
+   "ligas": [
+    {
+     "id": "4406",
+     "nombre": "Argentinian Primera Division",
+     "alternativo": "Liga Profesional de Fútbol",
+     "division": 0,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rk9xhx1768238251.png",
+     "es_copa": false
+    },
+    {
+     "id": "4616",
+     "nombre": "Argentinian Primera B Nacional",
+     "alternativo": "Nacional B, Primera Nacional",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/u5tbaw1762466392.png",
+     "es_copa": false
+    },
+    {
+     "id": "5215",
+     "nombre": "Argentina Primera B Metropolitana",
+     "alternativo": "B Metro",
+     "division": 3,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/5vbn1s1784161051.png",
+     "es_copa": false
+    },
+    {
+     "id": "5523",
+     "nombre": "Argentina Torneo Federal A",
+     "alternativo": "",
+     "division": 3,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/a9lsvy1784161378.png",
+     "es_copa": false
+    },
+    {
+     "id": "5524",
+     "nombre": "Argentinian Primera C",
+     "alternativo": "Argentina Primera C Metropolitana",
+     "division": 4,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/6j0rlo1734111674.png",
+     "es_copa": false
+    },
+    {
+     "id": "5927",
+     "nombre": "Argentinian Torneo Promocional Amateur",
+     "alternativo": "",
+     "division": 5,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/nktkqn1784133153.png",
+     "es_copa": false
+    },
+    {
+     "id": "5428",
+     "nombre": "Argentinian Copa de la Liga Profesional",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2024",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/bjcymx1707321159.png",
+     "es_copa": true
+    },
+    {
+     "id": "5663",
+     "nombre": "Argentinian Supercopa Internacional",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/pqaa5t1754306828.png",
+     "es_copa": true
+    },
+    {
+     "id": "5664",
+     "nombre": "Argentinian Trofeo de Campeones",
+     "alternativo": "Trofeo de Campeones de la Liga Profesional",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/r7ftla1754308676.png",
+     "es_copa": true
+    },
+    {
+     "id": "4500",
+     "nombre": "Copa Argentina",
+     "alternativo": "Argentina Copa AXION energy",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/welbig1655924428.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Brasil",
+   "pais": "Brazil",
+   "region": "Sudamérica",
+   "ligas": [
+    {
+     "id": "4351",
+     "nombre": "Brazilian Serie A",
+     "alternativo": "Brazil Brasileirão Série A Brasileiro",
+     "division": 0,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/lywv7t1766787179.png",
+     "es_copa": false
+    },
+    {
+     "id": "5676",
+     "nombre": "Brazilian Campeonato Acreano",
+     "alternativo": "Campeonato Acreano de Futebol",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/4d9le21754492204.png",
+     "es_copa": false
+    },
+    {
+     "id": "5677",
+     "nombre": "Brazilian Campeonato Alagoano",
+     "alternativo": "Campeonato Alagoano de Futebol",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/2tcrj61767438744.png",
+     "es_copa": false
+    },
+    {
+     "id": "5678",
+     "nombre": "Brazilian Campeonato Amapaense",
+     "alternativo": "Amapazão",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/6sy3xd1754493984.png",
+     "es_copa": false
+    },
+    {
+     "id": "5679",
+     "nombre": "Brazilian Campeonato Amazonense",
+     "alternativo": "Campeonato Amazonense de Futebol, Barezão",
+     "division": 1,
+     "temporada": "2024",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/t9nfej1754494955.png",
+     "es_copa": false
+    },
+    {
+     "id": "5684",
+     "nombre": "Brazilian Campeonato Baiano",
+     "alternativo": "Baianão",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ehk7hw1756631450.png",
+     "es_copa": false
+    },
+    {
+     "id": "5685",
+     "nombre": "Brazilian Campeonato Brasiliense",
+     "alternativo": "Campeonato Candango, Campeonato Metropolitano, Candangão",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/7z9n1v1756632496.png",
+     "es_copa": false
+    },
+    {
+     "id": "5686",
+     "nombre": "Brazilian Campeonato Capixaba",
+     "alternativo": "Capixabão",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/5f2rcm1756633054.png",
+     "es_copa": false
+    },
+    {
+     "id": "5688",
+     "nombre": "Brazilian Campeonato Carioca",
+     "alternativo": "Cariocão",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/aewl9f1756636968.png",
+     "es_copa": false
+    },
+    {
+     "id": "5687",
+     "nombre": "Brazilian Campeonato Catarinense",
+     "alternativo": "Catarinão",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rvn16n1756635839.png",
+     "es_copa": false
+    },
+    {
+     "id": "5689",
+     "nombre": "Brazilian Campeonato Cearense",
+     "alternativo": "",
+     "division": 1,
+     "temporada": "2027",
+     "genero": "Male",
+     "escudo": "https://www.thesportsdb.com/images/media/league/badge/d5ck401792320370.png",
+     "es_copa": false
+    },
+    {
+     "id": "5691",
+     "nombre": "Brazilian Campeonato Gaucho",
+     "alternativo": "Gauchão",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/9v3mpn1756639595.png",
+     "es_copa": false
+    },
+    {
+     "id": "5760",
+     "nombre": "Brazilian Campeonato Goiano",
+     "alternativo": "Goianão",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/8c7y7a1766562491.png",
+     "es_copa": false
+    },
+    {
+     "id": "5761",
+     "nombre": "Brazilian Campeonato Maranhense",
+     "alternativo": "Maranhão",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/elyo6m1766564369.png",
+     "es_copa": false
+    },
+    {
+     "id": "5762",
+     "nombre": "Brazilian Campeonato MatoGrossense",
+     "alternativo": "",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/sdodne1766565649.png",
+     "es_copa": false
+    },
+    {
+     "id": "5763",
+     "nombre": "Brazilian Campeonato Mineiro",
+     "alternativo": "Módulo I",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/2h59wg1766566878.png",
+     "es_copa": false
+    },
+    {
+     "id": "5764",
+     "nombre": "Brazilian Campeonato Paraense",
+     "alternativo": "Parazão",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/2l12dd1766567504.png",
+     "es_copa": false
+    },
+    {
+     "id": "5765",
+     "nombre": "Brazilian Campeonato Paraibano",
+     "alternativo": "",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/35w0h11766570162.png",
+     "es_copa": false
+    },
+    {
+     "id": "5766",
+     "nombre": "Brazilian Campeonato Paranaense",
+     "alternativo": "",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/fp5qis1766570793.png",
+     "es_copa": false
+    },
+    {
+     "id": "5767",
+     "nombre": "Brazilian Campeonato Paulista",
+     "alternativo": "Paulistão",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/pcbk2y1766571900.png",
+     "es_copa": false
+    },
+    {
+     "id": "5768",
+     "nombre": "Brazilian Campeonato Pernambucano",
+     "alternativo": "",
+     "division": 1,
+     "temporada": "2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/lmbx6d1784653727.png",
+     "es_copa": false
+    },
+    {
+     "id": "5769",
+     "nombre": "Brazilian Campeonato Piauiense",
+     "alternativo": "Piauizão",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/xvlw7i1766575848.png",
+     "es_copa": false
+    },
+    {
+     "id": "5770",
+     "nombre": "Brazilian Campeonato Potiguar",
+     "alternativo": "Campeonato Estadual do Rio Grande do Norte",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/dw5y8q1766577811.png",
+     "es_copa": false
+    },
+    {
+     "id": "5771",
+     "nombre": "Brazilian Campeonato Rondoniense",
+     "alternativo": "Campeonato Estadual de Rondônia",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/vnv80t1766578247.png",
+     "es_copa": false
+    },
+    {
+     "id": "5772",
+     "nombre": "Brazilian Campeonato Roraimense",
+     "alternativo": "",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rxf2n11766581225.png",
+     "es_copa": false
+    },
+    {
+     "id": "5773",
+     "nombre": "Brazilian Campeonato Sergipano",
+     "alternativo": "Sergipao",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/g5e1ig1766584230.png",
+     "es_copa": false
+    },
+    {
+     "id": "5774",
+     "nombre": "Brazilian Campeonato SulMatoGrossense",
+     "alternativo": "Campeonato Sul-Mato-Grossense de Futebol",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rzdwrs1766584859.png",
+     "es_copa": false
+    },
+    {
+     "id": "5775",
+     "nombre": "Brazilian Campeonato Tocantinense",
+     "alternativo": "",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ghbod11766585463.png",
+     "es_copa": false
+    },
+    {
+     "id": "4404",
+     "nombre": "Brazilian Serie B",
+     "alternativo": "Brazilian Brasileirao B Brasileiro",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/iiz0gf1778446845.png",
+     "es_copa": false
+    },
+    {
+     "id": "4625",
+     "nombre": "Brazilian Serie C",
+     "alternativo": "Campeonato Brasileiro Série C",
+     "division": 3,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/3hp64j1778447225.png",
+     "es_copa": false
+    },
+    {
+     "id": "5079",
+     "nombre": "Brazil Serie D",
+     "alternativo": "Campeonato Brasileiro Série D, Brasileirão Serie D",
+     "division": 4,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/l50edf1778447349.png",
+     "es_copa": false
+    },
+    {
+     "id": "5201",
+     "nombre": "Brazil Brasileiro Women",
+     "alternativo": "Série A1, Campeonato Brasileiro Feminino Série A1",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/es83901752264616.png",
+     "es_copa": false
+    },
+    {
+     "id": "5692",
+     "nombre": "Brazilian Copa FGF",
+     "alternativo": "Copa Federação Gaúcha de Futebol",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/zfbpm01756640959.png",
+     "es_copa": true
+    },
+    {
+     "id": "5675",
+     "nombre": "Brazilian Copa Verde",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/6v5yt71754490790.png",
+     "es_copa": true
+    },
+    {
+     "id": "5673",
+     "nombre": "Brazilian Copa do Nordeste",
+     "alternativo": "Copa do Nordeste de Futebol, Nordestão, Campeonato do Nordeste e Lampions League",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/fhgtm81754479700.png",
+     "es_copa": true
+    },
+    {
+     "id": "5776",
+     "nombre": "Brazilian Supercopa Rei",
+     "alternativo": "Supercopa do Brasil",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/31h8771766587003.png",
+     "es_copa": true
+    },
+    {
+     "id": "5672",
+     "nombre": "Copa Paulista",
+     "alternativo": "Copa FPF, Copa Federação Paulista de Futebol",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/i0qrs41754474564.png",
+     "es_copa": true
+    },
+    {
+     "id": "4725",
+     "nombre": "Copa do Brasil",
+     "alternativo": "Brazil Cup",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/h38dax1582151151.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Colombia",
+   "pais": "Colombia",
+   "region": "Sudamérica",
+   "ligas": [
+    {
+     "id": "4497",
+     "nombre": "Colombian Liga DIMAYOR",
+     "alternativo": "Colombia Categoría Primera A",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/sdz1351580833297.png",
+     "es_copa": false
+    },
+    {
+     "id": "4951",
+     "nombre": "Colombian Torneo DIMAYOR",
+     "alternativo": "Torneo BetPlay Dimayor, Torneo Águila, Categoría Primera B",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/l2h1ao1615832028.png",
+     "es_copa": false
+    },
+    {
+     "id": "5183",
+     "nombre": "Copa Colombia",
+     "alternativo": "Copa BetPlay Dimayor",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/w0pay41645457852.png",
+     "es_copa": true
+    },
+    {
+     "id": "5804",
+     "nombre": "Superliga Colombiana",
+     "alternativo": "Superliga BetPlay Dimayor",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/vfotbg1768581193.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Ecuador",
+   "pais": "Ecuador",
+   "region": "Sudamérica",
+   "ligas": [
+    {
+     "id": "4686",
+     "nombre": "Ecuadorian Serie A",
+     "alternativo": "Primera Categoría Serie A",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ofjuay1615839163.png",
+     "es_copa": false
+    },
+    {
+     "id": "4957",
+     "nombre": "Ecuadorian Serie B",
+     "alternativo": "Liga Pro Serie B, Primera Categoría Serie B",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/8ajrd11615839122.png",
+     "es_copa": false
+    },
+    {
+     "id": "5636",
+     "nombre": "Copa Ecuador",
+     "alternativo": "Copa FEF Ecuador",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/86kk7j1753772273.png",
+     "es_copa": true
+    },
+    {
+     "id": "5884",
+     "nombre": "Supercopa Ecuador",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/50owt81778948156.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Paraguay",
+   "pais": "Paraguay",
+   "region": "Sudamérica",
+   "ligas": [
+    {
+     "id": "4687",
+     "nombre": "Paraguayan Primera Division",
+     "alternativo": "División Profesional de la Asociación Paraguaya de Fútbol, Copa de Primera TIGO-Visión Banco",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/k1sbmx1652126723.png",
+     "es_copa": false
+    },
+    {
+     "id": "4900",
+     "nombre": "Paraguayan División Intermedia",
+     "alternativo": "Paraguay 2nd Division",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/t2gzvr1752734813.png",
+     "es_copa": false
+    },
+    {
+     "id": "5499",
+     "nombre": "Copa Paraguay",
+     "alternativo": "Paraguay Cup",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/sk46bb1764024619.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Perú",
+   "pais": "Peru",
+   "region": "Sudamérica",
+   "ligas": [
+    {
+     "id": "4688",
+     "nombre": "Peruvian Primera Division",
+     "alternativo": "Torneo Descentralizado de Fútbol Profesional, Liga 1, Copa Movistar",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/1ujpwc1580040216.png",
+     "es_copa": false
+    },
+    {
+     "id": "5073",
+     "nombre": "Peruvian Segunda División",
+     "alternativo": "Liga 2",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rbax1i1625260410.png",
+     "es_copa": false
+    },
+    {
+     "id": "5908",
+     "nombre": "Peruvian Copa de la Liga",
+     "alternativo": "Copa Caliente de la Liga",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rwf4pl1782336249.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Uruguay",
+   "pais": "Uruguay",
+   "region": "Sudamérica",
+   "ligas": [
+    {
+     "id": "4432",
+     "nombre": "Uruguayan Primera Division",
+     "alternativo": "Liga AUF Uruguaya",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/3p98xv1740672448.png",
+     "es_copa": false
+    },
+    {
+     "id": "5072",
+     "nombre": "Uruguayan Segunda División",
+     "alternativo": "Segunda División Profesional ",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/htc3kb1740672581.png",
+     "es_copa": false
+    },
+    {
+     "id": "5526",
+     "nombre": "Copa AUF Uruguay",
+     "alternativo": "Copa Uruguay",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/bn34hc1734111428.png",
+     "es_copa": true
+    },
+    {
+     "id": "5803",
+     "nombre": "Copa de la Liga AUF",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/e8ut9a1768579483.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Venezuela",
+   "pais": "Venezuela",
+   "region": "Sudamérica",
+   "ligas": [
+    {
+     "id": "4513",
+     "nombre": "Venezuela Primera Division",
+     "alternativo": "Liga Venezolana, Liga FUTVE",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/z07l5a1639062253.png",
+     "es_copa": false
+    },
+    {
+     "id": "5659",
+     "nombre": "Venezuelan Segunda Division",
+     "alternativo": "Liga FUTVE 2",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/aiqv5o1773938597.png",
+     "es_copa": false
+    },
+    {
+     "id": "5660",
+     "nombre": "Copa Venezuela",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rocn0x1754303412.png",
+     "es_copa": true
+    },
+    {
+     "id": "5661",
+     "nombre": "Supercopa de Venezuela",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2025",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ilm64w1784933988.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Surinam",
+   "pais": "Suriname",
+   "region": "Sudamérica",
+   "ligas": [
+    {
+     "id": "5802",
+     "nombre": "Suriname Major League",
+     "alternativo": "SML",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/1m0uja1768578318.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "EE. UU.",
+   "pais": "United States",
+   "region": "Norte y Centroamérica",
+   "ligas": [
+    {
+     "id": "4346",
+     "nombre": "American Major League Soccer",
+     "alternativo": "MLS, Major League Soccer",
+     "division": 0,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/dqo6r91549878326.png",
+     "es_copa": false
+    },
+    {
+     "id": "4684",
+     "nombre": "American USL Championship",
+     "alternativo": "USLC",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/uh4zas1688513782.png",
+     "es_copa": false
+    },
+    {
+     "id": "5076",
+     "nombre": "American USL League One",
+     "alternativo": "USL League One",
+     "division": 3,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/wupe6s1625336127.png",
+     "es_copa": false
+    },
+    {
+     "id": "5279",
+     "nombre": "MLS Next Pro",
+     "alternativo": "",
+     "division": 3,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/vokzs71650475719.png",
+     "es_copa": false
+    },
+    {
+     "id": "5221",
+     "nombre": "USA NISA",
+     "alternativo": "",
+     "division": 3,
+     "temporada": "2024",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/n1kfoa1645453882.png",
+     "es_copa": false
+    },
+    {
+     "id": "5077",
+     "nombre": "USL League Two",
+     "alternativo": "",
+     "division": 4,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/qeifr01627139879.png",
+     "es_copa": false
+    },
+    {
+     "id": "4435",
+     "nombre": "American NASL",
+     "alternativo": "",
+     "division": 200,
+     "temporada": "2016-2017",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/0un3ta1549878279.png",
+     "es_copa": false
+    },
+    {
+     "id": "4521",
+     "nombre": "American NWSL",
+     "alternativo": "NWSL, National Womens Soccer League",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ucoihf1770674182.png",
+     "es_copa": false
+    },
+    {
+     "id": "5498",
+     "nombre": "USL Super League",
+     "alternativo": "USLS, Gainbridge Super League",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/lihsfy1755885587.png",
+     "es_copa": false
+    },
+    {
+     "id": "5647",
+     "nombre": "English Premier League Summer Series",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/3nh27y1754238774.png",
+     "es_copa": true
+    },
+    {
+     "id": "5199",
+     "nombre": "US Open Cup",
+     "alternativo": "Lamar Hunt US Open Cup",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/nda9e31726722125.png",
+     "es_copa": true
+    },
+    {
+     "id": "5651",
+     "nombre": "USL Cup",
+     "alternativo": "USL Jägermeister Cup, Prinx Tires USL Cup",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rmbv1k1754248473.png",
+     "es_copa": true
+    },
+    {
+     "id": "5178",
+     "nombre": "American NWSL Challenge Cup",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2025",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/njkiz21737721649.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "México",
+   "pais": "Mexico",
+   "region": "Norte y Centroamérica",
+   "ligas": [
+    {
+     "id": "4350",
+     "nombre": "Mexican Liga MX",
+     "alternativo": "Mexico Primera League",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/mav5rx1686157960.png",
+     "es_copa": false
+    },
+    {
+     "id": "4654",
+     "nombre": "Mexican Liga de Expansión MX",
+     "alternativo": "Liga BBVA Expansión MX, Mexican Ascenso MX",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/2h0yz01615330546.png",
+     "es_copa": false
+    },
+    {
+     "id": "5206",
+     "nombre": "Mexican Liga Femenil",
+     "alternativo": "Mexico Liga MX Femenil",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/f3ut8v1645305794.png",
+     "es_copa": false
+    },
+    {
+     "id": "5662",
+     "nombre": "Mexican Campeon de Campeones",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/lpqijz1754305371.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Costa Rica",
+   "pais": "Costa Rica",
+   "region": "Norte y Centroamérica",
+   "ligas": [
+    {
+     "id": "4815",
+     "nombre": "Costa-Rica Liga FPD",
+     "alternativo": "Liga Promérica, Liga de Fútbol de Primera División",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/97r4et1716292122.png",
+     "es_copa": false
+    },
+    {
+     "id": "5926",
+     "nombre": "Supercopa de Costa Rica",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2025",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/oey8vj1784133594.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "El Salvador",
+   "pais": "El Salvador",
+   "region": "Norte y Centroamérica",
+   "ligas": [
+    {
+     "id": "4816",
+     "nombre": "El Salvador Primera Division",
+     "alternativo": "Primera División de Fútbol Profesional de El Salvador, Liga Pepsi",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/2s08ci1752690548.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Guatemala",
+   "pais": "Guatemala",
+   "region": "Norte y Centroamérica",
+   "ligas": [
+    {
+     "id": "4817",
+     "nombre": "Guatemala Liga Nacional",
+     "alternativo": "Liga Nacional de Fútbol de Guatemala, Liga Bantrab",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/wtr5801717759494.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Honduras",
+   "pais": "Honduras",
+   "region": "Norte y Centroamérica",
+   "ligas": [
+    {
+     "id": "4818",
+     "nombre": "Honduras Liga Nacional de Futbol",
+     "alternativo": "Liga Salva Vida, Liga Hondurabet",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/94pogz1646830106.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Jamaica",
+   "pais": "Jamaica",
+   "region": "Norte y Centroamérica",
+   "ligas": [
+    {
+     "id": "5075",
+     "nombre": "Jamaican Premier League",
+     "alternativo": "National Premier League,Premier League Jamaica,",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/7l3yfu1696459375.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Nicaragua",
+   "pais": "Nicaragua",
+   "region": "Norte y Centroamérica",
+   "ligas": [
+    {
+     "id": "4806",
+     "nombre": "Nicaragua Primera Division",
+     "alternativo": "Liga Primera de Nicaragua",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ah6qbr1596464815.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Panamá",
+   "pais": "Panama",
+   "region": "Norte y Centroamérica",
+   "ligas": [
+    {
+     "id": "4819",
+     "nombre": "Panama Liga Panamena de Futbol",
+     "alternativo": "Asociación Nacional Pro Fútbol",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/at4ycu1589140484.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Puerto Rico",
+   "pais": "Puerto Rico",
+   "region": "Norte y Centroamérica",
+   "ligas": []
+  },
+  {
+   "nombre_es": "República Dominicana",
+   "pais": "Dominican Republic",
+   "region": "Norte y Centroamérica",
+   "ligas": [
+    {
+     "id": "4956",
+     "nombre": "Dominican LDF",
+     "alternativo": "Liga Dominicana de Fútbol, LDF Banco Popular",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/cze64p1615823728.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Saint Kitts and Nevis",
+   "pais": "Saint Kitts and Nevis",
+   "region": "Norte y Centroamérica",
+   "ligas": []
+  },
+  {
+   "nombre_es": "Inglaterra",
+   "pais": "England",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4328",
+     "nombre": "English Premier League",
+     "alternativo": "Premier League, EPL, England",
+     "division": 0,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/gasy9d1737743125.png",
+     "es_copa": false
+    },
+    {
+     "id": "4329",
+     "nombre": "English League Championship",
+     "alternativo": "England EFL Championship, English Football League Championship",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ty5a681688770169.png",
+     "es_copa": false
+    },
+    {
+     "id": "4396",
+     "nombre": "English League 1",
+     "alternativo": "EFL League One, Sky Bet League One, English Football League One",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/afedb31688770443.png",
+     "es_copa": false
+    },
+    {
+     "id": "4397",
+     "nombre": "English League 2",
+     "alternativo": "EFL League Two, Sky Bet League Two, English Football League Two",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/jmb3ms1688770451.png",
+     "es_copa": false
+    },
+    {
+     "id": "4590",
+     "nombre": "English National League",
+     "alternativo": "National League",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/5mq9v01752167973.png",
+     "es_copa": false
+    },
+    {
+     "id": "4681",
+     "nombre": "English National League North",
+     "alternativo": "Conference North",
+     "division": 6,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/hs74ne1781844477.png",
+     "es_copa": false
+    },
+    {
+     "id": "4682",
+     "nombre": "English National League South",
+     "alternativo": "Conference South",
+     "division": 6,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/hher911781844403.png",
+     "es_copa": false
+    },
+    {
+     "id": "4647",
+     "nombre": "English Isthmian League Premier Division",
+     "alternativo": "BetVictor Isthmian League",
+     "division": 7,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ktaxnf1784588432.png",
+     "es_copa": false
+    },
+    {
+     "id": "4646",
+     "nombre": "English Northern Premier League Premier Division",
+     "alternativo": "Northern Premier League",
+     "division": 7,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/0ajsx81659100470.png",
+     "es_copa": false
+    },
+    {
+     "id": "5324",
+     "nombre": "English Southern Football League Division Central",
+     "alternativo": "Non League Premier - Southern Central",
+     "division": 7,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/qs4p6z1659099588.png",
+     "es_copa": false
+    },
+    {
+     "id": "4648",
+     "nombre": "English Southern Football League Division South",
+     "alternativo": "",
+     "division": 7,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/r8ijep1659099607.png",
+     "es_copa": false
+    },
+    {
+     "id": "5225",
+     "nombre": "English Isthmian League North Division",
+     "alternativo": "Non League Div One - Isthmian North",
+     "division": 8,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/wfgrt31784588615.png",
+     "es_copa": false
+    },
+    {
+     "id": "5226",
+     "nombre": "English Isthmian League South Central Division",
+     "alternativo": "Non League Div One - Isthmian South Central",
+     "division": 8,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/fkx8y01784588622.png",
+     "es_copa": false
+    },
+    {
+     "id": "5227",
+     "nombre": "English Isthmian League South East Division",
+     "alternativo": "Non League Div One - Isthmian South East",
+     "division": 8,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/77uyrm1784588628.png",
+     "es_copa": false
+    },
+    {
+     "id": "5325",
+     "nombre": "English Northern Premier League Division One East",
+     "alternativo": "Non League Div One - Northern East",
+     "division": 8,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/1uegox1659100498.png",
+     "es_copa": false
+    },
+    {
+     "id": "5326",
+     "nombre": "English Northern Premier League Division One Midlands",
+     "alternativo": "Non League Div One - Northern Midlands",
+     "division": 8,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/sll7i81659100660.png",
+     "es_copa": false
+    },
+    {
+     "id": "5328",
+     "nombre": "English Northern Premier League Division One West",
+     "alternativo": "Non League Div One - Northern West",
+     "division": 8,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/lzoexj1659100679.png",
+     "es_copa": false
+    },
+    {
+     "id": "5327",
+     "nombre": "English Southern Football League Division 1 Central",
+     "alternativo": "Non League Div One - Southern Central",
+     "division": 8,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/epsaji1659099914.png",
+     "es_copa": false
+    },
+    {
+     "id": "5228",
+     "nombre": "English Southern Football League Division 1 South",
+     "alternativo": "Non League Div One - Southern South",
+     "division": 8,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/1izy5v1659099936.png",
+     "es_copa": false
+    },
+    {
+     "id": "4849",
+     "nombre": "English Womens Super League",
+     "alternativo": "WSL, Barclays Women, women",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/lpsm6p1751723311.png",
+     "es_copa": false
+    },
+    {
+     "id": "4570",
+     "nombre": "EFL Cup",
+     "alternativo": "Carabao Cup, Football League Cup",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/x1va771565372556.png",
+     "es_copa": true
+    },
+    {
+     "id": "4847",
+     "nombre": "EFL Trophy",
+     "alternativo": "English Football League Trophy",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/96f97q1791391234.png",
+     "es_copa": true
+    },
+    {
+     "id": "4788",
+     "nombre": "FA Trophy",
+     "alternativo": "Football Association Challenge Trophy, Isuzu FA Trophy",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/b9en1o1776360728.png",
+     "es_copa": true
+    },
+    {
+     "id": "4525",
+     "nombre": "Football League First Division",
+     "alternativo": "English Old 1st Division",
+     "division": 200,
+     "temporada": "1991-1992",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/vgooiu1738244272.png",
+     "es_copa": true
+    },
+    {
+     "id": "4526",
+     "nombre": "Football League Super Cup",
+     "alternativo": "ScreenSport Super Cup",
+     "division": 200,
+     "temporada": "1985-1986",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/h8vf321639596284.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "España",
+   "pais": "Spain",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4335",
+     "nombre": "Spanish La Liga",
+     "alternativo": "LaLiga EA Sports, La Liga, Campeonato Nacional de Liga de Primera División",
+     "division": 0,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ja4it51687628717.png",
+     "es_copa": false
+    },
+    {
+     "id": "4400",
+     "nombre": "Spanish La Liga 2",
+     "alternativo": "Segunda División, LaLiga SmartBank, LaLiga 123",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/r7u6821688425700.png",
+     "es_copa": false
+    },
+    {
+     "id": "5086",
+     "nombre": "Spanish Primera Federación Group 1",
+     "alternativo": "Spanish Primera RFEF Grupo 1",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/bnkh2y1689803190.png",
+     "es_copa": false
+    },
+    {
+     "id": "5088",
+     "nombre": "Spanish Primera Federación Group 2",
+     "alternativo": "Spanish Primera RFEF Grupo 2",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/pseiy91689803230.png",
+     "es_copa": false
+    },
+    {
+     "id": "5087",
+     "nombre": "Spanish Segunda Federación Group 1",
+     "alternativo": "Segunda Federación Grupo 1",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/7hgkcr1689804228.png",
+     "es_copa": false
+    },
+    {
+     "id": "5089",
+     "nombre": "Spanish Segunda Federación Group 2",
+     "alternativo": "Segunda Federación Grupo 2",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/2d0pgi1689804233.png",
+     "es_copa": false
+    },
+    {
+     "id": "5090",
+     "nombre": "Spanish Segunda Federación Group 3",
+     "alternativo": "Segunda Federación Grupo 3",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/bhav7f1689804239.png",
+     "es_copa": false
+    },
+    {
+     "id": "5091",
+     "nombre": "Spanish Segunda Federación Group 4",
+     "alternativo": "Segunda Federación Grupo 4",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/hzl3601689804245.png",
+     "es_copa": false
+    },
+    {
+     "id": "5092",
+     "nombre": "Spanish Segunda Federación Group 5",
+     "alternativo": "Segunda Federación Grupo 5",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ushxxf1689804250.png",
+     "es_copa": false
+    },
+    {
+     "id": "5538",
+     "nombre": "Spanish Tercera Federación Group 1",
+     "alternativo": "Tercera Federación Grupo 1 - Galicia",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/wc70fv1735915594.png",
+     "es_copa": false
+    },
+    {
+     "id": "5547",
+     "nombre": "Spanish Tercera Federación Group 10",
+     "alternativo": "Tercera Federación Grupo 10 - Andalucía Occidental & Ceuta",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/3lvp0z1735922316.png",
+     "es_copa": false
+    },
+    {
+     "id": "5548",
+     "nombre": "Spanish Tercera Federación Group 11",
+     "alternativo": "Tercera Federación Grupo 11 - Islas Baleares",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/59jb781735922834.png",
+     "es_copa": false
+    },
+    {
+     "id": "5549",
+     "nombre": "Spanish Tercera Federación Group 12",
+     "alternativo": "Tercera Federación Grupo 12 - Islas Canarias",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/7dlq8p1735923150.png",
+     "es_copa": false
+    },
+    {
+     "id": "5550",
+     "nombre": "Spanish Tercera Federación Group 13",
+     "alternativo": "Tercera Federación Grupo 13 - Región de Murcia",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/olsh461735923475.png",
+     "es_copa": false
+    },
+    {
+     "id": "5551",
+     "nombre": "Spanish Tercera Federación Group 14",
+     "alternativo": "Tercera Federación Grupo 14 - Extremadura",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/k23gyr1735923988.png",
+     "es_copa": false
+    },
+    {
+     "id": "5552",
+     "nombre": "Spanish Tercera Federación Group 15",
+     "alternativo": "Tercera Federación Grupo 15 - Navarra",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/epkzlm1735924518.png",
+     "es_copa": false
+    },
+    {
+     "id": "5553",
+     "nombre": "Spanish Tercera Federación Group 16",
+     "alternativo": "Tercera Federación Grupo 16 - La Rioja",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/xzvjrk1735925534.png",
+     "es_copa": false
+    },
+    {
+     "id": "5554",
+     "nombre": "Spanish Tercera Federación Group 17",
+     "alternativo": "Tercera Federación Grupo 17 - Aragón",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/zoenwp1735943116.png",
+     "es_copa": false
+    },
+    {
+     "id": "5555",
+     "nombre": "Spanish Tercera Federación Group 18",
+     "alternativo": "Tercera Federación Grupo 18 - Castilla-La Mancha",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/r4o5j81735943458.png",
+     "es_copa": false
+    },
+    {
+     "id": "5539",
+     "nombre": "Spanish Tercera Federación Group 2",
+     "alternativo": "Tercera Federación Grupo 2 - Asturias",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/hfblqs1735916034.png",
+     "es_copa": false
+    },
+    {
+     "id": "5540",
+     "nombre": "Spanish Tercera Federación Group 3",
+     "alternativo": "Tercera Federación Grupo 3 - Cantabria",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/v45ir61735917052.png",
+     "es_copa": false
+    },
+    {
+     "id": "5541",
+     "nombre": "Spanish Tercera Federación Group 4",
+     "alternativo": "Tercera Federación Grupo 4 - País Vasco",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/r35jgo1735917693.png",
+     "es_copa": false
+    },
+    {
+     "id": "5542",
+     "nombre": "Spanish Tercera Federación Group 5",
+     "alternativo": "Tercera Federación Grupo 5 - Cataluña",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ykql4g1735918078.png",
+     "es_copa": false
+    },
+    {
+     "id": "5543",
+     "nombre": "Spanish Tercera Federación Group 6",
+     "alternativo": "Tercera Federación Grupo 6 - Comunidad Valenciana",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/y52wn81735918718.png",
+     "es_copa": false
+    },
+    {
+     "id": "5544",
+     "nombre": "Spanish Tercera Federación Group 7",
+     "alternativo": "Tercera Federación Grupo 7 - Comunidad de Madrid",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/bvvgps1735919293.png",
+     "es_copa": false
+    },
+    {
+     "id": "5545",
+     "nombre": "Spanish Tercera Federación Group 8",
+     "alternativo": "Tercera Federación Grupo 8 - Castilla y León",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ij9mb01735919692.png",
+     "es_copa": false
+    },
+    {
+     "id": "5546",
+     "nombre": "Spanish Tercera Federación Group 9",
+     "alternativo": "Tercera Federación Grupo 9 - Andalucía Oriental & Melilla",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/qbzkul1735920629.png",
+     "es_copa": false
+    },
+    {
+     "id": "4673",
+     "nombre": "Primera División RFEF Group 1",
+     "alternativo": "",
+     "division": 200,
+     "temporada": "2020-2021",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/mt34x01578830881.png",
+     "es_copa": false
+    },
+    {
+     "id": "4750",
+     "nombre": "Primera División RFEF Group 2",
+     "alternativo": "",
+     "division": 200,
+     "temporada": "2019-2020",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/mt34x01578830881.png",
+     "es_copa": false
+    },
+    {
+     "id": "4751",
+     "nombre": "Spanish Segunda División B Group 3",
+     "alternativo": "",
+     "division": 200,
+     "temporada": "2020-2021",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/mt34x01578830881.png",
+     "es_copa": false
+    },
+    {
+     "id": "4752",
+     "nombre": "Spanish Segunda División B Group 4",
+     "alternativo": "",
+     "division": 200,
+     "temporada": "2020-2021",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/mt34x01578830881.png",
+     "es_copa": false
+    },
+    {
+     "id": "4886",
+     "nombre": "Spanish Segunda División B Group 5",
+     "alternativo": "",
+     "division": 200,
+     "temporada": "2020-2021",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/mt34x01578830881.png",
+     "es_copa": false
+    },
+    {
+     "id": "5106",
+     "nombre": "Spanish Liga F",
+     "alternativo": "Primera División de la Liga de Fútbol Femenino, Primera División Femenina de Fútbol, Liga F",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/xa4s481664007070.png",
+     "es_copa": false
+    },
+    {
+     "id": "4483",
+     "nombre": "Copa del Rey",
+     "alternativo": "Spanish Cup",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/2ikh3a1671782958.png",
+     "es_copa": true
+    },
+    {
+     "id": "5703",
+     "nombre": "Spanish Copa Federacion",
+     "alternativo": "Copa Federación de España",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ikob791760650756.png",
+     "es_copa": true
+    },
+    {
+     "id": "4511",
+     "nombre": "Supercopa de Espana",
+     "alternativo": "Spanish Super Cup",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/sp4q7d1641378531.png",
+     "es_copa": true
+    },
+    {
+     "id": "5440",
+     "nombre": "Supercopa de Espana Femenina",
+     "alternativo": "Supercopa de España Femenina, Spanish Women",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/mg66xd1713460534.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Italia",
+   "pais": "Italy",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4332",
+     "nombre": "Italian Serie A",
+     "alternativo": "Italy Serie A",
+     "division": 0,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/67q3q21679951383.png",
+     "es_copa": false
+    },
+    {
+     "id": "4394",
+     "nombre": "Italian Serie B",
+     "alternativo": "Serie BKT",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/uf5kph1598011132.png",
+     "es_copa": false
+    },
+    {
+     "id": "5340",
+     "nombre": "Italian Serie C Girone A",
+     "alternativo": "Serie C",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/bj89ar1753593637.png",
+     "es_copa": false
+    },
+    {
+     "id": "5339",
+     "nombre": "Italian Serie C Girone B",
+     "alternativo": "Serie C",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/eerhwz1753593645.png",
+     "es_copa": false
+    },
+    {
+     "id": "4398",
+     "nombre": "Italian Serie C Girone C",
+     "alternativo": "Serie C",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/m450je1753593640.png",
+     "es_copa": false
+    },
+    {
+     "id": "4786",
+     "nombre": "Italy Serie D Girone A",
+     "alternativo": "Campionato Nazionale Serie D",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/4wv29e1786728145.png",
+     "es_copa": false
+    },
+    {
+     "id": "4778",
+     "nombre": "Italy Serie D Girone B",
+     "alternativo": "Campionato Nazionale Serie D",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/cr3n271786749919.png",
+     "es_copa": false
+    },
+    {
+     "id": "4779",
+     "nombre": "Italy Serie D Girone C",
+     "alternativo": "Campionato Nazionale Serie D",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/uil64u1786751075.png",
+     "es_copa": false
+    },
+    {
+     "id": "4645",
+     "nombre": "Italy Serie D Girone D",
+     "alternativo": "",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/h54pin1786766879.png",
+     "es_copa": false
+    },
+    {
+     "id": "4780",
+     "nombre": "Italy Serie D Girone E",
+     "alternativo": "",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ovt8ir1786768310.png",
+     "es_copa": false
+    },
+    {
+     "id": "4782",
+     "nombre": "Italy Serie D Girone F",
+     "alternativo": "",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/dbzo341786770357.png",
+     "es_copa": false
+    },
+    {
+     "id": "4783",
+     "nombre": "Italy Serie D Girone G",
+     "alternativo": "",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/9cvi5y1786774647.png",
+     "es_copa": false
+    },
+    {
+     "id": "4784",
+     "nombre": "Italy Serie D Girone H",
+     "alternativo": "",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rxlzwd1786776508.png",
+     "es_copa": false
+    },
+    {
+     "id": "4785",
+     "nombre": "Italy Serie D Girone I",
+     "alternativo": "",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/oeqfbh1786777318.png",
+     "es_copa": false
+    },
+    {
+     "id": "5205",
+     "nombre": "Italy Serie A Women",
+     "alternativo": "Serie A Femminile",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/4jzsvd1755765302.png",
+     "es_copa": false
+    },
+    {
+     "id": "4506",
+     "nombre": "Coppa Italia",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/hrm1vo1692679408.png",
+     "es_copa": true
+    },
+    {
+     "id": "5959",
+     "nombre": "Italian Coppa Italia Serie D",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/l9dvsl1790178071.png",
+     "es_copa": true
+    },
+    {
+     "id": "5187",
+     "nombre": "Italy Coppa Italia Serie C",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/yca0151753593008.png",
+     "es_copa": true
+    },
+    {
+     "id": "4507",
+     "nombre": "Supercoppa Italiana",
+     "alternativo": "Italian Super Cup",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/12hc5x1730129564.png",
+     "es_copa": true
+    },
+    {
+     "id": "5632",
+     "nombre": "Coppa Italia Women",
+     "alternativo": "Coppa Italia di calcio femminile",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/4v5wnc1755765211.png",
+     "es_copa": true
+    },
+    {
+     "id": "5919",
+     "nombre": "Italian Serie A Womens Cup",
+     "alternativo": "Coppa Femminile di Serie A",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/6s3hwg1783156382.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Alemania",
+   "pais": "Germany",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4331",
+     "nombre": "German Bundesliga",
+     "alternativo": "Bundesliga, Fußball-Bundesliga",
+     "division": 0,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/teqh1b1679952008.png",
+     "es_copa": false
+    },
+    {
+     "id": "4399",
+     "nombre": "German 2. Bundesliga",
+     "alternativo": "2. Bundesliga",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/hl40981534764789.png",
+     "es_copa": false
+    },
+    {
+     "id": "4639",
+     "nombre": "Germany Liga 3",
+     "alternativo": "3. Liga, 3. Fußball-Liga",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/scvr7i1578786154.png",
+     "es_copa": false
+    },
+    {
+     "id": "4748",
+     "nombre": "German Regionalliga Bayern",
+     "alternativo": "",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/jxmdm71728143121.png",
+     "es_copa": false
+    },
+    {
+     "id": "4695",
+     "nombre": "German Regionalliga Nord",
+     "alternativo": "",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/vs2x381582561207.png",
+     "es_copa": false
+    },
+    {
+     "id": "4749",
+     "nombre": "German Regionalliga Nordost",
+     "alternativo": "",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/iei25s1582561197.png",
+     "es_copa": false
+    },
+    {
+     "id": "5888",
+     "nombre": "German Regionalliga Promotion Playoffs",
+     "alternativo": "Fußball-Regionalliga Aufstiegsspiele",
+     "division": 4,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/f9fr6a1780313321.png",
+     "es_copa": false
+    },
+    {
+     "id": "4747",
+     "nombre": "German Regionalliga SudWest",
+     "alternativo": "Regionalliga Südwest",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/iwuc2m1728142585.png",
+     "es_copa": false
+    },
+    {
+     "id": "4746",
+     "nombre": "German Regionalliga West",
+     "alternativo": "",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/khq3aw1582561159.png",
+     "es_copa": false
+    },
+    {
+     "id": "5891",
+     "nombre": "German Oberliga Baden-Württemberg",
+     "alternativo": "Fußball-Oberliga Baden-Württemberg",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/dns9ko1781111138.png",
+     "es_copa": false
+    },
+    {
+     "id": "5892",
+     "nombre": "German Oberliga Bayern Nord",
+     "alternativo": "Fußball-Bayernliga Nord",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/odozyp1781111278.png",
+     "es_copa": false
+    },
+    {
+     "id": "5893",
+     "nombre": "German Oberliga Bayern Süd",
+     "alternativo": "Fußball-Bayernliga Süd",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rhvt261781111278.png",
+     "es_copa": false
+    },
+    {
+     "id": "5894",
+     "nombre": "German Oberliga Bremen",
+     "alternativo": "Fußball-Bremen-Liga",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/w5hxtc1781111570.png",
+     "es_copa": false
+    },
+    {
+     "id": "5895",
+     "nombre": "German Oberliga Hamburg",
+     "alternativo": "Fußball-Oberliga Hamburg",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ei1hsr1781111733.png",
+     "es_copa": false
+    },
+    {
+     "id": "5896",
+     "nombre": "German Oberliga Hessen",
+     "alternativo": "Fußball-Hessenliga",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/j16ny81781111847.png",
+     "es_copa": false
+    },
+    {
+     "id": "5897",
+     "nombre": "German Oberliga Mittelrhein",
+     "alternativo": "Fußball-Mittelrheinliga",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/cwby361781111995.png",
+     "es_copa": false
+    },
+    {
+     "id": "5898",
+     "nombre": "German Oberliga Niederrhein",
+     "alternativo": "Fußball-Oberliga Niederrhein",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/h9odlx1781112217.png",
+     "es_copa": false
+    },
+    {
+     "id": "5899",
+     "nombre": "German Oberliga Niedersachsen",
+     "alternativo": "Fußball-Oberliga Niedersachsen",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/uab1281781112415.png",
+     "es_copa": false
+    },
+    {
+     "id": "5900",
+     "nombre": "German Oberliga Nordost Nord",
+     "alternativo": "Fußball-Oberliga Nordost Nord, NOFV-Oberliga",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/00ey3n1781112570.png",
+     "es_copa": false
+    },
+    {
+     "id": "5901",
+     "nombre": "German Oberliga Nordost Süd",
+     "alternativo": "Fußball-Oberliga Nordost, NOFV-Oberliga",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/95j7up1781112571.png",
+     "es_copa": false
+    },
+    {
+     "id": "5905",
+     "nombre": "German Oberliga Promotion Playoffs",
+     "alternativo": "",
+     "division": 5,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/fr1i3v1781199298.png",
+     "es_copa": false
+    },
+    {
+     "id": "5906",
+     "nombre": "German Oberliga Relegation Playoffs",
+     "alternativo": "",
+     "division": 5,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ghymq51781199282.png",
+     "es_copa": false
+    },
+    {
+     "id": "5902",
+     "nombre": "German Oberliga Rheinland-Pfalz - Saar",
+     "alternativo": "Fußball-Oberliga Rheinland-Pfalz/Saar",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/auio5e1781112777.png",
+     "es_copa": false
+    },
+    {
+     "id": "5903",
+     "nombre": "German Oberliga Schleswig-Holstein",
+     "alternativo": "Fußball-Oberliga Schleswig-Holstein",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/kznaga1781112905.png",
+     "es_copa": false
+    },
+    {
+     "id": "5904",
+     "nombre": "German Oberliga Westfalen",
+     "alternativo": "Fußball-Oberliga Westfalen",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/einc7a1781113025.png",
+     "es_copa": false
+    },
+    {
+     "id": "5204",
+     "nombre": "Germany Women Bundesliga",
+     "alternativo": "Frauen-Bundesliga, FLYERALARM Frauen-Bundesliga, Google Pixel Frauen-Bundesliga",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/9h43r61645216535.png",
+     "es_copa": false
+    },
+    {
+     "id": "4485",
+     "nombre": "DFB-Pokal",
+     "alternativo": "German Pokal, DFB Cup",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/tlczpm1780941454.png",
+     "es_copa": true
+    },
+    {
+     "id": "4903",
+     "nombre": "German Super Cup",
+     "alternativo": "Franz Beckenbauer Supercup, Germany Super Cup",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/uinrh41783491483.png",
+     "es_copa": true
+    },
+    {
+     "id": "5403",
+     "nombre": "DFB-Pokal Frauen",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/y3h7ps1696002598.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Francia",
+   "pais": "France",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4334",
+     "nombre": "French Ligue 1",
+     "alternativo": "Ligue 1 Conforama France",
+     "division": 0,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/9f7z9d1742983155.png",
+     "es_copa": false
+    },
+    {
+     "id": "4401",
+     "nombre": "French Ligue 2",
+     "alternativo": "Domino’s Ligue 2, Ligue 2 BKT",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/aofb771742983333.png",
+     "es_copa": false
+    },
+    {
+     "id": "4637",
+     "nombre": "French Ligue 3",
+     "alternativo": "French Championnat National",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/juz5uk1782148998.png",
+     "es_copa": false
+    },
+    {
+     "id": "5320",
+     "nombre": "French National 1 Group A",
+     "alternativo": "Championnat National 1 Groupe A",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/9o7vhf1782149689.png",
+     "es_copa": false
+    },
+    {
+     "id": "5321",
+     "nombre": "French National 1 Group B",
+     "alternativo": "Championnat National 1 Groupe B",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/tglm4d1782149454.png",
+     "es_copa": false
+    },
+    {
+     "id": "5322",
+     "nombre": "French National 1 Group C",
+     "alternativo": "Championnat National 1 Groupe C",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/c8z4b91782149447.png",
+     "es_copa": false
+    },
+    {
+     "id": "5777",
+     "nombre": "French National 2 Group A",
+     "alternativo": "French National 3 Group A",
+     "division": 5,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/10exxn1782150018.png",
+     "es_copa": false
+    },
+    {
+     "id": "5778",
+     "nombre": "French National 2 Group B",
+     "alternativo": "French National 3 Group B",
+     "division": 5,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/pmbtc51782150084.png",
+     "es_copa": false
+    },
+    {
+     "id": "5779",
+     "nombre": "French National 2 Group C",
+     "alternativo": "French National 3 Group C",
+     "division": 5,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/t4jbue1782150776.png",
+     "es_copa": false
+    },
+    {
+     "id": "5780",
+     "nombre": "French National 2 Group D",
+     "alternativo": "French National 3 Group D",
+     "division": 5,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/zk8tlo1782150216.png",
+     "es_copa": false
+    },
+    {
+     "id": "5781",
+     "nombre": "French National 2 Group E",
+     "alternativo": "French National 3 Group E",
+     "division": 5,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/kw9si01782150238.png",
+     "es_copa": false
+    },
+    {
+     "id": "5782",
+     "nombre": "French National 2 Group F",
+     "alternativo": "French National 3 Group F",
+     "division": 5,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/cfzhaw1782150268.png",
+     "es_copa": false
+    },
+    {
+     "id": "5783",
+     "nombre": "French National 2 Group G",
+     "alternativo": "French National 3 Group G",
+     "division": 5,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/resqmm1782150332.png",
+     "es_copa": false
+    },
+    {
+     "id": "5784",
+     "nombre": "French National 2 Group H",
+     "alternativo": "French National 3 Group H",
+     "division": 5,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/po0ni51782150720.png",
+     "es_copa": false
+    },
+    {
+     "id": "5323",
+     "nombre": "French National 2 Group D",
+     "alternativo": "",
+     "division": 200,
+     "temporada": "2023-2024",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/dsvwj01659092666.png",
+     "es_copa": false
+    },
+    {
+     "id": "5203",
+     "nombre": "French Première Ligue",
+     "alternativo": "France Première Ligue",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/55hld21720113684.png",
+     "es_copa": false
+    },
+    {
+     "id": "4484",
+     "nombre": "Coupe de France",
+     "alternativo": "French Cup",
+     "division": 99,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/l6fitb1546469041.png",
+     "es_copa": true
+    },
+    {
+     "id": "4504",
+     "nombre": "Coupe de la Ligue",
+     "alternativo": "French League Cup",
+     "division": 99,
+     "temporada": "2019-2020",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rae4sv1596208538.png",
+     "es_copa": true
+    },
+    {
+     "id": "4901",
+     "nombre": "French Trophée des Champions",
+     "alternativo": "Trophée des Champions",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/vid0js1765815261.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Austria",
+   "pais": "Austria",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4621",
+     "nombre": "Austrian Bundesliga",
+     "alternativo": "Austrian Football Bundesliga, Österreichische Fußball-Bundesliga, ÖFB, OeFB",
+     "division": 0,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/vcgyu71686617925.png",
+     "es_copa": false
+    },
+    {
+     "id": "4796",
+     "nombre": "Austrian Erste Liga",
+     "alternativo": "Austrian Football Second League, 2. Liga",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/cfk37g1583582239.png",
+     "es_copa": false
+    },
+    {
+     "id": "5934",
+     "nombre": "Austrian Regionalliga Nord",
+     "alternativo": "Regionalliga North",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/skercg1786033503.png",
+     "es_copa": false
+    },
+    {
+     "id": "5317",
+     "nombre": "Austrian Regionalliga Ost",
+     "alternativo": "Fußball-Regionalliga Österreich",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/2luyzj1783061163.png",
+     "es_copa": false
+    },
+    {
+     "id": "5935",
+     "nombre": "Austrian Regionalliga Süd",
+     "alternativo": "Regionalliga South",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/hial0e1786033508.png",
+     "es_copa": false
+    },
+    {
+     "id": "5316",
+     "nombre": "Austrian Regionalliga West",
+     "alternativo": "Fußball-Regionalliga Österreich",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/54pzs31783060836.png",
+     "es_copa": false
+    },
+    {
+     "id": "5318",
+     "nombre": "Austrian Regionalliga Mitte",
+     "alternativo": "Fußball-Regionalliga Österreich",
+     "division": 200,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/zjzc0t1659092383.png",
+     "es_copa": false
+    },
+    {
+     "id": "5883",
+     "nombre": "Austrian Cup",
+     "alternativo": "ÖFB-Cup",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/jie4at1778948148.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Azerbaiyán",
+   "pais": "Azerbaijan",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4693",
+     "nombre": "Azerbaijani Premier League",
+     "alternativo": "Azerbaijan Premier League, Azərbaycan Premyer Liqası",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/urt6hw1614346226.png",
+     "es_copa": false
+    },
+    {
+     "id": "4914",
+     "nombre": "Azerbaijan First Division",
+     "alternativo": "Azərbaycan Birinci Divizionu",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/f1w1dr1726245781.png",
+     "es_copa": false
+    },
+    {
+     "id": "4915",
+     "nombre": "Azerbaijan Cup",
+     "alternativo": "Azərbaycan Kuboku",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/2iixkj1614345443.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Bélgica",
+   "pais": "Belgium",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4338",
+     "nombre": "Belgian Pro League",
+     "alternativo": "Belgium Jupiler Pro League",
+     "division": 0,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/xj8azr1786316931.png",
+     "es_copa": false
+    },
+    {
+     "id": "4623",
+     "nombre": "Belgian Challenger Pro League",
+     "alternativo": "Belgian First Division B",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/2nwcvo1786316608.png",
+     "es_copa": false
+    },
+    {
+     "id": "5942",
+     "nombre": "Belgian Womens Pro League",
+     "alternativo": "Lotto Womens Pro League, Championnat de Belgique de football féminin, Belgische Women's Pro League, Belgische Frauen-Pro-League",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/j86bw71787589369.png",
+     "es_copa": false
+    },
+    {
+     "id": "5831",
+     "nombre": "Belgian Cup",
+     "alternativo": "Croky Cup, Coupe de Belgique, Beker van België, Belgischer Fußballpokal",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/sa6dym1771044920.png",
+     "es_copa": true
+    },
+    {
+     "id": "5923",
+     "nombre": "Belgian Super Cup",
+     "alternativo": "Belgische Supercup, Supercoupe de Belgique, Belgischer Fußball-Super Cup",
+     "division": 99,
+     "temporada": "2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/oww6is1784133244.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Bosnia y Herzegovina",
+   "pais": "Bosnia and Herzegovina",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4624",
+     "nombre": "Bosnian Premier Liga",
+     "alternativo": "Premier League of Bosnia and Herzegovina,  BH Telecom Premijer liga Bosne i Hercegovine,  БХ Телеком Премијер лига Босне и Херцеговине, Liga 12, Wwin League",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/kvmxlj1721283327.png",
+     "es_copa": false
+    },
+    {
+     "id": "4911",
+     "nombre": "Bosnian First League",
+     "alternativo": "M:tel First League of the Federation of Bosnia and Herzegovina,  m:tel Prva liga Federacije Bosne i Hercegovine, м:тел Прва лига Федерације Босне и Херцеговине",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ilklgq1614354716.png",
+     "es_copa": false
+    },
+    {
+     "id": "4912",
+     "nombre": "Bosnian First League of Srpska",
+     "alternativo": "Prva liga Republike Srpske, Прва лига Републике Српске",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/g612yh1614354805.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Bulgaria",
+   "pais": "Bulgaria",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4626",
+     "nombre": "Bulgarian First League",
+     "alternativo": "efbet League, Първа професионална футболна лига, First Professional Football League, 1 PFG, ",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/nujbma1730047938.png",
+     "es_copa": false
+    },
+    {
+     "id": "4913",
+     "nombre": "Bulgarian Second League",
+     "alternativo": "Втора професионална футболна лига, Втора лига, Second Professional Football League",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/5j6cd21614355250.png",
+     "es_copa": false
+    },
+    {
+     "id": "5955",
+     "nombre": "Bulgarian Third League North-East",
+     "alternativo": "Североизточна Трета аматьорска футболна лига, Treta Liga",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/e7st5e1790177986.png",
+     "es_copa": false
+    },
+    {
+     "id": "5956",
+     "nombre": "Bulgarian Third League North-West",
+     "alternativo": "Северозападна Трета аматьорска футболна, Treta Liga",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/iep6fm1790177987.png",
+     "es_copa": false
+    },
+    {
+     "id": "5957",
+     "nombre": "Bulgarian Third League South-East",
+     "alternativo": "Югоизточна Трета аматьорска футболна лига, Treta Liga",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/12a44w1790177988.png",
+     "es_copa": false
+    },
+    {
+     "id": "5958",
+     "nombre": "Bulgarian Third League South-West",
+     "alternativo": "Югозападна Трета аматьорска футболна лига, Treta Liga",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/gw3m9i1790177989.png",
+     "es_copa": false
+    },
+    {
+     "id": "5967",
+     "nombre": "Bulgarian Cup",
+     "alternativo": "Купа на България, Sesame Bulgarian Cup",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/9dbke51791818434.png",
+     "es_copa": true
+    },
+    {
+     "id": "5909",
+     "nombre": "Bulgarian Supercup",
+     "alternativo": "Суперкупа на България",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/0mj68v1782336138.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Chipre",
+   "pais": "Cyprus",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4630",
+     "nombre": "Cypriot First Division",
+     "alternativo": "Πρωτάθλημα Α΄ Κατηγορίας",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ivdlve1760652025.png",
+     "es_copa": false
+    },
+    {
+     "id": "4953",
+     "nombre": "Cypriot Second Division",
+     "alternativo": "Πρωτάθλημα Β΄ Κατηγορίας",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/9guxil1615835119.png",
+     "es_copa": false
+    },
+    {
+     "id": "5744",
+     "nombre": "Cypriot Cup",
+     "alternativo": "Κύπελλο Κύπρου Coca-Cola A",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/apgcw21763503839.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Croacia",
+   "pais": "Croatia",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4629",
+     "nombre": "Croatian First Football League",
+     "alternativo": "Prva HNL",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/bgo85e1781975278.png",
+     "es_copa": false
+    },
+    {
+     "id": "4952",
+     "nombre": "Croatian Druga HNL",
+     "alternativo": "Druga HNL, 2. HNL, Croatian Second Football League, Druga hrvatska nogometna liga, Prva NL",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/2bdq071615833896.png",
+     "es_copa": false
+    },
+    {
+     "id": "5910",
+     "nombre": "Croatian Second Football League",
+     "alternativo": "Druga nogometna liga, Druga NL, 2. NL",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/fp9gic1782336954.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Dinamarca",
+   "pais": "Denmark",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4340",
+     "nombre": "Danish Superliga",
+     "alternativo": "",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/28uq381687624585.png",
+     "es_copa": false
+    },
+    {
+     "id": "4683",
+     "nombre": "Danish 1st Division",
+     "alternativo": "Danish 1. Division, Viasat Divisionen",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ugpfcx1781197975.png",
+     "es_copa": false
+    },
+    {
+     "id": "4632",
+     "nombre": "Danish 2nd Division",
+     "alternativo": "",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/iresgl1781198827.png",
+     "es_copa": false
+    },
+    {
+     "id": "5222",
+     "nombre": "Denmark 3 Division",
+     "alternativo": "Danmarksturneringens 3. division",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/9xc2au1781198923.png",
+     "es_copa": false
+    },
+    {
+     "id": "5395",
+     "nombre": "Denmark Series Group 1",
+     "alternativo": "Danmarksserien Pulje 1",
+     "division": 4,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/zw67741689316732.png",
+     "es_copa": false
+    },
+    {
+     "id": "5396",
+     "nombre": "Denmark Series Group 2",
+     "alternativo": "Danmarksserien Pulje 2",
+     "division": 4,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/8m3yz91689316738.png",
+     "es_copa": false
+    },
+    {
+     "id": "5397",
+     "nombre": "Denmark Series Group 3",
+     "alternativo": "Danmarksserien Pulje 3",
+     "division": 4,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/8pcnhz1689316744.png",
+     "es_copa": false
+    },
+    {
+     "id": "5398",
+     "nombre": "Denmark Series Group 4",
+     "alternativo": "Danmarksserien Pulje 4",
+     "division": 4,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/d1fwfw1689316749.png",
+     "es_copa": false
+    },
+    {
+     "id": "5202",
+     "nombre": "Denmark A-Liga",
+     "alternativo": "Danish A-Liga",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/kjyq741783226588.png",
+     "es_copa": false
+    },
+    {
+     "id": "5184",
+     "nombre": "Denmark DBU Pokalen",
+     "alternativo": "Betano Pokalen",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/6x0gny1693375690.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Escocia",
+   "pais": "Scotland",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4330",
+     "nombre": "Scottish Premier League",
+     "alternativo": "Scotland Premiership, SPFL, William Hill Premiership",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/72d3zc1688333496.png",
+     "es_copa": false
+    },
+    {
+     "id": "4395",
+     "nombre": "Scottish Championship",
+     "alternativo": "William Hill Championship",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/i57nok1721301867.png",
+     "es_copa": false
+    },
+    {
+     "id": "4669",
+     "nombre": "Scottish League 1",
+     "alternativo": "Ladbrokes League One, William Hill League One",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/gb4m951721302014.png",
+     "es_copa": false
+    },
+    {
+     "id": "4670",
+     "nombre": "Scottish League 2",
+     "alternativo": "William Hill League Two",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/x52tu31721302085.png",
+     "es_copa": false
+    },
+    {
+     "id": "5095",
+     "nombre": "Scottish Highland League",
+     "alternativo": "SHFL, Breedon Highland League",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/90vtpo1636924315.png",
+     "es_copa": false
+    },
+    {
+     "id": "5918",
+     "nombre": "Scottish Lowland League East",
+     "alternativo": "Lowland League East",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/a45vwb1783098999.png",
+     "es_copa": false
+    },
+    {
+     "id": "5917",
+     "nombre": "Scottish Lowland League West",
+     "alternativo": "",
+     "division": 5,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/6pt67m1783099009.png",
+     "es_copa": false
+    },
+    {
+     "id": "5096",
+     "nombre": "Scottish Lowland League",
+     "alternativo": "",
+     "division": 200,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/vhftri1636924329.png",
+     "es_copa": false
+    },
+    {
+     "id": "5939",
+     "nombre": "Scottish Challenge Cup",
+     "alternativo": "Scottish Professional Football League Challenge Cup, KDM Evolution Trophy",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/tc81lw1786033625.png",
+     "es_copa": true
+    },
+    {
+     "id": "4723",
+     "nombre": "Scottish FA Cup",
+     "alternativo": "Scottish Cup",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/6m7mow1693378371.png",
+     "es_copa": true
+    },
+    {
+     "id": "4888",
+     "nombre": "Scottish League Cup",
+     "alternativo": "Premier Sports Cup, Betfred Cup",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/u3h74h1626185819.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Eslovaquia",
+   "pais": "Slovakia",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4672",
+     "nombre": "Slovak First Football League",
+     "alternativo": "Fortuna liga, Niké Liga",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/sxh5831689798996.png",
+     "es_copa": false
+    },
+    {
+     "id": "5314",
+     "nombre": "Slovakian 2 Liga",
+     "alternativo": "Slovak Second Football League, 2. slovenská futbalová liga, MONACObet LIGA",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/zs8sm61659090694.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Eslovenia",
+   "pais": "Slovenia",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4692",
+     "nombre": "Slovenian 1. SNL",
+     "alternativo": "Prva liga Telekom Slovenije, Slovenian PrvaLiga, Prva liga Telemach",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/t1v1s91635866998.png",
+     "es_copa": false
+    },
+    {
+     "id": "5313",
+     "nombre": "Slovenian 2 SNL",
+     "alternativo": "Slovenian Second League, Druga slovenska nogometna liga",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/mhxzr81722835100.png",
+     "es_copa": false
+    },
+    {
+     "id": "5196",
+     "nombre": "Slovenia Cup",
+     "alternativo": "Pokal Nogometne zveze Slovenije",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/919z3w1645321537.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Estonia",
+   "pais": "Estonia",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4634",
+     "nombre": "Estonian Meistriliiga",
+     "alternativo": "A. Le Coq Premium Liiga",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/uztem21615840481.png",
+     "es_copa": false
+    },
+    {
+     "id": "4958",
+     "nombre": "Estonian Esiliiga",
+     "alternativo": "",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/p6f30k1615840502.png",
+     "es_copa": false
+    },
+    {
+     "id": "5837",
+     "nombre": "Estonian Esiliiga B",
+     "alternativo": "",
+     "division": 3,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/k5slvg1772205217.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Finlandia",
+   "pais": "Finland",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4636",
+     "nombre": "Finnish Veikkausliiga",
+     "alternativo": "Tipsligan",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/s9v1tg1742782748.png",
+     "es_copa": false
+    },
+    {
+     "id": "5474",
+     "nombre": "Finnish Ykkösliiga",
+     "alternativo": "",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/qbfz6j1719332882.png",
+     "es_copa": false
+    },
+    {
+     "id": "4963",
+     "nombre": "Finnish Ykkönen",
+     "alternativo": "Ettan, Miesten Ykkönen",
+     "division": 3,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/4epdrs1718426957.png",
+     "es_copa": false
+    },
+    {
+     "id": "5186",
+     "nombre": "Finnish Cup",
+     "alternativo": "Suomen Cup",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/1wzz3z1696460808.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Georgia",
+   "pais": "Georgia",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4638",
+     "nombre": "Georgian Erovnuli Liga",
+     "alternativo": "ეროვნული ლიგა",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/e2w17c1615904677.png",
+     "es_copa": false
+    },
+    {
+     "id": "4973",
+     "nombre": "Georgian Erovnuli Liga 2",
+     "alternativo": "ეროვნული ლიგა 2, National League 2",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/zdiwr81617286887.png",
+     "es_copa": false
+    },
+    {
+     "id": "5839",
+     "nombre": "Georgian Liga 3",
+     "alternativo": "ლიგა 3",
+     "division": 3,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ofw1r21772205826.png",
+     "es_copa": false
+    },
+    {
+     "id": "5915",
+     "nombre": "Georgian Super Cup",
+     "alternativo": "საქართველოს საფეხბურთო სუპერთასი",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/mtg3s21783009422.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Gales",
+   "pais": "Wales",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4472",
+     "nombre": "Welsh Cymru Premier",
+     "alternativo": "Welsh Premier League",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/lblj6h1783142395.png",
+     "es_copa": false
+    },
+    {
+     "id": "5315",
+     "nombre": "Welsh Cymru North-South",
+     "alternativo": "",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/7un8s01791735697.png",
+     "es_copa": false
+    },
+    {
+     "id": "5099",
+     "nombre": "Welsh League Cup",
+     "alternativo": "Nathaniel MG Cup",
+     "division": 99,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/mc4edu1758495733.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Grecia",
+   "pais": "Greece",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4336",
+     "nombre": "Greek Super League 1",
+     "alternativo": "Greek Superleague, Σούπερ Λιγκ 1",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/sni7f51782459204.png",
+     "es_copa": false
+    },
+    {
+     "id": "4640",
+     "nombre": "Greek Super League 2",
+     "alternativo": "Super League Greece 2, Σούπερ Λιγκ 2, A2 Ethniki Katigoria, Α2 Εθνική Κατηγορία",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/kosnhq1698212674.png",
+     "es_copa": false
+    },
+    {
+     "id": "5842",
+     "nombre": "Greek Gamma Ethniki Group 1",
+     "alternativo": "Gamma Ethniki Katigoria, Γ΄ Εθνική Κατηγορία",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/lr8ov61773069831.png",
+     "es_copa": false
+    },
+    {
+     "id": "5966",
+     "nombre": "Greek Gamma Ethniki Group 10",
+     "alternativo": "Gamma Ethniki Katigoria, Γ΄ Εθνική Κατηγορία",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/4lh9xh1791818642.png",
+     "es_copa": false
+    },
+    {
+     "id": "5843",
+     "nombre": "Greek Gamma Ethniki Group 2",
+     "alternativo": "Gamma Ethniki Katigoria, Γ΄ Εθνική Κατηγορία",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/qo14g71773069905.png",
+     "es_copa": false
+    },
+    {
+     "id": "5844",
+     "nombre": "Greek Gamma Ethniki Group 3",
+     "alternativo": "Gamma Ethniki Katigoria, Γ΄ Εθνική Κατηγορία",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/l2h1pg1773069907.png",
+     "es_copa": false
+    },
+    {
+     "id": "5845",
+     "nombre": "Greek Gamma Ethniki Group 4",
+     "alternativo": "Gamma Ethniki Katigoria, Γ΄ Εθνική Κατηγορία",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/mp3gsq1773069908.png",
+     "es_copa": false
+    },
+    {
+     "id": "5846",
+     "nombre": "Greek Gamma Ethniki Group 5",
+     "alternativo": "Gamma Ethniki Katigoria, Γ΄ Εθνική Κατηγορία",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/cw05gh1773069909.png",
+     "es_copa": false
+    },
+    {
+     "id": "5847",
+     "nombre": "Greek Gamma Ethniki Group 6",
+     "alternativo": "Gamma Ethniki Katigoria, Γ΄ Εθνική Κατηγορία",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/qtcf321773069910.png",
+     "es_copa": false
+    },
+    {
+     "id": "5963",
+     "nombre": "Greek Gamma Ethniki Group 7",
+     "alternativo": "Gamma Ethniki Katigoria, Γ΄ Εθνική Κατηγορία",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/5poim51791818575.png",
+     "es_copa": false
+    },
+    {
+     "id": "5964",
+     "nombre": "Greek Gamma Ethniki Group 8",
+     "alternativo": "Gamma Ethniki Katigoria, Γ΄ Εθνική Κατηγορία",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ud5wwn1791818593.png",
+     "es_copa": false
+    },
+    {
+     "id": "5965",
+     "nombre": "Greek Gamma Ethniki Group 9",
+     "alternativo": "Gamma Ethniki Katigoria, Γ΄ Εθνική Κατηγορία",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/3mku4j1791818625.png",
+     "es_copa": false
+    },
+    {
+     "id": "5830",
+     "nombre": "Greek Football Cup",
+     "alternativo": "Kypello Elladas, Ελληνικό Κύπελλο Ποδοσφαίρου",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/vigjf11770564410.png",
+     "es_copa": true
+    },
+    {
+     "id": "5916",
+     "nombre": "Greek Super Cup",
+     "alternativo": "Σούπερ Καπ Ελλάδος",
+     "division": 99,
+     "temporada": "2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/jn2fi71783009427.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Hungría",
+   "pais": "Hungary",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4690",
+     "nombre": "Hungarian NB I",
+     "alternativo": "Fizz Liga, Hungarian Nemzeti Bajnokság I, OTP Bank Liga",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/7o3q3t1616017529.png",
+     "es_copa": false
+    },
+    {
+     "id": "4965",
+     "nombre": "Hungarian NB II",
+     "alternativo": "Nemzeti Bajnokság II, Merkantil Bank Liga",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/qjipik1617288269.png",
+     "es_copa": false
+    },
+    {
+     "id": "5865",
+     "nombre": "Hungarian NB III Northeast",
+     "alternativo": "Nemzeti Bajnokság III Észak-keleti csoport",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/sozdne1775664795.png",
+     "es_copa": false
+    },
+    {
+     "id": "5864",
+     "nombre": "Hungarian NB III Northwest",
+     "alternativo": "Nemzeti Bajnokság III Észak-nyugati csoport",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ueod0n1775664813.png",
+     "es_copa": false
+    },
+    {
+     "id": "5867",
+     "nombre": "Hungarian NB III Southeast",
+     "alternativo": "Nemzeti Bajnokság III Dél-keleti csoport",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/4sdc4p1775664832.png",
+     "es_copa": false
+    },
+    {
+     "id": "5866",
+     "nombre": "Hungarian NB III Southwest",
+     "alternativo": "Nemzeti Bajnokság III Dél-nyugati csoport",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/hxsm4x1775664845.png",
+     "es_copa": false
+    },
+    {
+     "id": "5969",
+     "nombre": "Hungarian Cup",
+     "alternativo": "Magyar Kupa, MOL Magyar Kupa",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://www.thesportsdb.com/images/media/league/badge/y8xddo1792511086.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Irlanda",
+   "pais": "Ireland",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4643",
+     "nombre": "Irish Premier Division",
+     "alternativo": "SSE Airtricity League Premier Division, Príomhroinn Sraith na hÉireann",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/m3tu3x1738686046.png",
+     "es_copa": false
+    },
+    {
+     "id": "4757",
+     "nombre": "Irish First Division",
+     "alternativo": "League of Ireland First Division",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/4guctd1738686062.png",
+     "es_copa": false
+    },
+    {
+     "id": "5638",
+     "nombre": "Irish FAI Cup",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ffnp2x1750442568.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Macedonia del Norte",
+   "pais": "Macedonia",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4652",
+     "nombre": "Macedonian First League",
+     "alternativo": "Прва македонска фудбалска лига",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/uu6jik1781481965.png",
+     "es_copa": false
+    },
+    {
+     "id": "5907",
+     "nombre": "Macedonian Second League",
+     "alternativo": "Втора македонска фудбалска лига, Vtora Liga, 2. MFL",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ya1rr11782335726.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Malta",
+   "pais": "Malta",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4653",
+     "nombre": "Maltese Premier League",
+     "alternativo": "Malta Premier League",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/j8ir211776495418.png",
+     "es_copa": false
+    },
+    {
+     "id": "5874",
+     "nombre": "Maltese Challenge League",
+     "alternativo": "BOV Challenge League",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/t4rv9x1776530627.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Noruega",
+   "pais": "Norway",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4358",
+     "nombre": "Norwegian Eliteserien",
+     "alternativo": "Eliteserien",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/owo80l1512822583.png",
+     "es_copa": false
+    },
+    {
+     "id": "4457",
+     "nombre": "Norwegian 1. Divisjon",
+     "alternativo": "OBOS-ligaen",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/cgyfwu1512823098.png",
+     "es_copa": false
+    },
+    {
+     "id": "5758",
+     "nombre": "Norwegian Second Division Group 1",
+     "alternativo": "2. divisjon",
+     "division": 3,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/8why1j1766419508.png",
+     "es_copa": false
+    },
+    {
+     "id": "5759",
+     "nombre": "Norwegian Second Division Group 2",
+     "alternativo": "2. divisjon",
+     "division": 3,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/75tgr81766419509.png",
+     "es_copa": false
+    },
+    {
+     "id": "5208",
+     "nombre": "Norway Toppserien",
+     "alternativo": "",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rrqfju1680856735.png",
+     "es_copa": false
+    },
+    {
+     "id": "5634",
+     "nombre": "Norwegian Cupen",
+     "alternativo": "Norgesmesterskapet, Norwegian Football Cup, NM Cup, NM Cupen",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ixj3ri1750442515.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Países Bajos",
+   "pais": "The Netherlands",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4337",
+     "nombre": "Dutch Eredivisie",
+     "alternativo": "Eredivisie",
+     "division": 0,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/5cdsu21725984946.png",
+     "es_copa": false
+    },
+    {
+     "id": "4641",
+     "nombre": "Dutch Eerste Divisie",
+     "alternativo": "Keuken Kampioen Divisie",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/yx2lbu1579463797.png",
+     "es_copa": false
+    },
+    {
+     "id": "5098",
+     "nombre": "Dutch Tweede Divisie",
+     "alternativo": "Jack",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/tfz6zu1724393079.png",
+     "es_copa": false
+    },
+    {
+     "id": "5223",
+     "nombre": "Netherlands Derde Divisie Saturday",
+     "alternativo": "Derde Divisie A",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/fu3ur41645300487.png",
+     "es_copa": false
+    },
+    {
+     "id": "5224",
+     "nombre": "Netherlands Derde Divisie Sunday",
+     "alternativo": "Derde Divisie B",
+     "division": 4,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/i9efxp1645300478.png",
+     "es_copa": false
+    },
+    {
+     "id": "5207",
+     "nombre": "Netherlands Eredivisie Women",
+     "alternativo": "",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/artwbf1778223184.png",
+     "es_copa": false
+    },
+    {
+     "id": "4902",
+     "nombre": "Dutch KNVB Cup",
+     "alternativo": "KNVB Cup",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/to8dpt1757803973.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Polonia",
+   "pais": "Poland",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4422",
+     "nombre": "Polish Ekstraklasa",
+     "alternativo": "Ekstraklasa, PKO Bank Polski Ekstraklasa",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/l3jovw1516960585.png",
+     "es_copa": false
+    },
+    {
+     "id": "4661",
+     "nombre": "Polish I liga",
+     "alternativo": "I liga polska, Pierwsza liga, Fortuna I liga, Betclic 1 Liga",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/kf2y521760289353.png",
+     "es_copa": false
+    },
+    {
+     "id": "5709",
+     "nombre": "Polish II liga",
+     "alternativo": "Druga liga, Betclic II liga",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ck3xnx1760289040.png",
+     "es_copa": false
+    },
+    {
+     "id": "5798",
+     "nombre": "Polish III liga Group I",
+     "alternativo": "Trzecia liga, III liga polska w piłce nożnej Grupa I",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/o7yz8f1768577527.png",
+     "es_copa": false
+    },
+    {
+     "id": "5799",
+     "nombre": "Polish III liga Group II",
+     "alternativo": "Trzecia liga, III liga polska w piłce nożnej Grupa II",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/904zs01768577537.png",
+     "es_copa": false
+    },
+    {
+     "id": "5800",
+     "nombre": "Polish III liga Group III",
+     "alternativo": "Trzecia liga, III liga polska w piłce nożnej Grupa III",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/qmm6071768577545.png",
+     "es_copa": false
+    },
+    {
+     "id": "5801",
+     "nombre": "Polish III liga Group IV",
+     "alternativo": "Trzecia liga, III liga polska w piłce nożnej Grupa IV",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/mzkpob1768577552.png",
+     "es_copa": false
+    },
+    {
+     "id": "5838",
+     "nombre": "Polish Cup",
+     "alternativo": "Puchar Polski w piłce nożnej",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/t5x8f41772206659.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Portugal",
+   "pais": "Portugal",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4344",
+     "nombre": "Portuguese Primeira Liga",
+     "alternativo": "Liga NOS, Liga Portugal Betclic",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/3tgdke1782689102.png",
+     "es_copa": false
+    },
+    {
+     "id": "4662",
+     "nombre": "Portuguese LigaPro",
+     "alternativo": "Liga Portugal 2, Liga Portugal 2 SABSEG, Liga Portugal Meu Super",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/pns32l1782689191.png",
+     "es_copa": false
+    },
+    {
+     "id": "5216",
+     "nombre": "Portugal Liga 3",
+     "alternativo": "",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/hwxn9v1782689526.png",
+     "es_copa": false
+    },
+    {
+     "id": "5745",
+     "nombre": "Campeonato de Portugal Serie A",
+     "alternativo": "",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/je5w2u1763482075.png",
+     "es_copa": false
+    },
+    {
+     "id": "5746",
+     "nombre": "Campeonato de Portugal Serie B",
+     "alternativo": "",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/eykr7o1763482078.png",
+     "es_copa": false
+    },
+    {
+     "id": "5747",
+     "nombre": "Campeonato de Portugal Serie C",
+     "alternativo": "",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/dfnqet1763482079.png",
+     "es_copa": false
+    },
+    {
+     "id": "5748",
+     "nombre": "Campeonato de Portugal Serie D",
+     "alternativo": "",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/d6zdpf1763482082.png",
+     "es_copa": false
+    },
+    {
+     "id": "5924",
+     "nombre": "Portuguese Supertaça Cândido de Oliveira",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/sqfjes1784133380.png",
+     "es_copa": true
+    },
+    {
+     "id": "4509",
+     "nombre": "Taca de Liga",
+     "alternativo": "Portuguese League Cup, Allianz Cup",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/crq7hz1593012623.png",
+     "es_copa": true
+    },
+    {
+     "id": "4510",
+     "nombre": "Taca de Portugal",
+     "alternativo": "Taça de Portugal Generali Tranquilidade",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/hyy7lq1593011553.png",
+     "es_copa": true
+    },
+    {
+     "id": "5404",
+     "nombre": "Campeonato Nacional Feminino",
+     "alternativo": "Liga BPI",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/v41rcp1696013957.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "República Checa",
+   "pais": "Czechia",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4631",
+     "nombre": "Czech First League",
+     "alternativo": "Fortuna Liga, Gambrinus, Chance Liga",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/g6dyni1791697685.png",
+     "es_copa": false
+    },
+    {
+     "id": "4954",
+     "nombre": "Czech National Football League",
+     "alternativo": "Chance národní liga, FNL,2. liga, Druhá liga, CHNL",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/k0rw8a1791697410.png",
+     "es_copa": false
+    },
+    {
+     "id": "5878",
+     "nombre": "Czech Bohemian Football League Group A",
+     "alternativo": "3. Česká fotbalová liga, ČFL Skupina A",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/lk1rdg1778280285.png",
+     "es_copa": false
+    },
+    {
+     "id": "5879",
+     "nombre": "Czech Bohemian Football League Group B",
+     "alternativo": "3. Česká fotbalová liga, ČFL Skupina B",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/3tyvef1778280286.png",
+     "es_copa": false
+    },
+    {
+     "id": "5880",
+     "nombre": "Czech Moravian-Silesian Football League",
+     "alternativo": "Moravskoslezská fotbalová liga, MSFL",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ji4c5d1778280279.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Rumanía",
+   "pais": "Romania",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4691",
+     "nombre": "Romanian Liga I",
+     "alternativo": "Superliga, Casa Liga 1",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/x9ordh1662657856.png",
+     "es_copa": false
+    },
+    {
+     "id": "4665",
+     "nombre": "Romanian Liga II",
+     "alternativo": "Romanian Liga 2",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/m7b7xt1580764061.png",
+     "es_copa": false
+    },
+    {
+     "id": "5821",
+     "nombre": "Romanian Liga III Seria I",
+     "alternativo": "Liga 3 Group I",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/6a5yy91770565629.png",
+     "es_copa": false
+    },
+    {
+     "id": "5822",
+     "nombre": "Romanian Liga III Seria II",
+     "alternativo": "Liga 3 Group II",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/iyyou61770566003.png",
+     "es_copa": false
+    },
+    {
+     "id": "5823",
+     "nombre": "Romanian Liga III Seria III",
+     "alternativo": "Liga 3 Group III",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/8ayz881770566020.png",
+     "es_copa": false
+    },
+    {
+     "id": "5824",
+     "nombre": "Romanian Liga III Seria IV",
+     "alternativo": "Liga 3 Group IV",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/le4cuz1770566033.png",
+     "es_copa": false
+    },
+    {
+     "id": "5825",
+     "nombre": "Romanian Liga III Seria V",
+     "alternativo": "Liga 3 Group V",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/l4vqsl1770566054.png",
+     "es_copa": false
+    },
+    {
+     "id": "5826",
+     "nombre": "Romanian Liga III Seria VI",
+     "alternativo": "Liga 3 Group VI",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/cqndpi1770566073.png",
+     "es_copa": false
+    },
+    {
+     "id": "5827",
+     "nombre": "Romanian Liga III Seria VII",
+     "alternativo": "Liga 3 Group VII",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/mhxybj1770566090.png",
+     "es_copa": false
+    },
+    {
+     "id": "5828",
+     "nombre": "Romanian Liga III Seria VIII",
+     "alternativo": "Liga 3 Group VIII",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/p2ulqj1770566107.png",
+     "es_copa": false
+    },
+    {
+     "id": "5946",
+     "nombre": "Romanian Liga I Feminin",
+     "alternativo": "SuperLiga Feminină",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/oa8fbq1788391382.png",
+     "es_copa": false
+    },
+    {
+     "id": "5925",
+     "nombre": "Supercupa României",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/wduiiv1784133675.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "San Marino",
+   "pais": "San Marino",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4667",
+     "nombre": "San-Marino Campionato",
+     "alternativo": "Campionato Sammarinese di Calcio",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/sbg1u81689796511.png",
+     "es_copa": false
+    },
+    {
+     "id": "5195",
+     "nombre": "San Marino Coppa Titano",
+     "alternativo": "",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/z4xn4v1689796230.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Serbia",
+   "pais": "Serbia",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4671",
+     "nombre": "Serbian Super Liga",
+     "alternativo": "Serbian SuperLiga, Суперлига Србије, Superliga Srbije, Linglong Tire SuperLiga",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/lu8cvs1578940052.png",
+     "es_copa": false
+    },
+    {
+     "id": "5074",
+     "nombre": "Serbian Prva Liga",
+     "alternativo": "Serbian First League, Прва лига Србије, Prva liga Srbije",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ho35qh1625260718.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Suecia",
+   "pais": "Sweden",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4347",
+     "nombre": "Swedish Allsvenskan",
+     "alternativo": "Fotbollsallsvenskan",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/denok11707459183.png",
+     "es_copa": false
+    },
+    {
+     "id": "4403",
+     "nombre": "Swedish Superettan",
+     "alternativo": "Superettan",
+     "division": 2,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/uvzmu21707459258.png",
+     "es_copa": false
+    },
+    {
+     "id": "4674",
+     "nombre": "Swedish Division 1 North",
+     "alternativo": "Ettan Norra",
+     "division": 3,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/w8f05c1579901188.png",
+     "es_copa": false
+    },
+    {
+     "id": "4845",
+     "nombre": "Swedish Division 1 South",
+     "alternativo": "Ettan Södra",
+     "division": 3,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/w8f05c1579901188.png",
+     "es_copa": false
+    },
+    {
+     "id": "5209",
+     "nombre": "Sweden Damallsvenskan",
+     "alternativo": "",
+     "division": 1,
+     "temporada": "2026",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/f6g3rm1645298741.png",
+     "es_copa": false
+    },
+    {
+     "id": "4756",
+     "nombre": "Svenska Cupen",
+     "alternativo": "Svenska Cupen",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/p37u1n1694211430.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Suiza",
+   "pais": "Switzerland",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4675",
+     "nombre": "Swiss Super League",
+     "alternativo": "Schweizer Super League, Raiffeisen Super League, Brack Super League",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/id6q2r1635867584.png",
+     "es_copa": false
+    },
+    {
+     "id": "4713",
+     "nombre": "Swiss Challenge League",
+     "alternativo": "Brack.ch Challenge League, Dieci Challenge League",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/5816yi1635867610.png",
+     "es_copa": false
+    },
+    {
+     "id": "5319",
+     "nombre": "Swiss Promotion League",
+     "alternativo": "Hoval Promotion League",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/xcmmy61688321286.png",
+     "es_copa": false
+    },
+    {
+     "id": "5936",
+     "nombre": "Swiss 1. Liga Classic Group 1",
+     "alternativo": "Erste Liga Gruppe 1, Première Ligue Groupe 1, Prima Lega Girone 1",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/8drmzk1786033545.png",
+     "es_copa": false
+    },
+    {
+     "id": "5937",
+     "nombre": "Swiss 1. Liga Classic Group 2",
+     "alternativo": "Erste Liga Gruppe 2, Première Ligue Groupe 2, Prima Lega Girone 2",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/2fl1sc1786033567.png",
+     "es_copa": false
+    },
+    {
+     "id": "5938",
+     "nombre": "Swiss 1. Liga Classic Group 3",
+     "alternativo": "Erste Liga Gruppe 3, Première Ligue Groupe 3, Prima Lega Girone 3",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/gptffe1786033582.png",
+     "es_copa": false
+    },
+    {
+     "id": "5940",
+     "nombre": "Swiss Womens Super League",
+     "alternativo": "Nationalliga A, AXA Womens Super League",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rqd03w1786033364.png",
+     "es_copa": false
+    },
+    {
+     "id": "5489",
+     "nombre": "Swiss Cup",
+     "alternativo": "Schweizer Cup, Coupe de Suisse, Coppa Svizzera",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/jctm2j1722793404.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Turquía",
+   "pais": "Turkey",
+   "region": "Europa",
+   "ligas": [
+    {
+     "id": "4339",
+     "nombre": "Turkish Super Lig",
+     "alternativo": "Trendyol Süper Lig",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/dikktz1785779891.png",
+     "es_copa": false
+    },
+    {
+     "id": "4676",
+     "nombre": "Turkish 1 Lig",
+     "alternativo": "TFF 1. Lig",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/teu8g81784991514.png",
+     "es_copa": false
+    },
+    {
+     "id": "4679",
+     "nombre": "Turkish 2 Lig",
+     "alternativo": "TFF 2. Lig",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/umsnft1724738719.png",
+     "es_copa": false
+    },
+    {
+     "id": "5868",
+     "nombre": "Turkish 3 Lig Group 1",
+     "alternativo": "TFF 3. Lig 1. Grup",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ngeycp1775665665.png",
+     "es_copa": false
+    },
+    {
+     "id": "5869",
+     "nombre": "Turkish 3 Lig Group 2",
+     "alternativo": "TFF 3. Lig 2. Grup",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/n1mp3r1775665687.png",
+     "es_copa": false
+    },
+    {
+     "id": "5870",
+     "nombre": "Turkish 3 Lig Group 3",
+     "alternativo": "TFF 3. Lig 3. Grup",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/5d4b9w1775665700.png",
+     "es_copa": false
+    },
+    {
+     "id": "5871",
+     "nombre": "Turkish 3 Lig Group 4",
+     "alternativo": "TFF 3. Lig 4. Grup",
+     "division": 200,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/599rzr1775665780.png",
+     "es_copa": false
+    },
+    {
+     "id": "4960",
+     "nombre": "Turkish Cup",
+     "alternativo": "Türkiye Kupası, Ziraat Türkiye Kupası",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/2qgb1w1764032803.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Egipto",
+   "pais": "Egypt",
+   "region": "África",
+   "ligas": [
+    {
+     "id": "4829",
+     "nombre": "Egyptian Premier League",
+     "alternativo": "الدوري المصري الممتاز, El Dawry‎, ORA League",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/v0iz601786057987.png",
+     "es_copa": false
+    },
+    {
+     "id": "5185",
+     "nombre": "Egypt League Cup",
+     "alternativo": "Cup of the Capital of Egypt, كأس الرابطة المصرية",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/nvw1fl1645320012.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Etiopía",
+   "pais": "Ethiopia",
+   "region": "África",
+   "ligas": [
+    {
+     "id": "4959",
+     "nombre": "Ethiopian Premier League",
+     "alternativo": "የኢትዮጵያ ፕሪምየር ሊግ, BetKing Ethiopian Premier League",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/h7n8mg1727714240.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Ghana",
+   "pais": "Ghana",
+   "region": "África",
+   "ligas": [
+    {
+     "id": "4974",
+     "nombre": "Ghanaian Premier League",
+     "alternativo": "",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/fk51ll1691567032.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Emiratos Árabes Unidos",
+   "pais": "United Arab Emirates",
+   "region": "Asia y Oceanía",
+   "ligas": [
+    {
+     "id": "4678",
+     "nombre": "UAE Pro League",
+     "alternativo": "ADNOC Pro League, دوري المحترفين الإماراتي",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/95pes01643234997.png",
+     "es_copa": false
+    },
+    {
+     "id": "5198",
+     "nombre": "UAE League Cup",
+     "alternativo": "كأس رابطة المحترفين الإماراتية",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/4wr6ey1787938819.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "Hong Kong",
+   "pais": "Hong Kong",
+   "region": "Asia y Oceanía",
+   "ligas": [
+    {
+     "id": "4825",
+     "nombre": "Hong-Kong Premier League",
+     "alternativo": "Hong Kong Premier League, 香港超級聯賽, BOC Life Hong Kong Premier League, 中銀集團人壽香港超級聯賽",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/v1q0yp1785430443.png",
+     "es_copa": false
+    },
+    {
+     "id": "5948",
+     "nombre": "Hong Kong FA Cup",
+     "alternativo": "香港足總盃",
+     "division": 99,
+     "temporada": "2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/t1zyzs1788389581.png",
+     "es_copa": true
+    },
+    {
+     "id": "5947",
+     "nombre": "Hong Kong Senior Shield",
+     "alternativo": "香港高級組銀牌",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/zlpnm01788389592.png",
+     "es_copa": true
+    }
+   ]
+  },
+  {
+   "nombre_es": "India",
+   "pais": "India",
+   "region": "Asia y Oceanía",
+   "ligas": [
+    {
+     "id": "4797",
+     "nombre": "Indian Football League",
+     "alternativo": "Indian I-League",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://www.thesportsdb.com/images/media/league/badge/a9br0y1792469577.png",
+     "es_copa": false
+    },
+    {
+     "id": "4791",
+     "nombre": "Indian Super League",
+     "alternativo": "ISL",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://www.thesportsdb.com/images/media/league/badge/ekypmw1792338906.png",
+     "es_copa": false
+    },
+    {
+     "id": "4821",
+     "nombre": "Indian I-League 2",
+     "alternativo": "Indian I-League 2nd Division",
+     "division": 2,
+     "temporada": "2025-2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/yse70l1706108488.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Indonesia",
+   "pais": "Indonesia",
+   "region": "Asia y Oceanía",
+   "ligas": [
+    {
+     "id": "4790",
+     "nombre": "Indonesian Super League",
+     "alternativo": "Liga 1 Indonesia, BRI Liga 1",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/qoz13e1630265283.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Irak",
+   "pais": "Iraq",
+   "region": "Asia y Oceanía",
+   "ligas": [
+    {
+     "id": "5056",
+     "nombre": "Iraqi Premier League",
+     "alternativo": "Iraq Stars League",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/qcxorb1724316189.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Irán",
+   "pais": "Iran",
+   "region": "Asia y Oceanía",
+   "ligas": [
+    {
+     "id": "4742",
+     "nombre": "Iranian Persian Gulf Pro League",
+     "alternativo": "Iranian Persian Gulf Cup, لیگ برتر خلیج فارس",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/4o1xer1582291199.png",
+     "es_copa": false
+    },
+    {
+     "id": "4741",
+     "nombre": "Iranian Azadegan League",
+     "alternativo": "Iran Azadegan League, ليگ آزادگان",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rm4c581582290287.png",
+     "es_copa": false
+    }
+   ]
+  },
+  {
+   "nombre_es": "Islas Salomón",
+   "pais": "Solomon Islands",
+   "region": "Asia y Oceanía",
+   "ligas": []
+  },
+  {
+   "nombre_es": "Japón",
+   "pais": "Japan",
+   "region": "Asia y Oceanía",
+   "ligas": [
+    {
+     "id": "4633",
+     "nombre": "Japanese J1 League",
+     "alternativo": "J1リーグ",
+     "division": 1,
+     "temporada": "2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/32tbx81789965722.png",
+     "es_copa": false
+    },
+    {
+     "id": "4824",
+     "nombre": "Japanese J2 League",
+     "alternativo": " J2リーグ",
+     "division": 2,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/qda5h31789965399.png",
+     "es_copa": false
+    },
+    {
+     "id": "4967",
+     "nombre": "Japanese J3 League",
+     "alternativo": "J3リーグ, Meiji Yasuda J3 League, 明治安田生命J3リーグ)",
+     "division": 3,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/gh1ome1789965377.png",
+     "es_copa": false
+    },
+    {
+     "id": "5626",
+     "nombre": "Japan Football League",
+     "alternativo": "日本フットボールリーグ, Nihon Futtobōru Rīgu",
+     "division": 4,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ny2zr01746325292.png",
+     "es_copa": false
+    },
+    {
+     "id": "5914",
+     "nombre": "Japanese WE League",
+     "alternativo": "WEリーグ, Japan Women",
+     "division": 1,
+     "temporada": "2026-2027",
+     "genero": "Female",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/vcjxfo1783009406.png",
+     "es_copa": false
+    },
+    {
+     "id": "5637",
+     "nombre": "Japan Emperors Cup",
+     "alternativo": "天皇杯 JFA 全日本サッカー選手権大会",
+     "division": 99,
+     "temporada": "2026",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/nd13o11750442580.png",
+     "es_copa": true
+    },
+    {
+     "id": "5188",
+     "nombre": "Japanese JLeague Cup",
+     "alternativo": "J.League Cup, Jリーグカップ",
+     "division": 99,
+     "temporada": "2026-2027",
+     "genero": "Male",
+     "escudo": "https://r2.thesportsdb.com/images/media/league/badge/10wc4o1751606571.png",
+     "es_copa": true
+    }
+   ]
+  }
+ ]
+}

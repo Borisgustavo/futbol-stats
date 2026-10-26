@@ -1,0 +1,874 @@
+{
+ "predicciones": {
+  "2489151": {
+   "id": "2489151",
+   "liga": {
+    "id": "4337",
+    "nombre": "Eredivisie",
+    "pais": "Países Bajos",
+    "escudo": "https://r2.thesportsdb.com/images/media/league/badge/5cdsu21725984946.png"
+   },
+   "inicio": "2026-10-25T11:15:00Z",
+   "local": {
+    "id": "134264",
+    "nombre": "Fortuna Sittard",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/aqr7it1685596947.png"
+   },
+   "visita": {
+    "id": "133757",
+    "nombre": "Excelsior",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/bmbn9v1625172555.png"
+   },
+   "creada": "2026-10-25T02:06:56.065Z",
+   "actualizada": "2026-10-25T02:55:39.286Z",
+   "mercado": "mas15",
+   "cuota_mercado": null,
+   "valor": null,
+   "prob": 0.8866549700656341,
+   "cuota_justa": 1.13,
+   "probs": {
+    "local": 0.33160846720205334,
+    "empate": 0.212650453058218,
+    "visita": 0.45574107973972877,
+    "aem_si": 0.7106167662938383,
+    "aem_no": 0.2893832337061617,
+    "mas15": 0.8866549700656341,
+    "mas25": 0.7198713371572808,
+    "menos25": 0.2801286628427192,
+    "menos35": 0.4875847903428904,
+    "marcadores": [
+     {
+      "marcador": "1-2",
+      "prob": 0.08372273109412502
+     },
+     {
+      "marcador": "1-1",
+      "prob": 0.08280631889100236
+     },
+     {
+      "marcador": "2-2",
+      "prob": 0.07156022957745785
+     },
+     {
+      "marcador": "2-1",
+      "prob": 0.0707769456737195
+     },
+     {
+      "marcador": "1-3",
+      "prob": 0.05643285678142303
+     }
+    ]
+   },
+   "base": {
+    "local": 0.340648854875364,
+    "visita": 0.4507875452798106,
+    "aem_si": 0.7306650968426502,
+    "aem_no": 0.26933490315734976,
+    "mas15": 0.8994108149296747,
+    "mas25": 0.7441427461251611,
+    "menos25": 0.25585725387483893,
+    "menos35": 0.4567924017395036
+   },
+   "lh": 1.7094576023088992,
+   "la": 2.0221338713131045,
+   "datos": {
+    "local_gf": 1.25,
+    "local_gc": 2.25,
+    "local_pj": 4,
+    "visita_gf": 2.2,
+    "visita_gc": 1.6,
+    "visita_pj": 5,
+    "local_ppp": 1.67,
+    "visita_ppp": 1.22
+   },
+   "cuotas_1x2": null,
+   "resultado": null
+  },
+  "2514007": {
+   "id": "2514007",
+   "liga": {
+    "id": "4344",
+    "nombre": "Primeira Liga",
+    "pais": "Portugal",
+    "escudo": "https://r2.thesportsdb.com/images/media/league/badge/3tgdke1782689102.png"
+   },
+   "inicio": "2026-10-25T18:00:00Z",
+   "local": {
+    "id": "134109",
+    "nombre": "Nacional de Madeira",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/1ln5fe1628850538.png"
+   },
+   "visita": {
+    "id": "134098",
+    "nombre": "Braga",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/skbiwo1785775946.png"
+   },
+   "creada": "2026-10-25T02:06:56.066Z",
+   "actualizada": "2026-10-25T02:55:39.286Z",
+   "mercado": "mas15",
+   "cuota_mercado": null,
+   "valor": null,
+   "prob": 0.7810769010903226,
+   "cuota_justa": 1.28,
+   "probs": {
+    "local": 0.26867676479258995,
+    "empate": 0.24050356273982632,
+    "visita": 0.4908196724675844,
+    "aem_si": 0.5660663196917832,
+    "aem_no": 0.4339336803082168,
+    "mas15": 0.7810769010903226,
+    "mas25": 0.5477836129801252,
+    "menos25": 0.4522163870198748,
+    "menos35": 0.6756405017181639,
+    "marcadores": [
+     {
+      "marcador": "1-1",
+      "prob": 0.11310802048432571
+     },
+     {
+      "marcador": "1-2",
+      "prob": 0.09539257889449401
+     },
+     {
+      "marcador": "0-1",
+      "prob": 0.0953422312270401
+     },
+     {
+      "marcador": "0-2",
+      "prob": 0.08040934033995292
+     },
+     {
+      "marcador": "2-1",
+      "prob": 0.06709211717217654
+     }
+    ]
+   },
+   "base": {
+    "local": 0.3446536914404523,
+    "visita": 0.39899037375218654,
+    "aem_si": 0.5523571562562885,
+    "aem_no": 0.44764284374371155,
+    "mas15": 0.7556051652541049,
+    "mas25": 0.5121591387982082,
+    "menos25": 0.4878408612017918,
+    "menos35": 0.7088642273262244
+   },
+   "lh": 1.1863370410849694,
+   "la": 1.6867518056814252,
+   "datos": {
+    "local_gf": 1.25,
+    "local_gc": 2.5,
+    "local_pj": 4,
+    "visita_gf": 1.25,
+    "visita_gc": 1.25,
+    "visita_pj": 4,
+    "local_ppp": 0.5,
+    "visita_ppp": 1.38
+   },
+   "cuotas_1x2": null,
+   "resultado": null
+  },
+  "2489525": {
+   "id": "2489525",
+   "liga": {
+    "id": "4334",
+    "nombre": "Ligue 1",
+    "pais": "Francia",
+    "escudo": "https://r2.thesportsdb.com/images/media/league/badge/9f7z9d1742983155.png"
+   },
+   "inicio": "2026-10-25T16:15:00Z",
+   "local": {
+    "id": "134709",
+    "nombre": "Angers",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/ix6q4w1678808069.png"
+   },
+   "visita": {
+    "id": "133715",
+    "nombre": "Lorient",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/sxsttw1473504748.png"
+   },
+   "creada": "2026-10-25T02:06:56.061Z",
+   "actualizada": "2026-10-25T02:55:39.279Z",
+   "mercado": "menos35",
+   "cuota_mercado": null,
+   "valor": null,
+   "prob": 0.7153568685632686,
+   "cuota_justa": 1.4,
+   "probs": {
+    "local": 0.3343705173896046,
+    "empate": 0.2575370394349855,
+    "visita": 0.4080924431754102,
+    "aem_si": 0.5459578281059231,
+    "aem_no": 0.4540421718940769,
+    "mas15": 0.7502966394620112,
+    "mas25": 0.5049689342358172,
+    "menos25": 0.4950310657641827,
+    "menos35": 0.7153568685632686,
+    "marcadores": [
+     {
+      "marcador": "1-1",
+      "prob": 0.1222313667355089
+     },
+     {
+      "marcador": "0-1",
+      "prob": 0.0964623070319928
+     },
+     {
+      "marcador": "1-2",
+      "prob": 0.08721953428741369
+     },
+     {
+      "marcador": "1-0",
+      "prob": 0.08564885800007349
+     },
+     {
+      "marcador": "2-1",
+      "prob": 0.07744220241941387
+     }
+    ]
+   },
+   "base": {
+    "local": 0.4272540729910859,
+    "visita": 0.3333369123669759,
+    "aem_si": 0.6089300657055292,
+    "aem_no": 0.3910699342944708,
+    "mas15": 0.8076397841097935,
+    "mas25": 0.5870697372025209,
+    "menos25": 0.41293026279747913,
+    "menos35": 0.6368936950417868
+   },
+   "lh": 1.2671412336734753,
+   "la": 1.4271219674102837,
+   "datos": {
+    "local_gf": 1.25,
+    "local_gc": 2.25,
+    "local_pj": 4,
+    "visita_gf": 0.6666666666666666,
+    "visita_gc": 0.6666666666666666,
+    "visita_pj": 3,
+    "local_ppp": 1,
+    "visita_ppp": 1.57
+   },
+   "cuotas_1x2": null,
+   "resultado": null
+  },
+  "2506264": {
+   "id": "2506264",
+   "liga": {
+    "id": "4335",
+    "nombre": "LaLiga",
+    "pais": "España",
+    "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ja4it51687628717.png"
+   },
+   "inicio": "2026-10-25T15:15:00Z",
+   "local": {
+    "id": "133937",
+    "nombre": "Celta Vigo",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/xfjtku1690436219.png"
+   },
+   "visita": {
+    "id": "133722",
+    "nombre": "Real Betis",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/2oqulv1663245386.png"
+   },
+   "creada": "2026-10-25T02:06:56.059Z",
+   "actualizada": "2026-10-25T02:55:39.276Z",
+   "mercado": "menos35",
+   "cuota_mercado": null,
+   "valor": null,
+   "prob": 0.7067302293224598,
+   "cuota_justa": 1.41,
+   "probs": {
+    "local": 0.46007721259281265,
+    "empate": 0.25116367033636233,
+    "visita": 0.28875911707082513,
+    "aem_si": 0.5460578818132188,
+    "aem_no": 0.4539421181867812,
+    "mas15": 0.7573251527145819,
+    "mas25": 0.514505579922437,
+    "menos25": 0.4854944200775631,
+    "menos35": 0.7067302293224598,
+    "marcadores": [
+     {
+      "marcador": "1-1",
+      "prob": 0.11911330983633892
+     },
+     {
+      "marcador": "1-0",
+      "prob": 0.10105420149320274
+     },
+     {
+      "marcador": "2-1",
+      "prob": 0.09258848117162335
+     },
+     {
+      "marcador": "2-0",
+      "prob": 0.07855087769051633
+     },
+     {
+      "marcador": "0-1",
+      "prob": 0.0766184972505847
+     }
+    ]
+   },
+   "base": {
+    "local": 0.45538692983540563,
+    "visita": 0.3072657069176295,
+    "aem_si": 0.6045031019520771,
+    "aem_no": 0.3954968980479229,
+    "mas15": 0.8071176346739021,
+    "mas25": 0.5862748861546762,
+    "menos25": 0.41372511384532384,
+    "menos35": 0.6377003836201417
+   },
+   "lh": 1.5546286355209078,
+   "la": 1.178707149987731,
+   "datos": {
+    "local_gf": 1.8,
+    "local_gc": 1.2,
+    "local_pj": 5,
+    "visita_gf": 1.5,
+    "visita_gc": 1.75,
+    "visita_pj": 4,
+    "local_ppp": 1.22,
+    "visita_ppp": 2.11
+   },
+   "cuotas_1x2": null,
+   "resultado": null
+  },
+  "2398155": {
+   "id": "2398155",
+   "liga": {
+    "id": "4406",
+    "nombre": "Primera Division",
+    "pais": "Argentina",
+    "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rk9xhx1768238251.png"
+   },
+   "inicio": "2026-10-25T22:15:00Z",
+   "local": {
+    "id": "135171",
+    "nombre": "River Plate",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/03dmi31645539717.png"
+   },
+   "visita": {
+    "id": "135170",
+    "nombre": "Racing Club",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/vi4mu41695734959.png"
+   },
+   "creada": "2026-10-25T02:06:56.053Z",
+   "actualizada": "2026-10-25T02:55:39.270Z",
+   "mercado": "mas15",
+   "cuota_mercado": null,
+   "valor": null,
+   "prob": 0.6918378425315062,
+   "cuota_justa": 1.45,
+   "probs": {
+    "local": 0.5287402191229351,
+    "empate": 0.25787820340178286,
+    "visita": 0.2133815774752816,
+    "aem_si": 0.455210791654638,
+    "aem_no": 0.544789208345362,
+    "mas15": 0.6918378425315062,
+    "mas25": 0.4306258677057544,
+    "menos25": 0.5693741322942456,
+    "menos35": 0.7784553673076285,
+    "marcadores": [
+     {
+      "marcador": "1-0",
+      "prob": 0.13881770768445112
+     },
+     {
+      "marcador": "1-1",
+      "prob": 0.120647550776527
+     },
+     {
+      "marcador": "2-0",
+      "prob": 0.10634648035184859
+     },
+     {
+      "marcador": "2-1",
+      "prob": 0.09242655423557114
+     },
+     {
+      "marcador": "0-0",
+      "prob": 0.09060175711979149
+     }
+    ]
+   },
+   "base": {
+    "local": 0.4167932193521856,
+    "visita": 0.29133937277374083,
+    "aem_si": 0.4299381827234476,
+    "aem_no": 0.5700618172765524,
+    "mas15": 0.6345006534545674,
+    "mas25": 0.36538558963554746,
+    "menos25": 0.6346144103644525,
+    "menos35": 0.8279916820999033
+   },
+   "lh": 1.5321745636887558,
+   "la": 0.8691077873924627,
+   "datos": {
+    "local_gf": 1.5263157894736843,
+    "local_gc": 1,
+    "local_pj": 19,
+    "visita_gf": 1.0625,
+    "visita_gc": 1.125,
+    "visita_pj": 16,
+    "local_ppp": 1.7,
+    "visita_ppp": 1.16
+   },
+   "cuotas_1x2": {
+    "local": 1.46,
+    "empate": 4.12,
+    "visita": 6.79,
+    "n_casas": 14
+   },
+   "resultado": null
+  },
+  "prueba-2489151": {
+   "id": "prueba-2489151",
+   "liga": {
+    "id": "4337",
+    "nombre": "Eredivisie",
+    "pais": "Países Bajos",
+    "escudo": "https://r2.thesportsdb.com/images/media/league/badge/5cdsu21725984946.png"
+   },
+   "inicio": "2026-10-23T11:15:00Z",
+   "local": {
+    "id": "134264",
+    "nombre": "Fortuna Sittard",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/aqr7it1685596947.png"
+   },
+   "visita": {
+    "id": "133757",
+    "nombre": "Excelsior",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/bmbn9v1625172555.png"
+   },
+   "creada": "2026-10-25T02:06:56.065Z",
+   "actualizada": "2026-10-25T02:55:39.286Z",
+   "mercado": "mas15",
+   "cuota_mercado": null,
+   "valor": null,
+   "prob": 0.8866549700656341,
+   "cuota_justa": 1.13,
+   "probs": {
+    "local": 0.33160846720205334,
+    "empate": 0.212650453058218,
+    "visita": 0.45574107973972877,
+    "aem_si": 0.7106167662938383,
+    "aem_no": 0.2893832337061617,
+    "mas15": 0.8866549700656341,
+    "mas25": 0.7198713371572808,
+    "menos25": 0.2801286628427192,
+    "menos35": 0.4875847903428904,
+    "marcadores": [
+     {
+      "marcador": "1-2",
+      "prob": 0.08372273109412502
+     },
+     {
+      "marcador": "1-1",
+      "prob": 0.08280631889100236
+     },
+     {
+      "marcador": "2-2",
+      "prob": 0.07156022957745785
+     },
+     {
+      "marcador": "2-1",
+      "prob": 0.0707769456737195
+     },
+     {
+      "marcador": "1-3",
+      "prob": 0.05643285678142303
+     }
+    ]
+   },
+   "base": {
+    "local": 0.340648854875364,
+    "visita": 0.4507875452798106,
+    "aem_si": 0.7306650968426502,
+    "aem_no": 0.26933490315734976,
+    "mas15": 0.8994108149296747,
+    "mas25": 0.7441427461251611,
+    "menos25": 0.25585725387483893,
+    "menos35": 0.4567924017395036
+   },
+   "lh": 1.7094576023088992,
+   "la": 2.0221338713131045,
+   "datos": {
+    "local_gf": 1.25,
+    "local_gc": 2.25,
+    "local_pj": 4,
+    "visita_gf": 2.2,
+    "visita_gc": 1.6,
+    "visita_pj": 5,
+    "local_ppp": 1.67,
+    "visita_ppp": 1.22
+   },
+   "cuotas_1x2": null,
+   "resultado": {
+    "goles_local": 3,
+    "goles_visita": 1,
+    "acierto": true
+   }
+  },
+  "prueba-2514007": {
+   "id": "prueba-2514007",
+   "liga": {
+    "id": "4344",
+    "nombre": "Primeira Liga",
+    "pais": "Portugal",
+    "escudo": "https://r2.thesportsdb.com/images/media/league/badge/3tgdke1782689102.png"
+   },
+   "inicio": "2026-10-23T18:00:00Z",
+   "local": {
+    "id": "134109",
+    "nombre": "Nacional de Madeira",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/1ln5fe1628850538.png"
+   },
+   "visita": {
+    "id": "134098",
+    "nombre": "Braga",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/skbiwo1785775946.png"
+   },
+   "creada": "2026-10-25T02:06:56.066Z",
+   "actualizada": "2026-10-25T02:55:39.286Z",
+   "mercado": "mas15",
+   "cuota_mercado": null,
+   "valor": null,
+   "prob": 0.7810769010903226,
+   "cuota_justa": 1.28,
+   "probs": {
+    "local": 0.26867676479258995,
+    "empate": 0.24050356273982632,
+    "visita": 0.4908196724675844,
+    "aem_si": 0.5660663196917832,
+    "aem_no": 0.4339336803082168,
+    "mas15": 0.7810769010903226,
+    "mas25": 0.5477836129801252,
+    "menos25": 0.4522163870198748,
+    "menos35": 0.6756405017181639,
+    "marcadores": [
+     {
+      "marcador": "1-1",
+      "prob": 0.11310802048432571
+     },
+     {
+      "marcador": "1-2",
+      "prob": 0.09539257889449401
+     },
+     {
+      "marcador": "0-1",
+      "prob": 0.0953422312270401
+     },
+     {
+      "marcador": "0-2",
+      "prob": 0.08040934033995292
+     },
+     {
+      "marcador": "2-1",
+      "prob": 0.06709211717217654
+     }
+    ]
+   },
+   "base": {
+    "local": 0.3446536914404523,
+    "visita": 0.39899037375218654,
+    "aem_si": 0.5523571562562885,
+    "aem_no": 0.44764284374371155,
+    "mas15": 0.7556051652541049,
+    "mas25": 0.5121591387982082,
+    "menos25": 0.4878408612017918,
+    "menos35": 0.7088642273262244
+   },
+   "lh": 1.1863370410849694,
+   "la": 1.6867518056814252,
+   "datos": {
+    "local_gf": 1.25,
+    "local_gc": 2.5,
+    "local_pj": 4,
+    "visita_gf": 1.25,
+    "visita_gc": 1.25,
+    "visita_pj": 4,
+    "local_ppp": 0.5,
+    "visita_ppp": 1.38
+   },
+   "cuotas_1x2": null,
+   "resultado": {
+    "goles_local": 2,
+    "goles_visita": 0,
+    "acierto": true
+   }
+  },
+  "prueba-2489525": {
+   "id": "prueba-2489525",
+   "liga": {
+    "id": "4334",
+    "nombre": "Ligue 1",
+    "pais": "Francia",
+    "escudo": "https://r2.thesportsdb.com/images/media/league/badge/9f7z9d1742983155.png"
+   },
+   "inicio": "2026-10-23T16:15:00Z",
+   "local": {
+    "id": "134709",
+    "nombre": "Angers",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/ix6q4w1678808069.png"
+   },
+   "visita": {
+    "id": "133715",
+    "nombre": "Lorient",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/sxsttw1473504748.png"
+   },
+   "creada": "2026-10-25T02:06:56.061Z",
+   "actualizada": "2026-10-25T02:55:39.279Z",
+   "mercado": "menos35",
+   "cuota_mercado": null,
+   "valor": null,
+   "prob": 0.7153568685632686,
+   "cuota_justa": 1.4,
+   "probs": {
+    "local": 0.3343705173896046,
+    "empate": 0.2575370394349855,
+    "visita": 0.4080924431754102,
+    "aem_si": 0.5459578281059231,
+    "aem_no": 0.4540421718940769,
+    "mas15": 0.7502966394620112,
+    "mas25": 0.5049689342358172,
+    "menos25": 0.4950310657641827,
+    "menos35": 0.7153568685632686,
+    "marcadores": [
+     {
+      "marcador": "1-1",
+      "prob": 0.1222313667355089
+     },
+     {
+      "marcador": "0-1",
+      "prob": 0.0964623070319928
+     },
+     {
+      "marcador": "1-2",
+      "prob": 0.08721953428741369
+     },
+     {
+      "marcador": "1-0",
+      "prob": 0.08564885800007349
+     },
+     {
+      "marcador": "2-1",
+      "prob": 0.07744220241941387
+     }
+    ]
+   },
+   "base": {
+    "local": 0.4272540729910859,
+    "visita": 0.3333369123669759,
+    "aem_si": 0.6089300657055292,
+    "aem_no": 0.3910699342944708,
+    "mas15": 0.8076397841097935,
+    "mas25": 0.5870697372025209,
+    "menos25": 0.41293026279747913,
+    "menos35": 0.6368936950417868
+   },
+   "lh": 1.2671412336734753,
+   "la": 1.4271219674102837,
+   "datos": {
+    "local_gf": 1.25,
+    "local_gc": 2.25,
+    "local_pj": 4,
+    "visita_gf": 0.6666666666666666,
+    "visita_gc": 0.6666666666666666,
+    "visita_pj": 3,
+    "local_ppp": 1,
+    "visita_ppp": 1.57
+   },
+   "cuotas_1x2": null,
+   "resultado": {
+    "goles_local": 1,
+    "goles_visita": 1,
+    "acierto": true
+   }
+  },
+  "prueba-2506264": {
+   "id": "prueba-2506264",
+   "liga": {
+    "id": "4335",
+    "nombre": "LaLiga",
+    "pais": "España",
+    "escudo": "https://r2.thesportsdb.com/images/media/league/badge/ja4it51687628717.png"
+   },
+   "inicio": "2026-10-23T15:15:00Z",
+   "local": {
+    "id": "133937",
+    "nombre": "Celta Vigo",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/xfjtku1690436219.png"
+   },
+   "visita": {
+    "id": "133722",
+    "nombre": "Real Betis",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/2oqulv1663245386.png"
+   },
+   "creada": "2026-10-25T02:06:56.059Z",
+   "actualizada": "2026-10-25T02:55:39.276Z",
+   "mercado": "menos35",
+   "cuota_mercado": null,
+   "valor": null,
+   "prob": 0.7067302293224598,
+   "cuota_justa": 1.41,
+   "probs": {
+    "local": 0.46007721259281265,
+    "empate": 0.25116367033636233,
+    "visita": 0.28875911707082513,
+    "aem_si": 0.5460578818132188,
+    "aem_no": 0.4539421181867812,
+    "mas15": 0.7573251527145819,
+    "mas25": 0.514505579922437,
+    "menos25": 0.4854944200775631,
+    "menos35": 0.7067302293224598,
+    "marcadores": [
+     {
+      "marcador": "1-1",
+      "prob": 0.11911330983633892
+     },
+     {
+      "marcador": "1-0",
+      "prob": 0.10105420149320274
+     },
+     {
+      "marcador": "2-1",
+      "prob": 0.09258848117162335
+     },
+     {
+      "marcador": "2-0",
+      "prob": 0.07855087769051633
+     },
+     {
+      "marcador": "0-1",
+      "prob": 0.0766184972505847
+     }
+    ]
+   },
+   "base": {
+    "local": 0.45538692983540563,
+    "visita": 0.3072657069176295,
+    "aem_si": 0.6045031019520771,
+    "aem_no": 0.3954968980479229,
+    "mas15": 0.8071176346739021,
+    "mas25": 0.5862748861546762,
+    "menos25": 0.41372511384532384,
+    "menos35": 0.6377003836201417
+   },
+   "lh": 1.5546286355209078,
+   "la": 1.178707149987731,
+   "datos": {
+    "local_gf": 1.8,
+    "local_gc": 1.2,
+    "local_pj": 5,
+    "visita_gf": 1.5,
+    "visita_gc": 1.75,
+    "visita_pj": 4,
+    "local_ppp": 1.22,
+    "visita_ppp": 2.11
+   },
+   "cuotas_1x2": null,
+   "resultado": {
+    "goles_local": 3,
+    "goles_visita": 2,
+    "acierto": false
+   }
+  },
+  "prueba-2398155": {
+   "id": "prueba-2398155",
+   "liga": {
+    "id": "4406",
+    "nombre": "Primera Division",
+    "pais": "Argentina",
+    "escudo": "https://r2.thesportsdb.com/images/media/league/badge/rk9xhx1768238251.png"
+   },
+   "inicio": "2026-10-23T22:15:00Z",
+   "local": {
+    "id": "135171",
+    "nombre": "River Plate",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/03dmi31645539717.png"
+   },
+   "visita": {
+    "id": "135170",
+    "nombre": "Racing Club",
+    "escudo": "https://r2.thesportsdb.com/images/media/team/badge/vi4mu41695734959.png"
+   },
+   "creada": "2026-10-25T02:06:56.053Z",
+   "actualizada": "2026-10-25T02:55:39.270Z",
+   "mercado": "mas15",
+   "cuota_mercado": null,
+   "valor": null,
+   "prob": 0.6918378425315062,
+   "cuota_justa": 1.45,
+   "probs": {
+    "local": 0.5287402191229351,
+    "empate": 0.25787820340178286,
+    "visita": 0.2133815774752816,
+    "aem_si": 0.455210791654638,
+    "aem_no": 0.544789208345362,
+    "mas15": 0.6918378425315062,
+    "mas25": 0.4306258677057544,
+    "menos25": 0.5693741322942456,
+    "menos35": 0.7784553673076285,
+    "marcadores": [
+     {
+      "marcador": "1-0",
+      "prob": 0.13881770768445112
+     },
+     {
+      "marcador": "1-1",
+      "prob": 0.120647550776527
+     },
+     {
+      "marcador": "2-0",
+      "prob": 0.10634648035184859
+     },
+     {
+      "marcador": "2-1",
+      "prob": 0.09242655423557114
+     },
+     {
+      "marcador": "0-0",
+      "prob": 0.09060175711979149
+     }
+    ]
+   },
+   "base": {
+    "local": 0.4167932193521856,
+    "visita": 0.29133937277374083,
+    "aem_si": 0.4299381827234476,
+    "aem_no": 0.5700618172765524,
+    "mas15": 0.6345006534545674,
+    "mas25": 0.36538558963554746,
+    "menos25": 0.6346144103644525,
+    "menos35": 0.8279916820999033
+   },
+   "lh": 1.5321745636887558,
+   "la": 0.8691077873924627,
+   "datos": {
+    "local_gf": 1.5263157894736843,
+    "local_gc": 1,
+    "local_pj": 19,
+    "visita_gf": 1.0625,
+    "visita_gc": 1.125,
+    "visita_pj": 16,
+    "local_ppp": 1.7,
+    "visita_ppp": 1.16
+   },
+   "cuotas_1x2": {
+    "local": 1.46,
+    "empate": 4.12,
+    "visita": 6.79,
+    "n_casas": 14
+   },
+   "resultado": {
+    "goles_local": 2,
+    "goles_visita": 0,
+    "acierto": true
+   }
+  }
+ }
+}

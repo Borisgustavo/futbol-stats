@@ -1,0 +1,12 @@
+{
+  "eval_name": "ajusta-cuota-de-la-doble",
+  "prompt": "La Doble de Masterfutbol siempre sale pagando poquito, tipo 1.45. Quiero que pague por lo menos 1.8 en total. Cámbiale los criterios en el código para que eso pase de aquí en adelante.\n\nInput files: data/apuestas.json, data/predicciones.json, apuestas.js, README.md",
+  "assertions": [
+    "La respuesta explica que pedir más cuota significa aceptar menos probabilidad, con números (por ejemplo, que 1,8 en total equivale a una probabilidad combinada cercana al 56%, frente al 69% de antes).",
+    "apuestas.js termina con un cambio en los criterios de la Doble (en TIPOS_APUESTA o en la lógica que la arma) cuyo efecto es que la Doble apunte a una cuota total de al menos 1,8, y node --check apuestas.js no da errores.",
+    "La respuesta muestra, calculado con los datos guardados, cómo quedarían la Doble y la Riesgo del 25-oct-2026 con la regla nueva, e indica el efecto sobre la Riesgo (que ese día deja de armarse o pierde candidatas).",
+    "README.md termina con una nota en su sección de apuestas diarias que registra el cambio: la fecha 2026-10-25, la regla nueva (cuota mínima de 1,8 para la Doble o equivalente) y la anterior o el motivo.",
+    "data/apuestas.json y data/predicciones.json no se modifican, y la respuesta aclara que el cambio solo afecta a las fechas que todavía no tienen combinadas.",
+    "La respuesta termina con un aviso de que son estimaciones de un modelo y no consejos de apuesta, o una invitación a jugar con responsabilidad (+18)."
+  ]
+}

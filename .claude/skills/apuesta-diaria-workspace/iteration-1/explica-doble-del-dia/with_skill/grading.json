@@ -1,0 +1,34 @@
+{
+  "expectations": [
+    {
+      "text": "La respuesta nombra las dos selecciones de la Doble: Fortuna Sittard vs Excelsior y Nacional de Madeira vs Braga, ambas en el mercado Más de 1,5 goles.",
+      "passed": true,
+      "evidence": "Tabla con Fortuna Sittard vs Excelsior y Nacional de Madeira vs Braga, ambos 'Más de 1,5 goles'."
+    },
+    {
+      "text": "La respuesta da la cuota total de 1,45 (o 1.45) y aclara que son cuotas justas del modelo (1 / probabilidad), no cuotas de mercado.",
+      "passed": true,
+      "evidence": "'Cuota total: 1,45' y 'Las dos cuotas son justas: salen del propio modelo (1 / probabilidad) y no de una casa de apuestas'."
+    },
+    {
+      "text": "La respuesta señala que Fortuna Sittard vs Excelsior Más de 1,5 (89%) no aporta ventaja porque ese mercado ocurre en torno al 90% de las veces en esa liga, es decir, que es un pick fácil y no una ventaja del modelo.",
+      "passed": true,
+      "evidence": "'en la Eredivisie este mercado ya sale el 90% de las veces, y el modelo le da un 89%' y 'Veredicto: pick fácil, sin ventaja'."
+    },
+    {
+      "text": "La respuesta incluye un aviso de que son estimaciones de un modelo y no consejos de apuesta, o una invitación a jugar con responsabilidad.",
+      "passed": true,
+      "evidence": "Cierra con 'Estimaciones de un modelo estadístico, no consejos de apuesta. Juega con responsabilidad (+18).'"
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 0,
+    "total": 4,
+    "pass_rate": 1.0
+  },
+  "timing": {
+    "executor_duration_seconds": 73.3,
+    "total_duration_seconds": 73.3
+  }
+}

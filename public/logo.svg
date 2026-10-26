@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- Emblema Masterfutbol: hexágono con relieve 3D, anillo orbital y monograma MF extruido. -->
+  <defs>
+    <linearGradient id="cara" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#6EF3A5"/>
+      <stop offset="0.45" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="canto" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#065F46"/>
+      <stop offset="1" stop-color="#022C22"/>
+    </linearGradient>
+    <linearGradient id="brillo" x1="0" y1="0" x2="0.6" y2="0.8">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="orbita" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.15"/>
+      <stop offset="0.5" stop-color="#A7F3D0"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="letras" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#D1FAE5"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22C55E" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#22C55E" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <circle cx="60" cy="60" r="58" fill="url(#halo)"/>
+
+  <g transform="rotate(-18 60 58)">
+    <path d="M7 58 A53 15 0 0 1 113 58" fill="none" stroke="url(#orbita)" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <polygon points="60,18 96,39 96,81 60,102 24,81 24,39" fill="url(#canto)" stroke="url(#canto)" stroke-width="8" stroke-linejoin="round"/>
+  <polygon points="60,10 96,31 96,73 60,94 24,73 24,31" fill="url(#cara)" stroke="url(#cara)" stroke-width="8" stroke-linejoin="round"/>
+  <polygon points="60,18 89,35 89,69 60,86 31,69 31,35" fill="none" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.5" stroke-linejoin="round"/>
+  <polygon points="60,10 96,31 96,44 24,58 24,31" fill="url(#brillo)" stroke="none"/>
+
+  <g font-family="Sora, 'Arial Black', Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" letter-spacing="-1.5">
+    <text x="61.5" y="66.5" fill="#022C22" opacity="0.75">MF</text>
+    <text x="60.75" y="65.25" fill="#064E3B">MF</text>
+    <text x="60" y="64" fill="url(#letras)">MF</text>
+  </g>
+
+  <g transform="rotate(-18 60 58)">
+    <path d="M7 58 A53 15 0 0 0 113 58" fill="none" stroke="url(#orbita)" stroke-width="4" stroke-linecap="round" filter="url(#neon)"/>
+    <circle cx="111" cy="62" r="4.5" fill="#ECFEFF" filter="url(#neon)"/>
+  </g>
+</svg>

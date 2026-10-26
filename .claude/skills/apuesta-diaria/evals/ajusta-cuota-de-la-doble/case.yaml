@@ -1,0 +1,12 @@
+schema_version: "1.1"
+name: ajusta-cuota-de-la-doble
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  Explica el compromiso (1,8 en total equivale a una probabilidad combinada de ~56%). Como el
+  usuario lo pidió de forma explícita, cambia los criterios de la Doble en apuestas.js para que
+  apunte a una cuota total de al menos 1,8, comprueba la sintaxis, mide con los datos guardados
+  cómo quedarían la Doble y la Riesgo del 25-oct-2026 con la regla nueva (la Riesgo deja de
+  armarse ese día porque la Doble le quita candidatas), anota el cambio en la sección de apuestas
+  del README.md con la fecha y los valores, no toca data/ y cierra con un aviso de juego
+  responsable.

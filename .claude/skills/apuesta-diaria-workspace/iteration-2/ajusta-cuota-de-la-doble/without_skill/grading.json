@@ -1,0 +1,44 @@
+{
+  "expectations": [
+    {
+      "text": "La respuesta explica que pedir más cuota significa aceptar menos probabilidad, con números (por ejemplo, que 1,8 en total equivale a una probabilidad combinada cercana al 56%, frente al 69% de antes).",
+      "passed": true,
+      "evidence": "'La Doble pasa de ganar ~69% de las veces a ~55%'."
+    },
+    {
+      "text": "apuestas.js termina con un cambio en los criterios de la Doble (en TIPOS_APUESTA o en la lógica que la arma) cuyo efecto es que la Doble apunte a una cuota total de al menos 1,8, y node --check apuestas.js no da errores.",
+      "passed": true,
+      "evidence": "Añade cuotaMin: 1.8 en TIPOS_APUESTA y elige el par más probable que llega a 1,80; verificado: apuestas.js cambió y node --check pasa."
+    },
+    {
+      "text": "La respuesta muestra, calculado con los datos guardados, cómo quedarían la Doble y la Riesgo del 25-oct-2026 con la regla nueva, e indica el efecto sobre la Riesgo (que ese día deja de armarse o pierde candidatas).",
+      "passed": true,
+      "evidence": "'Con los partidos de hoy, la Doble sale 1,80 (Braga +1,5 a 1,28 × LaLiga −3,5 a 1,41), con 55%' y 'Con los 5 partidos de hoy no se pueden armar las dos... ese día no hay Riesgo'."
+    },
+    {
+      "text": "README.md termina con una nota en su sección de apuestas diarias que registra el cambio: la fecha 2026-10-25, la regla nueva (cuota mínima de 1,8 para la Doble o equivalente) y la anterior o el motivo.",
+      "passed": false,
+      "evidence": "README.md solo reescribe la descripción de la regla (cuota mínima de 1,80); no registra la fecha 2026-10-25, ni la regla anterior, ni el motivo del cambio."
+    },
+    {
+      "text": "data/apuestas.json y data/predicciones.json no se modifican, y la respuesta aclara que el cambio solo afecta a las fechas que todavía no tienen combinadas.",
+      "passed": true,
+      "evidence": "data/apuestas.json y data/predicciones.json idénticos al original; 'Lo que ya está guardado no cambia... El cambio se nota desde la de mañana, 26-oct'."
+    },
+    {
+      "text": "La respuesta termina con un aviso de que son estimaciones de un modelo y no consejos de apuesta, o una invitación a jugar con responsabilidad (+18).",
+      "passed": false,
+      "evidence": "No incluye aviso de juego responsable ni de que no es consejo de apuesta (0 coincidencias)."
+    }
+  ],
+  "summary": {
+    "passed": 4,
+    "failed": 2,
+    "total": 6,
+    "pass_rate": 0.67
+  },
+  "timing": {
+    "executor_duration_seconds": 140.1,
+    "total_duration_seconds": 140.1
+  }
+}
