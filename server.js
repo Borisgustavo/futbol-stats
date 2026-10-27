@@ -2,7 +2,7 @@
 // TheSportsDB para que la clave de la API nunca llegue al navegador.
 // Sin dependencias: Node 22+ (fetch nativo). Uso: node --env-file=.env server.js
 import { createServer } from "node:http";
-import { readFile } from "node:fs/promises";
+import { mkdir, readFile } from "node:fs/promises";
 import { extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
 import { CLAVES_ODDS, crearCuotas, emparejar } from "./cuotas.js";
@@ -17,6 +17,10 @@ const RAIZ = fileURLToPath(new URL(".", import.meta.url));
 const PUERTO = Number(process.env.PORT || 3000);
 // En local solo escucha en 127.0.0.1; en Docker (Easypanel) el Dockerfile pone HOST=0.0.0.0.
 const HOST = process.env.HOST || "127.0.0.1";
+// Cachés e historial (predicciones, apuestas) que el servidor escribe. En Easypanel DATA_DIR apunta a un
+// volumen para que sobrevivan a cada despliegue; data/ligas.json viene del repositorio y no se mueve.
+const DATOS = process.env.DATA_DIR || join(RAIZ, "data");
+await mkdir(DATOS, { recursive: true });
 const CLAVE = process.env.THESPORTSDB_API_KEY;
 if (!CLAVE) {
   console.error("Falta THESPORTSDB_API_KEY. Arranca con: node --env-file=.env server.js");
@@ -26,7 +30,7 @@ const V1 = `https://www.thesportsdb.com/api/v1/json/${CLAVE}`;
 const V2 = "https://www.thesportsdb.com/api/v2/json";
 const cuotas = crearCuotas({
   clave: process.env.ODDS_API_KEY,
-  archivoCache: join(RAIZ, "data", "cache_cuotas.json"),
+  archivoCache: join(DATOS, "cache_cuotas.json"),
   ttlHoras: Number(process.env.ODDS_TTL_HORAS || 12),
   minRestantes: Number(process.env.ODDS_MIN_RESTANTES || 10),
 });
@@ -320,7 +324,7 @@ const estadisticas = crearEstadisticas({
     const l = ligasPorId.get(id);
     return { id, nombre: l?.nombre_es || l?.nombre || id, pais: l?.pais_es || "", escudo: l?.escudo || "" };
   },
-  archivoCache: join(RAIZ, "data", "cache_stats.json"),
+  archivoCache: join(DATOS, "cache_stats.json"),
 });
 
 // Ligas que el carrusel de la portada muestra primero.
@@ -335,14 +339,14 @@ const predicciones = crearPredicciones({
   },
   resultadosDelDia: async (fecha) => (await eventosDelDiaUTC(fecha)).map(partido),
   esPrincipal: (id) => LIGAS_PRINCIPALES.has(id),
-  archivo: join(RAIZ, "data", "predicciones.json"),
+  archivo: join(DATOS, "predicciones.json"),
 });
 
 // Apuestas diarias (Doble y Riesgo) armadas con las predicciones del modelo.
 const apuestas = crearApuestas({
   registroActual: predicciones.registroActual,
   esPrincipal: (id) => LIGAS_PRINCIPALES.has(id),
-  archivo: join(RAIZ, "data", "apuestas.json"),
+  archivo: join(DATOS, "apuestas.json"),
 });
 
 // --- Simulador de cupones (analisis/cupon_simulador.md, fase 1) --------------------------------

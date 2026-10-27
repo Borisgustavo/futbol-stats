@@ -4,5 +4,7 @@ FROM node:22-alpine
 WORKDIR /app
 COPY . .
 ENV NODE_ENV=production HOST=0.0.0.0 PORT=3000
+# Cachés e historial: en Easypanel se monta un volumen en esta ruta (Storage → Volume Mount).
+ENV DATA_DIR=/app/persist
 EXPOSE 3000
 CMD ["node", "server.js"]
