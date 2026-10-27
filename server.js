@@ -7,6 +7,7 @@ import { extname, join, normalize } from "node:path";
 import { fileURLToPath } from "node:url";
 import { CLAVES_ODDS, crearCuotas, emparejar } from "./cuotas.js";
 import { crearEstadisticas } from "./estadisticas.js";
+import { crearStatsPartidos } from "./partidos_stats.js";
 import { crearPredicciones } from "./predicciones.js";
 import { crearApuestas } from "./apuestas.js";
 import { calcularMercados, GRUPOS } from "./mercados.js";
@@ -314,12 +315,24 @@ async function temporada(idLiga, temporadaTxt, prioridad = "alta") {
 
 // Sección de estadísticas: ligas principales (1.ª y 2.ª división masculina y copas
 // continentales de clubes) resumidas en segundo plano.
-const estadisticas = crearEstadisticas({
-  ligasAmbito: () => [...ligasPorId.values()]
-    .filter((l) => (l.pais_es === "Internacional" ? !/Recopa|Femenin/i.test(l.nombre) : !l.es_copa && l.genero === "Male" && l.division <= 2))
-    .sort((a, b) => a.orden - b.orden)
-    .map((l) => l.id),
+const ligasAmbito = () => [...ligasPorId.values()]
+  .filter((l) => (l.pais_es === "Internacional" ? !/Recopa|Femenin/i.test(l.nombre) : !l.es_copa && l.genero === "Male" && l.division <= 2))
+  .sort((a, b) => a.orden - b.orden)
+  .map((l) => l.id);
+
+// Córners partido a partido en las mismas ligas, descargados en segundo plano y guardados en disco.
+const statsPartidos = crearStatsPartidos({
+  ligasAmbito,
   temporada,
+  statsDePartido: async (id, prioridad) => (await v1(`lookupeventstats.php?id=${id}`, prioridad)).eventstats || [],
+  archivo: join(DATOS, "stats_partidos.json"),
+});
+
+const estadisticas = crearEstadisticas({
+  ligasAmbito,
+  temporada,
+  cornersLiga: statsPartidos.cornersLiga,
+  infoCorners: statsPartidos.resumen,
   metaLiga: (id) => {
     const l = ligasPorId.get(id);
     return { id, nombre: l?.nombre_es || l?.nombre || id, pais: l?.pais_es || "", escudo: l?.escudo || "" };
@@ -730,6 +743,7 @@ createServer(async (req, res) => {
 }).listen(PUERTO, HOST, () => {
   console.log(`Masterfutbol en http://localhost:${PUERTO}`);
   estadisticas.iniciar();
+  statsPartidos.iniciar();
   predicciones.iniciar();
   apuestas.iniciar();
 });

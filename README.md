@@ -60,8 +60,19 @@ porque mezclaría las rondas previas con la fase de liga.
 - 45 ligas asignadas, todas verificadas contra The Odds API el 2026-10-24.
 
 ## Limitaciones conocidas
-- No hay córners, tarjetas ni minutos de los goles por temporada: requerirían pedir partido
-  a partido (cientos de llamadas por liga) y TheSportsDB no los tiene en muchos partidos.
+- Córners por temporada solo en las ligas que TheSportsDB cubre partido a partido (ver
+  "Córners"). Tarjetas y minutos de los goles por temporada todavía no se calculan.
+
+## Córners (fase 3)
+
+`partidos_stats.js` descarga en segundo plano el detalle de cada partido jugado
+(`lookupeventstats.php`, una petición por partido, prioridad baja en la cola) de las mismas ligas
+que la sección Estadísticas. Cada liga se sondea con sus 3 últimos partidos: si ninguno trae
+córners, se descarta y se vuelve a probar a la semana. Lo descargado se guarda en
+`DATA_DIR/stats_partidos.json` (córners y tarjetas por partido; un partido terminado no cambia) y
+se repasa cada 3 horas. `#/stats/corners` muestra equipos y ligas con más córners, a favor y en
+contra, próximos partidos y Más/Menos de 7,5 a 11,5. La primera descarga completa tarda horas;
+mientras tanto la página dice cuántas ligas y partidos lleva.
 
 - Puerto Rico, Saint Kitts and Nevis e Islas Salomón no tienen ligas en TheSportsDB.
 - Muchos partidos no traen estadísticas (posesión, tiros…) en TheSportsDB; la página lo indica.
@@ -171,8 +182,8 @@ Cupón simulado sin dinero real, con un analista que revisa el riesgo. Diseño y
   1,17; gana Colo-Colo 1,75): cuota 2,58; con la calibración de la fase 2, probabilidad 33,5% y
   valor esperado −13,7% (antes 31% y −21%) → **Sin valor**. Sugiere quitar "ambos marcan" y
   cambiar selecciones por "Barcelona: más de 1,5 goles", "Empate o Colo-Colo" o "Colo-Colo +1,5".
-- Pendiente (fases 3-4): córners, tarjetas y medio tiempo de TheSportsDB en las ligas cubiertas;
-  agente con IA opcional y "Mis simulaciones".
+- Fase 3 en parte: córners en Estadísticas (sin mercados de córners en el simulador todavía).
+  Pendiente: tarjetas y medio tiempo; agente con IA opcional y "Mis simulaciones".
 
 ## Agente `usuario-prueba` (`.claude/agents/usuario-prueba.md`)
 

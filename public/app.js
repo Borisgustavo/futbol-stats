@@ -739,6 +739,7 @@ async function vistaStat(tipo, query) {
     <h1 class="titulo-pagina">Estadísticas de ${esc(d.titulo)}${d.liga ? ` — ${esc(d.liga.nombre)}` : ""}</h1>
     <p class="subtitulo">Última actualización: ${actualizadoTxt(d.actualizado)} · ${d.liga ? `${esc(d.liga.pais)}, equipos` : "Temporadas en curso, equipos"} con al menos ${d.min_pj} partidos.</p>
     ${avisoCalculo(d.calculo)}
+    ${d.nota ? `<div class="aviso">${esc(d.nota)}</div>` : ""}
     <div class="stats-disposicion">
       ${menuStats(portada.tipos, portada.no_disponibles, tipo, liga)}
       <div>
@@ -778,7 +779,7 @@ const MENU_PREDICCIONES = [
 ];
 const PREDICCIONES_NO_DISPONIBLES = [
   ["Usuarios rentables", "Aquí no hay usuarios que publiquen predicciones"], ["Clasificación", "Aquí no hay usuarios que publiquen predicciones"],
-  ["Córners", "TheSportsDB no da córners"], ["Premium", "No hay contenido de pago"],
+  ["Córners", "Los córners están en Estadísticas; todavía no hay modelo para pronosticarlos"], ["Premium", "No hay contenido de pago"],
 ];
 
 function nombreMercado(p, mercados) {

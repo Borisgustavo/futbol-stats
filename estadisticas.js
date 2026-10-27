@@ -1,7 +1,8 @@
 // Sección "Estadísticas" (modelada sobre footystats.org/es/stats): rankings de equipos,
 // ligas y próximos partidos por tipo de estadística, calculados con los marcadores
-// finales de TheSportsDB. Solo hay marcadores finales, así que córners, tarjetas,
-// fueras de juego, penaltis, xG, remates y goles por mitad no se pueden calcular.
+// finales de TheSportsDB. Los córners salen del detalle de cada partido (partidos_stats.js), solo
+// en las ligas que los tienen; tarjetas, fueras de juego, penaltis, xG, remates y goles por mitad
+// todavía no se calculan.
 //
 // Para no consultar cientos de ligas en cada visita, un proceso en segundo plano
 // resume las ligas principales cada 6 horas (con prioridad baja en la cola de
@@ -25,9 +26,11 @@ export const TIPOS = {
   local: "Ventaja Local",
   marcador: "Marcador Exacto",
   resultado: "Resultado Final",
+  corners: "Córners",
 };
+export const LINEAS_CORNERS = [7.5, 8.5, 9.5, 10.5, 11.5];
 export const NO_DISPONIBLES = [
-  "Córners", "Tarjetas", "Fueras de juego", "Penaltis", "Goles al descanso y en la 2ª mitad",
+  "Tarjetas", "Fueras de juego", "Penaltis", "Goles al descanso y en la 2ª mitad",
   "Marca en ambas mitades", "xG (goles esperados)", "Remates a puerta",
 ];
 
@@ -92,7 +95,7 @@ const pctCol = (titulo, clave = "pct") => ({ clave, titulo, tipo: "pct" });
 const numCol = (titulo, clave) => ({ clave, titulo, tipo: "num" });
 const txtCol = (titulo, clave) => ({ clave, titulo, tipo: "texto" });
 
-export function crearEstadisticas({ ligasAmbito, temporada, metaLiga, archivoCache }) {
+export function crearEstadisticas({ ligasAmbito, temporada, metaLiga, archivoCache, cornersLiga, infoCorners }) {
   let resumenes = new Map();
   let actualizado = null;
   const estado = { calculando: false, hechas: 0, total: 0 };
@@ -267,10 +270,65 @@ export function crearEstadisticas({ ligasAmbito, temporada, metaLiga, archivoCac
         [COL.equipo, txtCol("Derrotas", "valor"), pctCol("%"), COL.siguiente], ordenar(equipos.map((e) => filaEquipo(e, "d")), "pct")));
     }
 
+    let nota;
+    if (tipo === "corners") {
+      const L = LINEAS_CORNERS.includes(Number(linea)) ? Number(linea) : 9.5;
+      const lt = String(L).replace(".", ",");
+      // Córners de cada liga; las que no tienen cobertura en TheSportsDB quedan fuera.
+      const conDatos = [];
+      for (const r of ligas) {
+        const c = await cornersLiga(r.liga.id, LINEAS_CORNERS);
+        if (c && c.liga.pj) conDatos.push({ r, c });
+      }
+      const pct = (b) => (b?.pj ? (b.mas[L] || 0) / b.pj : null);
+      const porPj = (b, k) => (b?.pj ? r2(k === "total" ? (b.cf + b.cc) / b.pj : b[k] / b.pj) : null);
+      const ladoC = (c, b) => (c[b].pj >= 2 ? c[b] : c.general);
+      const eqs = conDatos.flatMap(({ r, c }) => r.equipos
+        .filter((e) => c.equipos[e.id]?.general.pj >= minPj)
+        .map((e) => ({ e, c: c.equipos[e.id], liga: r.liga, siguiente: r.siguientes[e.id] || null })));
+      const filaEq = ({ e, c, liga, siguiente }, extra) => ({
+        equipo: equipoCorto(e), liga, valor: `${c.general.pj} partidos`, siguiente, _pj: c.general.pj,
+        total: porPj(c.general, "total"), cf: porPj(c.general, "cf"), cc: porPj(c.general, "cc"), pct: pct(c.general), ...extra,
+      });
+      const colsEq = [COL.equipo, txtCol("Con datos", "valor"), numCol("Córners / PJ", "total"), numCol("A favor / PJ", "cf"), numCol("En contra / PJ", "cc"), pctCol(`% Más de ${lt}`), COL.siguiente];
+      S.push(seccion("equipos", "Equipos con más córners por partido", "Media de córners de los dos equipos en los partidos de cada equipo.", colsEq, ordenar(eqs.map((x) => filaEq(x)), "total")));
+
+      const proximos = conDatos.flatMap(({ r, c }) => r.proximos.map((p) => ({ p, liga: r.liga, l: c.equipos[p.local.id], v: c.equipos[p.visita.id] })))
+        .filter(({ l, v }) => l?.general.pj >= MIN_PJ_LIGA && v?.general.pj >= MIN_PJ_LIGA);
+      S.push(seccion("partidos", `Próximos partidos con más córners`, `Próximos ${DIAS_PROXIMOS} días: media de córners del local en casa y del visitante fuera.`,
+        [COL.partido, numCol("Córners esperados", "esp"), pctCol(`% Más de ${lt}`), COL.fecha],
+        ordenar(proximos.map(({ p, liga, l, v }) => ({
+          partido: { id: p.id, local: p.local, visita: p.visita }, liga, fecha: p.inicio,
+          esp: r2(media(porPj(ladoC(l, "local"), "total"), porPj(ladoC(v, "visitante"), "total"))),
+          pct: media(pct(ladoC(l, "local")), pct(ladoC(v, "visitante"))),
+        })), "esp", 30)));
+
+      S.push(seccion("ligas", "Ligas con más córners", "Media de córners por partido y porcentaje de partidos por encima de la línea.",
+        [COL.liga, numCol("Córners / partido", "total"), pctCol(`% Más de ${lt}`), numCol("Partidos con datos", "partidos"), COL.progreso],
+        ordenar(conDatos.filter(({ c }) => c.liga.pj >= 5).map(({ r, c }) => ({
+          liga: r.liga, total: porPj(c.liga, "total"), pct: pct(c.liga), partidos: c.liga.pj, progreso: r.total ? r.jugados / r.total : null, _pj: c.liga.pj,
+        })), "total")));
+
+      S.push(seccion("a_favor", "Equipos con más córners a favor", "Córners que saca el equipo por partido.", colsEq, ordenar(eqs.map((x) => filaEq(x)), "cf")));
+      S.push(seccion("en_contra", "Equipos que más córners conceden", "Córners que saca el rival por partido.", colsEq, ordenar(eqs.map((x) => filaEq(x)), "cc")));
+      S.push(seccion("menos", `Mejores equipos para Menos de ${lt} córners`, `Partidos del equipo con ${Math.floor(L)} córners o menos en total.`,
+        [COL.equipo, txtCol("Con datos", "valor"), numCol("Córners / PJ", "total"), pctCol(`% Menos de ${lt}`), COL.siguiente],
+        ordenar(eqs.map((x) => filaEq(x, { pct: x.c.general.pj ? 1 - pct(x.c.general) : null })), "pct")));
+
+      const info = await infoCorners();
+      const d = info.descarga;
+      nota = idLiga && !conDatos.length
+        ? "TheSportsDB no tiene córners de esta liga (o todavía no se han descargado)."
+        : `Córners de TheSportsDB partido a partido: ${info.ligas_con_cobertura} ligas con datos de ${info.ligas_sondeadas} revisadas, ${info.partidos} partidos.`
+          + (d.descargando ? ` Descargando en segundo plano (${d.nuevos} nuevos en esta pasada).` : "");
+    }
+
+    const conLineas = tipo === "goles" ? LINEAS : tipo === "corners" ? LINEAS_CORNERS : undefined;
+    const lineaDef = tipo === "corners" ? 9.5 : 2.5;
     return {
       tipo, titulo: TIPOS[tipo], actualizado, calculo: { ...estado }, liga: idLiga ? ligas[0]?.liga || null : null,
-      lineas: tipo === "goles" ? LINEAS : undefined, linea: tipo === "goles" ? (LINEAS.includes(Number(linea)) ? Number(linea) : 2.5) : undefined,
-      min_pj: minPj, secciones: S,
+      lineas: conLineas, linea: conLineas ? (conLineas.includes(Number(linea)) ? Number(linea) : lineaDef) : undefined,
+      min_pj: minPj, secciones: S, nota,
       selector: [...resumenes.values()].filter(activa).map((r) => r.liga),
     };
   }
@@ -280,6 +338,7 @@ export function crearEstadisticas({ ligasAmbito, temporada, metaLiga, archivoCac
     ["aem", "ligas", "Mejores ligas para AEM"], ["goles", "equipos", "Más de 2,5 goles por equipo"], ["porteria", "equipos", "Más vallas invictas"],
     ["local", "ligas", "Mayor ventaja local por liga"], ["marcador", "marcadores", "Marcadores más comunes"], ["resultado", "equipos", "Equipos que más ganan"],
     ["goles", "ligas", "Ligas con más goles"], ["porteria", "combinado", "Equipos que más fallan en marcar"],
+    ["corners", "equipos", "Equipos con más córners (% más de 9,5)"],
   ];
   async function portada() {
     await cargado;
