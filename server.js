@@ -15,6 +15,8 @@ import { golesEsperados, MIN_PJ } from "./predicciones.js";
 
 const RAIZ = fileURLToPath(new URL(".", import.meta.url));
 const PUERTO = Number(process.env.PORT || 3000);
+// En local solo escucha en 127.0.0.1; en Docker (Easypanel) el Dockerfile pone HOST=0.0.0.0.
+const HOST = process.env.HOST || "127.0.0.1";
 const CLAVE = process.env.THESPORTSDB_API_KEY;
 if (!CLAVE) {
   console.error("Falta THESPORTSDB_API_KEY. Arranca con: node --env-file=.env server.js");
@@ -721,7 +723,7 @@ createServer(async (req, res) => {
     console.error(req.url, e.message);
     json(res, 502, { error: e.message.replace(CLAVE, "***") });
   }
-}).listen(PUERTO, "127.0.0.1", () => {
+}).listen(PUERTO, HOST, () => {
   console.log(`Masterfutbol en http://localhost:${PUERTO}`);
   estadisticas.iniciar();
   predicciones.iniciar();

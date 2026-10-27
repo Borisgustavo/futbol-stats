@@ -1,0 +1,12 @@
+.git
+.env
+.claude
+.rea
+node_modules
+herramientas
+analisis
+analisis_rea
+data/cache_cuotas.json
+data/cache_stats.json
+data/predicciones.json
+data/apuestas.json
