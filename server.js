@@ -320,11 +320,13 @@ const ligasAmbito = () => [...ligasPorId.values()]
   .sort((a, b) => a.orden - b.orden)
   .map((l) => l.id);
 
-// Córners partido a partido en las mismas ligas, descargados en segundo plano y guardados en disco.
+// Córners y minuto de los goles partido a partido en las mismas ligas, descargados en segundo plano
+// y guardados en disco.
 const statsPartidos = crearStatsPartidos({
   ligasAmbito,
   temporada,
   statsDePartido: async (id, prioridad) => (await v1(`lookupeventstats.php?id=${id}`, prioridad)).eventstats || [],
+  cronologiaDePartido: async (id, prioridad) => (await v1(`lookuptimeline.php?id=${id}`, prioridad)).timeline || [],
   archivo: join(DATOS, "stats_partidos.json"),
 });
 
@@ -332,6 +334,7 @@ const estadisticas = crearEstadisticas({
   ligasAmbito,
   temporada,
   cornersLiga: statsPartidos.cornersLiga,
+  golesLiga: statsPartidos.golesLiga,
   infoCorners: statsPartidos.resumen,
   metaLiga: (id) => {
     const l = ligasPorId.get(id);
@@ -537,6 +540,28 @@ async function cuotasLiga(idLiga, extra = [], { soloCache = false, soloExtra = f
   return { disponible: true, actualizado: r.actualizado, antiguo: Boolean(r.antiguo), restantes: r.restantes, partidos: Object.fromEntries(porId) };
 }
 
+// Minuto de los goles de una liga (y de un equipo en ella): tramos de 15 minutos, mitades, los minutos
+// sueltos para "antes / después del minuto X" y los últimos partidos del equipo con su línea de tiempo.
+async function minutosGoles(idLiga, idEquipo) {
+  const cobertura = await statsPartidos.tieneCobertura(idLiga);
+  const g = cobertura ? await statsPartidos.golesLiga(idLiga) : null;
+  const sinMinutos = ({ min_favor, min_contra, ...b }) => b;
+  const res = { cobertura, liga: g?.liga.pj ? { ...sinMinutos(g.liga), minutos: [...g.liga.min_favor, ...g.liga.min_contra] } : null };
+  if (!idEquipo) return res;
+  const eq = g?.equipos[idEquipo];
+  res.equipo = eq?.pj ? eq : null;
+  const t = await temporada(idLiga).catch(() => null);
+  res.ultimos = (t?.partidos || [])
+    .filter((p) => p.local.id === idEquipo || p.visita.id === idEquipo)
+    .reverse()
+    .slice(0, 10)
+    .map((p) => ({
+      id: p.id, inicio: p.inicio, local: p.local, visita: p.visita, goles_local: p.goles_local, goles_visita: p.goles_visita,
+      de_local: p.local.id === idEquipo, goles: statsPartidos.golesPartido(p.id, idEquipo),
+    }));
+  return res;
+}
+
 // Ficha de un partido. Cada petición a TheSportsDB espera su turno en la cola (~0,66 s), así que
 // solo se pide lo que se va a mostrar: antes del partido no hay estadísticas ni cronología, la
 // alineación no se muestra, y los últimos partidos de cada equipo van aparte
@@ -694,6 +719,11 @@ async function api(url, res, req) {
   }
   if (!ID.test(id || "")) return json(res, 404, { error: "no encontrado" });
   if (recurso === "tabla") return json(res, 200, await tabla(id, url.searchParams.get("temporada") || undefined));
+  if (recurso === "minutos") {
+    const idEquipo = url.searchParams.get("equipo") || "";
+    if (idEquipo && !ID.test(idEquipo)) return json(res, 400, { error: "equipo no válido" });
+    return json(res, 200, await minutosGoles(id, idEquipo));
+  }
   if (recurso === "prediccion") return json(res, 200, { prediccion: await predicciones.prediccionDe(id) });
   if (recurso === "cuotas") {
     const c = await cuotasLiga(id, [], { soloCache: true });

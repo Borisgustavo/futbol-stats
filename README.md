@@ -74,6 +74,21 @@ se repasa cada 3 horas. `#/stats/corners` muestra equipos y ligas con más córn
 contra, próximos partidos y Más/Menos de 7,5 a 11,5. La primera descarga completa tarda horas;
 mientras tanto la página dice cuántas ligas y partidos lleva.
 
+## Minuto de los goles
+
+El mismo proceso baja también la cronología de cada partido (`lookuptimeline.php`; un 0-0 no la
+necesita) y guarda el minuto de cada gol y a qué equipo se le cuenta (`strHome`, correcto también en
+los autogoles). Si los goles de la cronología no suman el marcador final, el partido se guarda sin
+minutos. Para no frenar a quien navega, la descarga hace una pausa de 1,3 s tras cada partido (~la
+mitad del cupo de TheSportsDB).
+
+- `/api/minutos/<idLiga>?equipo=<id>`: goles por tramo de 15 minutos, por mitad, partidos con gol en
+  las dos mitades, los minutos sueltos y los 10 últimos partidos del equipo con su línea de tiempo.
+- Ficha de equipo y de liga: columnas por tramo (marcados y recibidos), reparto 1ª/2ª mitad,
+  "antes y después del minuto X" con un deslizador, y últimos partidos minuto a minuto.
+- `#/stats/mitades`: goles en cada mitad por liga, equipos que marcan en ambas mitades, que más
+  marcan en la 1ª o la 2ª mitad y que más reciben en el último cuarto de hora.
+
 - Puerto Rico, Saint Kitts and Nevis e Islas Salomón no tienen ligas en TheSportsDB.
 - Muchos partidos no traen estadísticas (posesión, tiros…) en TheSportsDB; la página lo indica.
 - La forma de los equipos se calcula con la tabla de la liga; las copas sin tabla muestran "–".

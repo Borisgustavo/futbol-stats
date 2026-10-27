@@ -27,11 +27,11 @@ export const TIPOS = {
   marcador: "Marcador Exacto",
   resultado: "Resultado Final",
   corners: "Córners",
+  mitades: "Goles por mitad",
 };
 export const LINEAS_CORNERS = [7.5, 8.5, 9.5, 10.5, 11.5];
 export const NO_DISPONIBLES = [
-  "Tarjetas", "Fueras de juego", "Penaltis", "Goles al descanso y en la 2ª mitad",
-  "Marca en ambas mitades", "xG (goles esperados)", "Remates a puerta",
+  "Tarjetas", "Fueras de juego", "Penaltis", "xG (goles esperados)", "Remates a puerta",
 ];
 
 // --- Resumen compacto de una liga ------------------------------------------------------
@@ -95,7 +95,7 @@ const pctCol = (titulo, clave = "pct") => ({ clave, titulo, tipo: "pct" });
 const numCol = (titulo, clave) => ({ clave, titulo, tipo: "num" });
 const txtCol = (titulo, clave) => ({ clave, titulo, tipo: "texto" });
 
-export function crearEstadisticas({ ligasAmbito, temporada, metaLiga, archivoCache, cornersLiga, infoCorners }) {
+export function crearEstadisticas({ ligasAmbito, temporada, metaLiga, archivoCache, cornersLiga, golesLiga, infoCorners }) {
   let resumenes = new Map();
   let actualizado = null;
   const estado = { calculando: false, hechas: 0, total: 0 };
@@ -323,6 +323,47 @@ export function crearEstadisticas({ ligasAmbito, temporada, metaLiga, archivoCac
           + (d.descargando ? ` Descargando en segundo plano (${d.nuevos} nuevos en esta pasada).` : "");
     }
 
+    if (tipo === "mitades") {
+      // Minuto de cada gol, solo en las ligas que TheSportsDB cubre partido a partido.
+      const conDatos = [];
+      for (const r of ligas) {
+        const g = await golesLiga(r.liga.id);
+        if (g && g.liga.pj) conDatos.push({ r, g });
+      }
+      const eqs = conDatos.flatMap(({ r, g }) => r.equipos
+        .filter((e) => g.equipos[e.id]?.pj >= minPj)
+        .map((e) => ({ e, b: g.equipos[e.id], liga: r.liga, siguiente: r.siguientes[e.id] || null })));
+      const fila = ({ e, b, liga, siguiente }, extra) => ({ equipo: equipoCorto(e), liga, siguiente, valor: `${b.pj} partidos`, _pj: b.pj, ...extra });
+
+      S.push(seccion("ligas", "Goles en cada mitad por liga", "Goles por partido antes y después del descanso, y partidos con algún gol en la 1ª mitad.",
+        [COL.liga, numCol("1ª mitad / PJ", "m1"), numCol("2ª mitad / PJ", "m2"), pctCol("% de goles en la 2ª mitad"), pctCol("Gol antes del descanso", "gol1"), numCol("Partidos con datos", "partidos")],
+        ordenar(conDatos.filter(({ g }) => g.liga.pj >= 5).map(({ r, g }) => {
+          const b = g.liga, m1 = b.f1 + b.c1, m2 = b.f2 + b.c2;
+          return { liga: r.liga, m1: r2(m1 / b.pj), m2: r2(m2 / b.pj), pct: m1 + m2 ? m2 / (m1 + m2) : null, gol1: b.gol_1t / b.pj, partidos: b.pj, _pj: b.pj };
+        }), "pct")));
+      S.push(seccion("ambas", "Equipos que marcan en ambas mitades", "Partidos en los que el equipo marcó antes y después del descanso.",
+        [COL.equipo, txtCol("Con datos", "valor"), pctCol("% marca en ambas mitades"), numCol("Goles 1ª / PJ", "f1"), numCol("Goles 2ª / PJ", "f2"), COL.siguiente],
+        ordenar(eqs.map((x) => fila(x, { pct: x.b.ambas / x.b.pj, f1: r2(x.b.f1 / x.b.pj), f2: r2(x.b.f2 / x.b.pj) })), "pct")));
+      S.push(seccion("segunda", "Equipos que más marcan en la 2ª mitad", "Porcentaje de sus goles que llegan después del descanso (mínimo 5 goles).",
+        [COL.equipo, txtCol("Con datos", "valor"), pctCol("% de goles en la 2ª mitad"), numCol("Goles 2ª / PJ", "f2"), COL.siguiente],
+        ordenar(eqs.filter((x) => x.b.f1 + x.b.f2 >= 5).map((x) => fila(x, { pct: x.b.f2 / (x.b.f1 + x.b.f2), f2: r2(x.b.f2 / x.b.pj) })), "pct")));
+      S.push(seccion("primera", "Equipos que más marcan en la 1ª mitad", "Porcentaje de sus goles que llegan antes del descanso (mínimo 5 goles).",
+        [COL.equipo, txtCol("Con datos", "valor"), pctCol("% de goles en la 1ª mitad"), numCol("Goles 1ª / PJ", "f1"), COL.siguiente],
+        ordenar(eqs.filter((x) => x.b.f1 + x.b.f2 >= 5).map((x) => fila(x, { pct: x.b.f1 / (x.b.f1 + x.b.f2), f1: r2(x.b.f1 / x.b.pj) })), "pct")));
+      S.push(seccion("final", "Equipos que más goles reciben al final (76-90')", "Goles recibidos por partido en el último cuarto de hora.",
+        [COL.equipo, txtCol("Con datos", "valor"), numCol("Recibidos 76-90' / PJ", "tarde"), pctCol("% de sus goles recibidos"), COL.siguiente],
+        ordenar(eqs.map((x) => {
+          const rec = x.b.c1 + x.b.c2;
+          return fila(x, { tarde: r2(x.b.contra[5] / x.b.pj), pct: rec ? x.b.contra[5] / rec : null });
+        }), "tarde")));
+
+      const info = await infoCorners();
+      nota = idLiga && !conDatos.length
+        ? "TheSportsDB no tiene el minuto de los goles de esta liga (o todavía no se ha descargado)."
+        : `Minuto de cada gol de TheSportsDB partido a partido: ${info.partidos_goles} partidos de ${info.ligas_con_cobertura} ligas con datos.`
+          + (info.descarga.descargando ? " Descargando en segundo plano." : "");
+    }
+
     const conLineas = tipo === "goles" ? LINEAS : tipo === "corners" ? LINEAS_CORNERS : undefined;
     const lineaDef = tipo === "corners" ? 9.5 : 2.5;
     return {
@@ -338,7 +379,7 @@ export function crearEstadisticas({ ligasAmbito, temporada, metaLiga, archivoCac
     ["aem", "ligas", "Mejores ligas para AEM"], ["goles", "equipos", "Más de 2,5 goles por equipo"], ["porteria", "equipos", "Más vallas invictas"],
     ["local", "ligas", "Mayor ventaja local por liga"], ["marcador", "marcadores", "Marcadores más comunes"], ["resultado", "equipos", "Equipos que más ganan"],
     ["goles", "ligas", "Ligas con más goles"], ["porteria", "combinado", "Equipos que más fallan en marcar"],
-    ["corners", "equipos", "Equipos con más córners (% más de 9,5)"],
+    ["corners", "equipos", "Equipos con más córners (% más de 9,5)"], ["mitades", "ambas", "Marcan en ambas mitades"],
   ];
   async function portada() {
     await cargado;

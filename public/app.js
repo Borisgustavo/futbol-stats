@@ -429,6 +429,7 @@ async function vistaLiga(id) {
       <div class="leyenda cuenta">PPP: puntos por partido · VI: valla invicta · AEM: ambos equipos marcan · PSM: partidos sin marcar · +1,5 / +2,5: partidos con más goles · MG: media de goles por partido</div>
     </section>
     ${tendenciasLiga(d.equipos)}
+    <div id="minutos-liga"></div>
     <div class="columnas">
       <div>${d.proximos.length ? tarjetaLiga({ ...liga, nombre: "Próximos partidos", pais: "Internacional", escudo: "" }, d.proximos, true) : ""}</div>
       <div>${d.resultados.length ? tarjetaLiga({ ...liga, nombre: "Últimos resultados", pais: "Internacional", escudo: "" }, d.resultados.slice(0, 15), true) : ""}</div>
@@ -436,6 +437,7 @@ async function vistaLiga(id) {
   vista.querySelectorAll(".tarjeta[data-liga] .mas").forEach((a) => a.remove());
   rellenarForma(vista);
   rellenarCuotas(d.id, vista.querySelectorAll(".enfrentamientos tr[data-id]"));
+  rellenarMinutos(document.getElementById("minutos-liga"), `/api/minutos/${d.id}`, tarjetasMinutosLiga);
 }
 
 function listaUltimos(titulo, partidos, idEquipo) {
@@ -449,6 +451,94 @@ function listaUltimos(titulo, partidos, idEquipo) {
   // Los partidos llegan del más reciente al más antiguo; la forma se muestra al revés, como en toda la web.
   return `<section class="tarjeta"><div class="tarjeta__cabecera"><b>${esc(titulo)}</b> ${formaEs([...res].reverse().join(""))}</div>
     ${partidos.map((p) => filaPartido(p, true)).join("")}</section>`;
+}
+
+// --- Minuto de los goles (cronología de TheSportsDB, solo en las ligas que la tienen) -----------
+const TRAMOS = ["1-15'", "16-30'", "31-45'", "46-60'", "61-75'", "76-90'"];
+// Columnas por tramo de 15 minutos, con una marca en el descanso.
+function columnasTramos(cuentas, clase) {
+  const max = Math.max(1, ...cuentas);
+  const total = cuentas.reduce((a, b) => a + b, 0);
+  return `<div class="tramos ${clase}">${cuentas.map((n, i) => `${i === 3 ? `<div class="tramos__descanso" title="Descanso"><span>Descanso</span></div>` : ""}
+    <div class="tramos__col" title="${n} goles entre el ${TRAMOS[i].replace("'", "")} y su minuto final">
+      <span class="tramos__n">${n}</span><div class="tramos__pista"><span style="height:${Math.round((n / max) * 100)}%"></span></div>
+      <span class="tramos__pct">${total ? Math.round((n / total) * 100) : 0}%</span><span class="tramos__rango">${TRAMOS[i]}</span></div>`).join("")}</div>`;
+}
+const repartoMitades = (a, b, etiqueta) => {
+  const t = a + b;
+  return `<div class="mitades"><span><b>${t ? Math.round((a / t) * 100) : 0}%</b> 1ª mitad</span><span class="cuenta">${esc(etiqueta)} · ${t} goles</span><span><b>${t ? Math.round((b / t) * 100) : 0}%</b> 2ª mitad</span></div>`;
+};
+// "Antes / después del minuto X": se calcula en el navegador con los minutos de todos los goles.
+const antesDespues = (minutos, pj) => `<div class="antes-despues" data-min="${esc(JSON.stringify(minutos))}" data-pj="${pj}">
+    <label class="antes-despues__control">Con el partido en el minuto <b class="ad-min">30'</b><input type="range" min="1" max="89" value="30" aria-label="Minuto del partido"></label>
+    <div class="rejilla-datos">
+      <div><div class="dato-grande ad-pa">–</div><div class="cuenta">de los goles llegaron antes</div></div>
+      <div><div class="dato-grande ad-pd">–</div><div class="cuenta">de los goles llegaron después</div></div>
+      <div><div class="dato-grande ad-ma">–</div><div class="cuenta">goles por partido antes</div></div>
+      <div><div class="dato-grande ad-md">–</div><div class="cuenta">goles por partido después</div></div>
+    </div></div>`;
+function activarAntesDespues(raiz) {
+  raiz.querySelectorAll(".antes-despues").forEach((w) => {
+    const mins = JSON.parse(w.dataset.min), pj = Number(w.dataset.pj) || 1, input = w.querySelector("input");
+    const pintar = () => {
+      const x = Number(input.value), antes = mins.filter((m) => m <= x).length, despues = mins.length - antes;
+      w.querySelector(".ad-min").textContent = `${x}'`;
+      w.querySelector(".ad-pa").textContent = pct(antes, mins.length);
+      w.querySelector(".ad-pd").textContent = pct(despues, mins.length);
+      w.querySelector(".ad-ma").textContent = num(antes / pj);
+      w.querySelector(".ad-md").textContent = num(despues / pj);
+    };
+    input.addEventListener("input", pintar);
+    pintar();
+  });
+}
+// Un partido como línea de 90 minutos: goles a favor rellenos, goles en contra en hueco.
+function lineaPartido(p) {
+  const rival = p.de_local ? p.visita : p.local;
+  const propios = p.de_local ? p.goles_local : p.goles_visita, ajenos = p.de_local ? p.goles_visita : p.goles_local;
+  const res = propios > ajenos ? "V" : propios === ajenos ? "E" : "D";
+  const pista = p.goles
+    ? `<div class="linea-gol">${p.goles.map((g) => `<i class="${g.propio ? "propio" : "rival"}" style="left:${(g.min / 90) * 100}%" title="${g.min}' · ${g.propio ? "gol a favor" : "gol en contra"}"></i>`).join("")}</div>`
+    : `<div class="linea-gol sin"><span class="cuenta">sin minutos</span></div>`;
+  return `<a class="fila-linea" href="#/partido/${esc(p.id)}"><span class="tenue">${fechaCorta(p.inicio)}</span>
+    <span class="fila-linea__rival">${p.de_local ? "vs" : "en"} ${esc(rival.nombre)}</span>
+    <span class="res-chip ${res}">${propios}-${ajenos}</span>${pista}<b>${propios + ajenos}</b></a>`;
+}
+function sinMinutos(d, titulo) {
+  const motivo = d?.cobertura === false ? "TheSportsDB no tiene el minuto de los goles en esta competición."
+    : d?.cobertura == null ? "Esta competición todavía no se ha revisado: vuelve en unas horas."
+    : "Los minutos de los goles se están descargando: vuelve en un rato.";
+  return `<section class="tarjeta"><div class="tarjeta__cabecera"><b>${esc(titulo)}</b></div><div class="vacio">${motivo}</div></section>`;
+}
+function tarjetasMinutosEquipo(d, nombre) {
+  const b = d?.equipo;
+  if (!b) return sinMinutos(d, "Minuto de los goles");
+  const leyenda = `<div class="leyenda cuenta">${b.pj} partidos con el minuto de cada gol · ${b.ambas} con goles de ${esc(nombre)} en las dos mitades (${pct(b.ambas, b.pj)})</div>`;
+  return `<section class="tarjeta"><div class="tarjeta__cabecera seccion"><b>Minuto de los goles</b> <span class="cuenta">- ${esc(nombre)}</span></div>
+      <div class="tarjeta__cuerpo columnas">
+        <div><h3 class="subtitulo-tramos">Marcados</h3>${columnasTramos(b.favor, "favor")}${repartoMitades(b.f1, b.f2, "marcados")}</div>
+        <div><h3 class="subtitulo-tramos">Recibidos</h3>${columnasTramos(b.contra, "contra")}${repartoMitades(b.c1, b.c2, "recibidos")}</div>
+      </div>${leyenda}</section>
+    <section class="tarjeta"><div class="tarjeta__cabecera"><b>Antes y después del minuto</b><span class="cuenta mas">Todos los goles de sus partidos</span></div>
+      <div class="tarjeta__cuerpo">${antesDespues([...b.min_favor, ...b.min_contra], b.pj)}</div></section>
+    ${d.ultimos?.length ? `<section class="tarjeta"><div class="tarjeta__cabecera"><b>Últimos partidos, minuto a minuto</b>
+        <span class="cuenta mas"><i class="punto propio"></i> a favor · <i class="punto rival"></i> en contra</span></div>
+      <div class="lineas-gol">${d.ultimos.map(lineaPartido).join("")}</div></section>` : ""}`;
+}
+function tarjetasMinutosLiga(d) {
+  const b = d?.liga;
+  if (!b) return sinMinutos(d, "Minuto de los goles");
+  const todos = b.favor.map((n, i) => n + b.contra[i]);
+  return `<section class="tarjeta"><div class="tarjeta__cabecera"><b>Minuto de los goles</b><span class="cuenta mas">${b.pj} partidos con datos · ${pct(b.gol_1t, b.pj)} con gol antes del descanso</span></div>
+      <div class="tarjeta__cuerpo">${columnasTramos(todos, "favor")}${repartoMitades(b.f1 + b.c1, b.f2 + b.c2, "todos los goles")}</div>
+      <div class="tarjeta__cuerpo">${antesDespues(b.minutos, b.pj)}</div></section>`;
+}
+// Se piden aparte para no retrasar la ficha; se pintan solo si el usuario sigue en la misma página.
+async function rellenarMinutos(caja, ruta, pintar) {
+  const d = await api(ruta).catch(() => null);
+  if (!caja.isConnected) return;
+  caja.innerHTML = pintar(d);
+  activarAntesDespues(caja);
 }
 
 const MOTIVOS_CUOTAS = {
@@ -603,6 +693,7 @@ async function vistaEquipo(id, idComp) {
           <div class="stats-doble">${tablaResultados}${tablaPorcentajes}</div></section>
         <section class="tarjeta"><div class="tarjeta__cabecera seccion"><b>Goles</b> <span class="cuenta">- ${esc(d.nombre)}</span></div>
           <div class="desplazable">${tablaGoles}</div></section>
+        <div id="minutos-equipo"><div class="tarjeta vacio">Cargando el minuto de los goles…</div></div>
         <div class="columnas">
           ${listaUltimos(`Partidos en ${comp.nombre}`, misPartidos, id)}
           <section class="tarjeta"><div class="tarjeta__cabecera"><b>Próximos en ${esc(comp.nombre)}</b></div>${misProximos.length ? misProximos.map((p) => filaPartido(p, true)).join("") : `<div class="vacio">Sin partidos programados.</div>`}</section>
@@ -611,6 +702,8 @@ async function vistaEquipo(id, idComp) {
           <section class="tarjeta"><div class="tarjeta__cabecera"><b>Próximos partidos</b></div>${d.proximos.length ? d.proximos.map((p) => filaPartido(p, true)).join("") : `<div class="vacio">Sin partidos programados.</div>`}</section></div>`}
       </div>
     </div>`;
+  const cajaMin = document.getElementById("minutos-equipo");
+  if (cajaMin) rellenarMinutos(cajaMin, `/api/minutos/${comp.id}?equipo=${id}`, (m) => tarjetasMinutosEquipo(m, d.nombre));
 }
 
 // --- Sección de estadísticas (modelo: footystats.org/es/stats) --------------------------
